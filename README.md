@@ -1,6 +1,6 @@
 # Coin Exchange i18n
 
-A special thank to [Crowdin](https://crowdin.com/) for help us use their tool for translate everything on [Coin-Exchange](https://github.com/ninjadotorg/handshake-app) project (https://crowdin.com/project/coin-exchange) at no cost.
+A special thank to [Crowdin](https://crowdin.com/) for help us use their tool for translate everything on [Coin-Exchange](https://github.com/ninjadotorg/coin-exchange-i18n) project (https://crowdin.com/project/coin-exchange) at no cost.
 
 ## Install
 
