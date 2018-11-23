@@ -1,0 +1,37 @@
+language: node_js
+node_js:
+  - "8"
+notifications:
+  email: false
+git:
+  submodules: false
+cache: yarn
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+  - chmod +x package.sh
+install: yarn
+script:
+  - git checkout master
+  - yarn i18n
+  - sh package.sh
+after_success:
+  - git config user.email "travis@travis-ci.org"
+  - git config user.name "Travis CI"
+  - git add .
+  - git commit -m "Travis build and update tranlations $TRAVIS_BUILD_NUMBER [skip ci]"
+  - git remote set-url origin https://${GH_TOKEN}@github.com/ninjadotorg/handshake-i18n.git
+  - git push origin
+  # - git clone https://${GH_TOKEN}@github.com/ninjadotorg/handshake-i18n.git import
+  # - cd import
+  # - git checkout import
+  # - cp -a .git ../.git.backup
+  # - rm -rf ./*
+  # - cp -a ../.git.backup .git
+  # - cp -a ../{i18n,i18n.js} ./
+  # - cp ../package.import.json ./package.json
+  # - git commit -am "Update import branch"
+  # - git push origin import
+branches:
+  only:
+  - master
