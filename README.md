@@ -1,6 +1,6 @@
-# Handshake i18n
+# Coin Exchange i18n
 
-A special thank to [Crowdin](https://crowdin.com/) for help us use their tool for translate everything on [handshake-app](https://github.com/ninjadotorg/handshake-app) project (https://crowdin.com/project/handshake-app) at no cost.
+A special thank to [Crowdin](https://crowdin.com/) for help us use their tool for translate everything on [Coin-Exchange](https://github.com/ninjadotorg/handshake-app) project (https://crowdin.com/project/coin-exchange) at no cost.
 
 ## Install
 
@@ -38,7 +38,7 @@ yarn handle-i18n-ed
 
 ```
 git submodule init
-git submodule add git@github.com:ninjadotorg/handshake-app.git app
+git submodule add https://github.com/ninjadotorg/coin-exchange-i18n.git app
 git submodule update
 git submodule foreach git pull origin develop
 ```
