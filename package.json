@@ -1,9 +1,8 @@
 {
-  "name": "handshake-i18n",
-  "version": "0.0.1541740938",
+  "name": "coinexchangei18n",
+  "version": "1.0.0",
   "main": "i18n.js",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "i18n-prepare": "babel-node index.js prepare",
     "send": "babel-node index.js send",

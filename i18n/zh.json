@@ -1,14 +1,14 @@
 {
     "app": {
         "name": "忍者",
-        "fullname": "忍者：匿名对等预测交换",
-        "description": "匿名对等预测交换",
-        "loading": "加载中",
+        "fullname": "忍者: 匿名點對點預測交換",
+        "description": "忍者: 匿名點對點預測交換",
+        "loading": "載入。。。",
         "navigation": {
-            "me": "我",
-            "exchanges": "已兑换",
-            "whisper": "私信",
-            "wallet": "钱包",
+            "me": "Me",
+            "exchanges": "Exchanges",
+            "whisper": "Whisper",
+            "wallet": "Wallet",
             "setting": "Me",
             "atm": "ATM",
             "bet": "Bet",
@@ -18,43 +18,43 @@
             "invest": "Invest"
         }
     },
-    "buy": "买入",
-    "sell": "卖出",
-    "amount": "金额",
-    "askUsingCreditCard": "对于 {金额} {币种} 使用卡吗？",
-    "change": "变更",
-    "ccNumber": "数量",
-    "ccExpire": "到期",
+    "buy": "Buy",
+    "sell": "Sell",
+    "amount": "amount",
+    "askUsingCreditCard": "for {total} {fiatCurrency} using card?",
+    "change": "Change",
+    "ccNumber": "Number",
+    "ccExpire": "Expiry",
     "ccCVC": "CVC",
     "overCCLimit": "You have reached your credit card limit({currency}{limit} per day)! You have already used {currency}{amount} today.",
-    "required": "必填",
-    "ccExpireTemplate": "月/年",
+    "required": "Required",
+    "ccExpireTemplate": "MM/YY",
     "securityCode": "325",
-    "shakeNow": "成交",
+    "shakeNow": "Shake",
     "offerHandShakeContent": "{offerType} {amount} {currency} for {total} {currency_symbol} in {payment_method}?",
     "offerHandShakeContentMe": "{offerType} {amount} {currency} for {total} {currency_symbol} ({payment_method})",
     "offerHandShakeExchangeContentMe": "{offerType} {something} for {amount} {currency}",
     "offerHandShakeContentMeDone": "{offerType} {amount} {currency} for {total} {currency_symbol} ({payment_method})",
     "offerHandShakeExchangeContentMeDone": "{offerType} {something} for {amount} {currency}",
     "instantOfferHandShakeContent": "You{just}{offerType} {amount} {currency} for {total} {currency_symbol} on your card",
-    "offerDistanceContent": "距离{km}",
-    "transactonOfferInfo": "成功({success}) / 失败 ({failed})",
+    "offerDistanceContent": "{distance} away",
+    "transactonOfferInfo": "Successful ({success}) / Failed ({failed})",
     "createOfferConfirm": "You are about to {type} {something} by {amount} {currency}",
     "handshakeOfferConfirm": "You are about to {type} {something} for {amount} {currency}",
     "rejectOfferConfirm": "Do you want to Reject this order? You will not be able to make transactions for 4 hours.",
     "rejectOfferConfirmForShop": "Do you want to Reject this order?",
     "completeOfferConfirm": "Complete the transaction? Your buyer will receive coin in a few minutes.",
-    "withdrawOfferConfirm": "您确定要提现？",
-    "cancelOfferConfirm": "是否取消此订单？",
-    "closeOfferConfirm": "确定要删除此报价吗?",
+    "withdrawOfferConfirm": "Are you sure you want to withdraw?",
+    "cancelOfferConfirm": "Cancel this order?",
+    "closeOfferConfirm": "Do you want to delete your offer?",
     "acceptOfferConfirm": "Accept to continue transaction?",
-    "createOfferSuccessMessage": "成功！你已在Ninja上成功出价！",
+    "createOfferSuccessMessage": "Success! You have created an offer on Ninja.",
     "updateOfferSuccessMessage": "Success! You have updated the offer on Ninja.",
-    "shakeOfferSuccessMessage": "成功！一位忍者已经匹配您的订单",
-    "closeOfferSuccessMessage": "交易成功！您的订单已经关闭。",
-    "completeShakedfferSuccessMessage": "您在Ninja平台已交易成功",
-    "cancelShakedfferSuccessMessage": "您已经取消您的订单",
-    "withdrawShakedfferSuccessMessage": "您的出价已经被撤销",
+    "shakeOfferSuccessMessage": "Success! A ninja has shaked on your order.",
+    "closeOfferSuccessMessage": "Success! Your order is now closed.",
+    "completeShakedfferSuccessMessage": "You have successfully shaked on Ninja",
+    "cancelShakedfferSuccessMessage": "You have cancelled your order ",
+    "withdrawShakedfferSuccessMessage": "Your offer has been withdrawn.",
     "buyUsingCreditCardSuccessMessge": "Your order using your credit card has gone through.",
     "notEnoughCoinInWallet": "You don't have enough coin right now. Please top up your wallet.",
     "notEnoughCoinInWalletDeposit": "Not enough coin. Your maximum amount is {amount} {currency}. Please try again",
@@ -69,65 +69,65 @@
     "cancelOfferItemSuccessMassage": "Your order has been cancelled!",
     "rejectOfferItemSuccessMassage": "You rejected a fellow ninja's order.",
     "completeOfferItemSuccessMassage": "Good news! Your order has been completed.",
-    "offerStoresAlreadyCreated": "糟糕！您已经在Ninja上创建了一个订单",
+    "offerStoresAlreadyCreated": "Oops! You already created an order on Ninja.",
     "offerStoreHandShakeContentBuy": "{offerTypeBuy} {amountBuy} {currency} at {fiatAmountBuy} {fiatAmountCurrency}. ",
     "offerStoreHandShakeContentSell": "{offerTypeSell} {amountSell} {currency} at {fiatAmountSell} {fiatAmountCurrency}.",
     "requireDefaultWalletOnMainNet": "You must set your wallet on Mainnet",
     "movingCoinToEscrow": "Moving your coin to escrow. This may take a few minutes.",
     "movingCoinFromEscrow": "Moving your coin from escrow. This may take a few minutes.",
-    "ex.create.label.amountBuy": "我想买",
+    "ex.create.label.amountBuy": "I want to buy",
     "ex.create.label.amountBuy.update": "New limit per purchase",
     "ex.create.label.amountSell": "Maximum per sale",
     "ex.create.label.amountSell.update": "New limit per sale",
     "ex.create.label.sell.currentBalance": "Current limit per sale",
     "ex.create.label.buy.currentBalance": "Current limit per purchase",
-    "ex.create.label.marketPrice": "当前市场价",
-    "ex.create.label.premiumBuy": "我的价格",
-    "ex.create.label.premiumSell": "我的价格",
-    "ex.create.label.premiumSellExplanation": "市场价 ± 百分比手续费",
+    "ex.create.label.marketPrice": "Current market price",
+    "ex.create.label.premiumBuy": "My price",
+    "ex.create.label.premiumSell": "My price",
+    "ex.create.label.premiumSellExplanation": "Market price ± percentage",
     "ex.create.label.nameStation": "ATM name",
     "ex.create.label.stationCurrency": "ATM currency",
     "ex.create.placeholder.stationCurrency": "Select a currency",
-    "ex.create.label.phone": "手机号码",
-    "ex.create.label.address": "会面地点",
-    "ex.create.label.beASeller": "成为卖家",
+    "ex.create.label.phone": "Phone",
+    "ex.create.label.address": "Meet-up place",
+    "ex.create.label.beASeller": "Be a seller",
     "ex.create.label.beASeller.update": "Update selling info",
-    "ex.create.label.beABuyer": "你也可以成为买家",
+    "ex.create.label.beABuyer": "You can also be a buyer",
     "ex.create.label.beABuyer.update": "Update buying info",
     "ex.create.label.stationInfo": "ATM information",
-    "ex.createLocal.label.iWantTo": "我想…",
-    "ex.createLocal.label.something": "它叫什么？",
-    "ex.createLocal.placeholder.anyItem": "提供什么项目或服务",
-    "ex.createLocal.label.coin": "代币",
-    "ex.createLocal.label.amount": "金额",
-    "ex.createLocal.label.phone": "手机号码",
-    "ex.createLocal.label.address": "会面地点",
-    "ex.createLocal.label.uploadImage": "上传产品图片",
-    "ex.discover.label.priceBuy": "购买",
-    "ex.discover.label.priceSell": "出售",
-    "ex.discover.label.reviews": "({检查数量})",
-    "ex.discover.banner.text": "想得到代币？把它们变成赚钱的机器。",
+    "ex.createLocal.label.iWantTo": "I want to",
+    "ex.createLocal.label.something": "What is it called?",
+    "ex.createLocal.placeholder.anyItem": "any item or service",
+    "ex.createLocal.label.coin": "Coin",
+    "ex.createLocal.label.amount": "Amount",
+    "ex.createLocal.label.phone": "Phone",
+    "ex.createLocal.label.address": "Meet-up place",
+    "ex.createLocal.label.uploadImage": "Upload an image of your product",
+    "ex.discover.label.priceBuy": "BUY",
+    "ex.discover.label.priceSell": "SELL",
+    "ex.discover.label.reviews": "({reviewCount})",
+    "ex.discover.banner.text": "Got coins? Turn them into a money-making machine.",
     "ex.credit.banner.text": "Sell crypto quickly online. 100% secure. Set your own rates",
     "ex.discover.banner.btnText": "BECOME AN ATM",
     "ex.credit.banner.btnText": "SELL CRYPTO NOW",
-    "ex.discover.shakeDetail.label.amount": "金额",
-    "ex.discover.shakeDetail.label.total": "总额",
-    "ex.discover.shakeDetail.label.maximum": "最大值：",
+    "ex.discover.shakeDetail.label.amount": "Amount",
+    "ex.discover.shakeDetail.label.total": "Total",
+    "ex.discover.shakeDetail.label.maximum": "Maximum:",
     "ex.me.label.with": "With",
-    "ex.me.label.from": "来自",
-    "ex.me.label.about": "关于",
-    "ex.btn.confirm": "确认",
+    "ex.me.label.from": "From",
+    "ex.me.label.about": "About",
+    "ex.btn.confirm": "Confirm",
     "ex.btn.OK": "OK",
-    "ex.btn.notNow": "暂不",
+    "ex.btn.notNow": "Not now",
     "ex.btn.topup.now": "Top up now ",
     "ex.btn.create.atm": "Create my ATM first ",
     "ex.btn.update.atm": "Update my ATM first ",
-    "ex.label.buy": "买入",
-    "ex.label.sell": "卖出",
-    "ex.label.bought": "已购买",
-    "ex.label.sold": "已销售",
-    "ex.label.buying": "买入",
-    "ex.label.selling": "销售中...",
+    "ex.label.buy": "Buy",
+    "ex.label.sell": "Sell",
+    "ex.label.bought": "Bought",
+    "ex.label.sold": "Sold",
+    "ex.label.buying": "Buying",
+    "ex.label.selling": "Selling",
     "ex.label.receiving": "Receiving",
     "ex.label.buyer": "Buyer",
     "ex.label.seller": "Seller",
@@ -138,17 +138,17 @@
     "ex.exchange.status.created": "Verifying",
     "ex.exchange.status.active": "Active",
     "ex.exchange.status.closing": "Processing",
-    "ex.exchange.status.closed": "已删除",
-    "ex.exchange.status.shaking": "正在处理中",
-    "ex.exchange.status.shake": "正在处理中",
-    "ex.exchange.status.completing": "正在处理中",
-    "ex.exchange.status.completed": "操作成功",
-    "ex.exchange.status.pre_shaking": "正在处理中",
-    "ex.exchange.status.pre_shake": "正在处理中",
-    "ex.exchange.status.rejecting": "正在处理中",
-    "ex.exchange.status.rejected": "已拒绝",
-    "ex.exchange.status.cancelling": "正在处理中",
-    "ex.exchange.status.cancelled": "已取消",
+    "ex.exchange.status.closed": "Deleted",
+    "ex.exchange.status.shaking": "Processing",
+    "ex.exchange.status.shake": "Processing",
+    "ex.exchange.status.completing": "Processing",
+    "ex.exchange.status.completed": "Success",
+    "ex.exchange.status.pre_shaking": "Processing",
+    "ex.exchange.status.pre_shake": "Processing",
+    "ex.exchange.status.rejecting": "Processing",
+    "ex.exchange.status.rejected": "Rejected",
+    "ex.exchange.status.cancelling": "Processing",
+    "ex.exchange.status.cancelled": "Cancelled",
     "ex.shop.explanation.created": "This may take a few minutes. Good things come to those who wait.",
     "ex.shop.explanation.active": "Your ATM is now visible on the map!",
     "ex.shop.explanation.closing": "Please wait a few minutes.",
@@ -163,9 +163,9 @@
     "ex.shop.explanation.rejected": "",
     "ex.shop.explanation.cancelling": "Cancelling your offer. Please wait a few minutes.",
     "ex.shop.explanation.cancelled": "",
-    "ex.cc.status.processing": "正在处理中",
-    "ex.cc.status.success": "已完成",
-    "ex.cc.status.cancelled": "已失败",
+    "ex.cc.status.processing": "Processing",
+    "ex.cc.status.success": "Done",
+    "ex.cc.status.cancelled": "Failed",
     "ex.shop.status.created": "Setting up your ATM",
     "ex.shop.status.active": "ATM listed",
     "ex.shop.status.closing": "Deleting your ATM",
@@ -175,11 +175,11 @@
     "ex.shop.shake.status.shaking": "Processing",
     "ex.shop.shake.status.shake": "Processing",
     "ex.shop.shake.status.rejecting": "Processing",
-    "ex.shop.shake.status.rejected": "已拒絕",
+    "ex.shop.shake.status.rejected": "Rejected",
     "ex.shop.shake.status.completing": "Processing",
     "ex.shop.shake.status.completed": "Success",
     "ex.shop.shake.status.cancelling": "Processing",
-    "ex.shop.shake.status.cancelled": "已取消",
+    "ex.shop.shake.status.cancelled": "Cancelled",
     "ex.shop.shake.buyer.seller": "{buyerSeller} order",
     "ex.shop.shake.label.information": "Information",
     "ex.shop.shake.label.phone": "Phone",
@@ -198,20 +198,20 @@
     "ex.shop.dashboard.label.transaction.total": "Total bought/sold",
     "ex.shop.dashboard.button.updateInventory": "Update your ATM",
     "ex.shop.dashboard.label.trial": "Trial",
-    "ex.error.systemError": "对不起Ninja用户，网络出问题啦，马上回来",
-    "ex.error.312": "哦不！你取消了你的订单。4小时内你将无法再次订货。实在抱歉",
+    "ex.error.systemError": "Sorry Ninja. Something went wrong. Come back soon.",
+    "ex.error.312": "Oh no! You cancelled your offer. You will not be able to make orders for 4 hours. Sorry",
     "ex.error.313": "You already have a listing! To change your rates, please cancel your current listing.",
-    "ex.error.314": "看起来该列表已被删除。",
-    "ex.error.315": "对不起忍者, 别人已先抢单。",
-    "ex.error.1": "糟糕！网络出问题啦，马上回来",
-    "ex.error.3": "看来这个代币无效。",
-    "ex.error.301": "你已经是ningja会员了",
-    "ex.error.302": "对不起，此ninja用户不存在。",
-    "ex.error.303": "看起来你已经达到了你的信用卡限额。",
+    "ex.error.314": "Looks like that listing has been deleted.",
+    "ex.error.315": "Sorry ninja, someone else got there first.",
+    "ex.error.1": "Oops! Something went wrong. Come back soon.",
+    "ex.error.3": "It looks like that token is invalid.",
+    "ex.error.301": "You are already a ninja.",
+    "ex.error.302": "Sorry, that ninja does not exist.",
+    "ex.error.303": "It looks like you have reached your credit card limit.",
     "ex.error.304": "Credit card is invalid",
     "ex.error.309": "You already have a listing! To change your rates, please cancel your current listing.",
-    "ex.error.319": "只需键入0.5ETH。",
-    "ex.error.320": "早起鸟计划已经结束, 请用现金与我们交易。",
+    "ex.error.319": "Please type 0.5 ETH only.",
+    "ex.error.320": "The early bird program has ended, please cash in to trade with us.",
     "ex.error.322": "Your information is incorrect. Please input again",
     "ex.error.323": "Exceeding global credit limit. Please try again tomorrow.",
     "ex.error.324": "Credit exists",
@@ -221,42 +221,42 @@
     "ex.error.331": "That exceeds your 5000 USD daily limit. Please enter a smaller amount or come back tomorrow.",
     "ex.error.331.sell": "That exceeds your 5000 USD daily limit. Please enter a smaller amount or come back tomorrow.",
     "ex.error.332": "You haven’t transfered coin yet! Please check",
-    "ex.error.default": "糟糕！网络出问题啦！",
-    "ex.earlyBird.label.1": "欢迎来到我们的 <br/> 早起鸟计划!",
+    "ex.error.default": "Oops! Something went wrong.",
+    "ex.earlyBird.label.1": "WELCOME TO OUR <br/> EARLY BIRD PROGRAM!",
     "ex.earlyBird.label.2": "Create your ATM with <br /><span class=\"intro-amount\">{freeETH} ETH</span> free now!",
     "ex.earlyBird.btn": "Open ATM",
-    "error.required": "必填",
-    "error.requiredOne": "您需选填一项！",
-    "error.greaterThan": "必须大于 {最小值}。",
-    "error.lessThan": "必须小于 {最大值}",
+    "error.required": "Required",
+    "error.requiredOne": "You need to fill in one of these!",
+    "error.greaterThan": "Must be greater than {min}",
+    "error.lessThan": "Must be less than {max}",
     "error.greaterThan.equal": "Must be equal or greater than {min}",
     "error.lessThan.equal": "Must be less than or equal {max}",
-    "error.mustBeANumber": "必须为数字",
+    "error.mustBeANumber": "Must be a number",
     "error.mustBeAPositiveInteger": "Must be a integer number greater or equal 0",
-    "btn.initiate": "启动",
-    "btn.shake": "成交",
-    "btn.reject": "拒绝",
-    "btn.complete": "完成",
-    "btn.withdraw": "提现",
-    "btn.cancel": "取消",
-    "btn.close": "关闭",
-    "btn.accept": "接受",
-    "btn.delete": "删除",
+    "btn.initiate": "Initiate",
+    "btn.shake": "Shake",
+    "btn.reject": "Reject",
+    "btn.complete": "Complete",
+    "btn.withdraw": "Withdraw",
+    "btn.cancel": "Cancel",
+    "btn.close": "Close",
+    "btn.accept": "Accept",
+    "btn.delete": "Delete",
     "btn.update": "Update",
-    "ex.landing.menu.about": "关于",
-    "ex.landing.menu.blog": "博客",
-    "ex.landing.menu.faq": "常见问题",
-    "ex.landing.menu.contact": "联系",
-    "ex.landing.intro.label.1": "我们只能在手机上使用",
-    "ex.landing.intro.label.2": "打开您的手机, 开始与我们一起赚钱!",
+    "ex.landing.menu.about": "ABOUT",
+    "ex.landing.menu.blog": "BLOG",
+    "ex.landing.menu.faq": "FAQ",
+    "ex.landing.menu.contact": "CONTACT",
+    "ex.landing.intro.label.1": "We are available on mobile only",
+    "ex.landing.intro.label.2": "Switch to your phone now to start making money with us!",
     "ex.landing.description.label.1": "Set up an ATM <br/>& make some money",
     "ex.landing.description.label.2": "Ninja Cash is a decentralized peer to peer (P2P) cryptocurrency exchange that allows users to trade ETH and BTC for cash. You can join us anonymously: no signup, no ID verification, no fraud<br/><a href=\"/about-ninja-cash\" class=\"btn-read-more\">Read more</a> about us here",
-    "ex.landing.features.label.1": "您的市场，汇率您做主！",
+    "ex.landing.features.label.1": "Your market. Your rates",
     "ex.landing.features.label.2": "Secured with blockchain technology",
     "ex.landing.features.label.3": "No KYC information",
     "ex.landing.features.label.4": "Trade with other Ninjas in your area",
-    "ex.landing.tryTelegram.label": "试用平台Telegram可免费加入",
-    "ex.landing.tryTelegram.btn": "加入 Telegram",
+    "ex.landing.tryTelegram.label": "Try out the platform for FREE by joining the conversation on Telegram",
+    "ex.landing.tryTelegram.btn": "Join Telegram",
     "ex.about.label.about": "About",
     "ex.about.description": "Ninja Cash is a peer to peer decentralized cryptocurrency exchange - where you remain anonymous. We got rid of extensive KYC practices, and then we put it on the blockchain. We welcome into our dojo anyone interested in disruption, games of stealth, and decentralized tech.<br/><br/>Ninjas create blockchain powered solutions that are both practical and playful, and apply them to industries plagued by rampant fraud, greedy middlemen and pointless bureaucracy.<br/><br/>Our team of ninjas is based in California, United States.",
     "ex.about.label.connectWith": "Connect with the team",
@@ -323,89 +323,89 @@
     "dashboard.label.deposit.description1": "Need even more security? Use Escrow. ",
     "dashboard.label.deposit.description2": "Fraud-proof. 100% secured. Safety guaranteed.",
     "askLocationPermission.label.1": "We would like to access your location to find nearest ATMs around you!",
-    "askLocationPermission.label.2": "<span>Please click <strong>\"Allow\"</strong> to start trading now!</span>",
+    "askLocationPermission.label.2": "<span>Please click <strong>\"Allow\"</strong> to start trading now! </span>",
     "askLocationPermission.btn.dontAllow": "Don't Allow",
     "askLocationPermission.btn.allow": "Allow",
-    "FAQ_TITLE": "常见问题",
-    "FAQ_HEADER_YELLOW": "分散式预测交换",
-    "FAQ_HEADER": "分散式预测交换",
+    "FAQ_TITLE": "FAQ",
+    "FAQ_HEADER_YELLOW": "Decentralized",
+    "FAQ_HEADER": "Prediction Exchange",
     "FAQ_DATA": [
         {
-            "question": "什么是忍者 PEX？",
-            "answer": "忍者是一个匿名的对等分散预测交换运行在虚灵议会 blockchain 顶部"
+            "question": "What is Ninja PEX?",
+            "answer": "Ninja is an anonymous peer-to-peer decentralized prediction exchange running on top of the Ethereum blockchain."
         },
         {
-            "question": "PEX 有什么特别之处在？我为什么要赌一把？",
-            "answer": "它允许各方直接下注, 而不经过中央主管机构或庄家。这使得它100% 匿名, 没有任何迹象显示不需要下载。投注的管理和奖金的结算由 blockchain 网络集体进行, 保护用户免受任何单一故障点的侵害。您还可以创建自己的预测市场。"
+            "question": "What’s special about PEX? Why should i bet on one?",
+            "answer": "It allows parties to directly bet against each other without going through a central authority or bookmaker. This makes it 100% anonymous, no signs up no downloads required. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. You can also create your own prediction markets."
         },
         {
-            "question": "'我需要以太吗？它支持其他 cryptocurrencies 吗？",
-            "answer": "是的。忍者只接受了现在, 但支持将增加其他货币很快。"
+            "question": "Do I need Ether? Does it support other cryptocurrencies?",
+            "answer": "Yes. Ninja only accepts ETH for now, but support will be added for other currencies very soon."
         },
         {
-            "question": "如何从忍者开始？",
+            "question": "How do I start with Ninja?",
             "answer": [
                 {
-                    "title": "获取醚:",
-                    "content": " 您可以购买直接在 PEX 与您的信用卡或像 Coinbase 或 Binance 的流行硬币交易所。"
+                    "title": "Get Ether:",
+                    "content": " You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
                 },
                 {
-                    "title": "把你的 PEX 钱包顶起来:",
-                    "content": "把 PEX 的钱包转给他PEX 钱包是完全分散的, 私钥是持有在您的手机上, 只有您可以转让和接收的瑞士联邦。"
+                    "title": "Top up your PEX Wallet:",
+                    "content": "You can either buy ETH directly in PEX with your credit cards or from popular coin exchanges like Coinbase or Binance."
                 },
                 {
-                    "title": "下注:",
-                    "content": "选择你想赌的市场 (即巴西-西班牙), 结果 (即巴西获胜) 和网站 (即支持或押注结果)\n 输入你要押注的赌注 (即 1) 和赔率 (即 1/2.25)\n 然后, 贝克斯匹配引擎将找到另一项命令, 对您设置的赔率进行下注。"
+                    "title": "Place a bet:",
+                    "content": "Pick the market you want to bet (i.e. Brazil - Spain), the outcomes (i.e. Brazil wins) and the site (i.e. support or bet against the outcome)\nEnter the stake you want to bet (i.e. 1 ETH) and the odds (i.e. 1/ 2.25)\nThe PEX Matching Engine will then find another order that bets against the odds you set."
                 },
                 {
-                    "title": "等待报告:",
-                    "content": "如果你赢了, 你的奖金将自动从代管智能合同转移到您的帐户。"
+                    "title": "Wait for the report:",
+                    "content": "if you win, your winnings will be automatically transferred from the escrow smart contract to your account."
                 }
             ]
         },
         {
-            "question": "我可以设定自己的首选赔率吗？怎样？",
-            "answer": "是的！在创建自己的赌注时, 您将输入您感兴趣的事件以及要押注的结果。然后, 只需输入你的股份和你想要的赔率。然后, PEX 引擎将自动找到并匹配您与任何有兴趣在同一事件, 谁接受你的赔率。"
+            "question": "What’s special about PEX? Why should i bet on one?",
+            "answer": "Yes! When creating your own bet, you’ll enter the event you’re interested in and the outcome you want to bet on. Then, simply enter your stake and the odds you want. Then the PEX Engine will automatically find and match you with anyone that has an interest in the same event, and who accepts your odds."
         },
         {
-            "question": "你如何进行警察的不体面/非法投注？",
-            "answer": "我们目前正在建立一个制衡系统, 以在 dojo 中标记不适当的行为。"
+            "question": "How do you police unsavory/illegal bets?",
+            "answer": "We are currently building a system of checks and balances to flag up inappropriate behaviour in the dojo."
         },
         {
-            "question": "系统如何知道人们之间投注的结果？谁担任仲裁员, 并在合同签订时核实一个结果与另一结局？",
-            "answer": "忍者将很快有一个完全分散的解决方案, 以验证结果和激励真相告诉 (一刀记者!)。与此同时, 我们将会及时推出国际足联世界杯, 我们的团队将使用一个公开的消息来源 (livescore.com), 并担任记者。"
+            "question": "How does the system know the result of bets between people? Who acts as arbitrator and verifies one outcome vs. another at conclusion of contract?",
+            "answer": "Ninja will soon have a completely decentralized solution for verifying the outcome and incentivizing truth telling (a DAO of reporters!). In the meantime, as we will launch just in time for the FIFA world cup, our team will use a public source (livescore.com) and act as the reporter."
         },
         {
-            "question": "硬币在哪里举行？",
-            "answer": "没有人持有这些资金。所有的资金都保持在代管安全, 直到达成决议。"
+            "question": "Where is the coin held?",
+            "answer": "No one holds the funds. All the funds are kept safe in escrow until a resolution is reached."
         },
         {
-            "question": "为什么我要押注 blockchain 而不是使用传统的方法？",
-            "answer": "一个分散的预测交换将为您提供自由创建您自己的赔率和赌注直接与任何人, 提供您100% 忍者匿名和保证支付。"
+            "question": "Why should I bet on blockchain instead of using traditional methods?",
+            "answer": "A decentralized prediction exchange will provide you the freedom to create your own odds and bet directly with anyone, offer you 100% ninja anonymity and guaranteed payouts."
         },
         {
-            "question": "隐私和匿名如何？",
-            "answer": "忍者不需要下载, 也没有签名 ups。这意味着没有密码, 没有电话号码, 也没有电子邮件。100% 匿名。"
+            "question": "How about privacy and anonymity?",
+            "answer": "Ninja requires no downloads, and no sign ups. That means no passwords, no phone numbers and no emails. 100% anonymity."
         },
         {
-            "question": "我是否需要支付任何费用？",
-            "answer": "有两种主要的收费类型: 创建者费用 (用于创建赌注的忍者) 和网络费用 (创建者费用的百分比, 用于维护平台)。"
+            "question": "Do I need to pay any fees?",
+            "answer": "There are two main types of fees: creator fees (for the ninja that creates the bet) and the network fee (a percentage of the creator fee, that goes towards maintaining the platform)."
         },
         {
-            "question": "在最后定稿时, 我需要做些什么？",
-            "answer": "什么。如果你赢了, 你的奖金将自动转移到你的帐户。如果你输了, 那将是别人的帐户。"
+            "question": "What do I need to do when the outcome is finalized?",
+            "answer": "Nothing. If you win, your winnings will be automatically transferred to your account. If you lose, it will be someone else’s account."
         },
         {
-            "question": "在哪里可以找到匹配的赌注？",
-            "answer": "在主页上, 您可以浏览正在进行的投注和市场。如果你找不到任何你喜欢的, 创建自己的!"
+            "question": "Where can I find a match to bet on?",
+            "answer": "On the homepage, you’ll be able to browse ongoing bets and markets. If you can’t find any you like, create your own!"
         },
         {
-            "question": "除了运动之外, 我还能打赌别的什么吗？它是如何工作的？",
-            "answer": "很快, 忍者将适用于一切在阳光下。唯一的限制将是你的创造力。你可以很容易地创造任何未来的活动市场, 无论是体育, 政治, 科学, 市场, 气候... 你的名字。"
+            "question": "Other than sports, can I bet on anything else? How does it work?",
+            "answer": "Very soon, Ninja will apply to everything under the sun. The only limitation will be your creativity. You can easily create any market on any future event, be it sports, politics, science, markets, climate… you name it."
         },
         {
-            "question": "握手移动应用程序会发生什么情况？",
-            "answer": "我们将整合握手 (和您最喜欢的功能, 如承诺, 欠条, 合同上传等) 到忍者移动网站。"
+            "question": "What’s gonna happen to the Handshake mobile app?",
+            "answer": "We will be integrating Handshake (and your favourite features like promises, IOUs, contract upload, etc.) into the Ninja mobile website."
         }
     ],
     "landing_page.btn.joinOurTeam": "Join our team",
@@ -565,23 +565,23 @@
     "landing_page.coin.breadcrumb": "Ninja Coin",
     "landing_page.coin.heading": "Frequently asked questions",
     "landing_page.coin.subHeading": " ",
-    "MOT_TITLE": "匿名交换任何东西",
-    "MOT_CONTENT_1": "在移动浏览器上打开",
-    "MOT_CONTENT_2": "以获取匿名输入。",
-    "MOT_CONTENT_3": "不需要下载。不需要注册。",
+    "MOT_TITLE": "The anonymous exchange of anything",
+    "MOT_CONTENT_1": "Open",
+    "MOT_CONTENT_2": "on your mobile browser to gain anonymous entry.",
+    "MOT_CONTENT_3": "No download needed. No sign up required.",
     "MOT_LIST_CONTENT": [
         {
-            "mainContent": "阅读",
-            "placeHolderLink": "白皮书",
+            "mainContent": "Read the",
+            "placeHolderLink": "whitepaper",
             "link": "https://medium.com/@ninjadotorg/shakeninja-bex-1c938f18b3e8"
         },
         {
-            "mainContent": "我们回答您的",
-            "placeHolderLink": "常见问题",
+            "mainContent": "We answered your",
+            "placeHolderLink": "FAQ",
             "link": "/faq"
         },
         {
-            "mainContent": "加入dojo",
+            "mainContent": "Join the dojo on",
             "placeHolderLink": "Telegram",
             "link": "https://t.me/ninja_org"
         }
@@ -836,35 +836,35 @@
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
-        "title": "简单而安全的交易",
+        "title": "Trade Easy. Stay Safe",
         "info": [
             {
-                "title": "发布交易",
+                "title": "1. Post your trade",
                 "description": "Select the coin you want to buy/sell along with your desired price"
             },
             {
-                "title": "选择您的店铺",
+                "title": "2. Choose your shop",
                 "description": "Search and choose the most suitable shop in your location"
             },
             {
-                "title": "实现兑换交易",
+                "title": "3. Fulfill your exchange",
                 "description": "Meet up at the shop and exchange cash to coin or coin to cash"
             },
             {
-                "title": "确保你的付款安全",
-                "description": "通过智能合同，操作100%安全"
+                "title": "4. Secure your payment",
+                "description": "Process has been secured 100% by smart contract"
             }
         ]
     },
-    "COIN_EXCHANGE_LP_START_TRADING_NOW": "开始交易",
-    "COIN_EXCHANGE_LP_PLACEHOLDER_INPUT": "输入您的电子邮件",
-    "COIN_EXCHANGE_LP_TITLE_SUBMIT_BT": "加入邮件列表",
+    "COIN_EXCHANGE_LP_START_TRADING_NOW": "Start Trading Now",
+    "COIN_EXCHANGE_LP_PLACEHOLDER_INPUT": "Enter your email",
+    "COIN_EXCHANGE_LP_TITLE_SUBMIT_BT": "Join mailing list",
     "COIN_EXCHANGE_LP_SECOND_BOX_TITLE": "We are the first to offer a completely decentralized platform to buy and sell Bitcoin and Ethereum.",
     "COIN_EXCHANGE_LP_SECOND_BOX_DESCRIPTION_1": "Multiple payment method: credit card and cash",
     "COIN_EXCHANGE_LP_SECOND_BOX_DESCRIPTION_2": "Secured transaction by blockchain technology",
-    "COIN_EXCHANGE_LP_SECOND_BOX_DESCRIPTION_3": "快捷方便的使用方法",
+    "COIN_EXCHANGE_LP_SECOND_BOX_DESCRIPTION_3": "Fast and convenient usage.",
     "COIN_EXCHANGE_LP_THIRD_BOX_1": {
-        "title": "多种支付选择",
+        "title": "Multiple Payment Method",
         "description": "We are available for cash - coin trading and credit card - coin trading. Find your nearest traders and leave no transaction history for any activity on our platform."
     },
     "COIN_EXCHANGE_LP_THIRD_BOX_2": {
@@ -880,7 +880,7 @@
             "head_text": "Our verification process typically takes just a few minutes. This may take slightly longer outside business hours. Your information will remain 100% private.",
             "username": {
                 "exist": "Name already exists",
-                "success": "您的昵称已被记录",
+                "success": "Your alias has been recorded",
                 "required": "Name required"
             },
             "verify": {
@@ -909,51 +909,51 @@
                         }
                     },
                     "require": {
-                        "phone": "请输入验证代码",
-                        "email": "请输入验证代码"
+                        "phone": "Please enter your verify code.",
+                        "email": "Please enter your verify code."
                     },
                     "success": {
                         "phone": "Phone number securely saved.",
-                        "email": "您的电子邮件已验证。",
+                        "email": "Your email has been verified.",
                         "idVerification": "Your documents has been submitted"
                     },
                     "cannot": {
-                        "phone": "无法验证的您手机号码，请检查验证码是否输入正确",
-                        "email": "无法验证的您的电子邮件，请检查验证码是否输入正确",
+                        "phone": "Can't verify your phone, please check your code",
+                        "email": "Can't verify your email, please check your code.",
                         "idVerification": "Can't submit your documents, please try again",
                         "idVerification2": "Can't submit your documents."
                     }
                 }
             },
             "text": {
-                "verified": "已验证",
+                "verified": "Verified",
                 "username": {
                     "label": "Nick Name",
-                    "desc1": "他们怎么称呼您？",
+                    "desc1": "What do they call you?",
                     "button": {
-                        "submit": "保存"
+                        "submit": "Save"
                     }
                 },
                 "phone": {
-                    "label": "电话号码",
+                    "label": "Phone Number",
                     "desc1": "To send you free ETH sometimes, we’ll need your phone number to verify that you are not a robot. This is optional.",
                     "desc2": "We only send humans rewards.",
                     "desc3": "Please verify your phone number.",
                     "desc4": "Enter the secret code sent to your phone.",
                     "button": {
-                        "send": "发送​​",
-                        "submit": "验证手机号码"
+                        "send": "Send",
+                        "submit": "Verify your number"
                     }
                 },
                 "email": {
                     "label": "Email",
                     "desc1": "You may prefer to receive updates and notifications via email. This is also optional.",
                     "desc2": "Verify your email. You will receive transaction info through this email address",
-                    "desc3": "输入您的电子邮件",
+                    "desc3": "Enter your email",
                     "desc4": "Enter the secret code sent to your email.",
                     "button": {
                         "send": "OK",
-                        "submit": "验证你的邮箱"
+                        "submit": "Verify your email"
                     }
                 },
                 "id_verification": {
@@ -989,9 +989,9 @@
             "profileTitle": "The face behind the mask",
             "profileDescription": "You, glorious you",
             "shopTitle": "Your ATM",
-            "shopDescription": "开始营业",
+            "shopDescription": "Open for business",
             "shopNoDataDescription": "None yet. Set one up?",
-            "noDataMessage": "启动任务",
+            "noDataMessage": "Start a mission.",
             "filterBy": "Filter by:",
             "cash": {
                 "predition": "Prediction",
@@ -1058,7 +1058,7 @@
     },
     "discover": {
         "noDataMessageCash": "No ATMs near you yet. Be the first.",
-        "noDataMessageSwap": "您附近还没有商家。成为第一个商家。",
+        "noDataMessageSwap": "No vendors near you yet. Be the first",
         "feed": {
             "cash": {
                 "menu": {
@@ -1158,53 +1158,53 @@
     "wallet": {
         "top_banner": {
             "message": "Shuriken Airdrop (limited)",
-            "button": "点击这里"
+            "button": "Click here"
         },
         "refers": {
             "header": "Shuriken Airdrop Mission",
             "error": {
-                "submit_telegram": "在Telegram上找不到你。请退出并重试。",
-                "submit_twitter": "还未关注我们。请重试！",
-                "confirm_code": "验证码错误。请重试!",
-                "verify_code": "无法发送验证电子邮件",
-                "get_token": "直推信息不完整。请重试。"
+                "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
+                "submit_twitter": "You haven't followed us yet. Please try again.",
+                "confirm_code": "Verification code is wrong. Please try again!",
+                "verify_code": "Can't send verify email",
+                "get_token": "Referral incomplete. Please try again."
             },
             "success": {
-                "submit_telegram": "欢迎加入Telegram!",
-                "submit_twitter": "谢谢您在 Twitter 上关注我们。",
-                "confirm_code": "您的电子邮件已验证。",
-                "verify_code": "验证码已发送到您的电子邮件。",
+                "submit_telegram": "Welcome to our telegram group!",
+                "submit_twitter": "Thanks for following us on Twitter.",
+                "confirm_code": "Your email has been verified.",
+                "verify_code": "Verification code has been sent to your email.",
                 "get_token": "Success! 60 shurikens have been added to your wallet.",
-                "copy_link": "邀请链接已复制到剪贴板"
+                "copy_link": "Referral link copied to clipboard."
             },
             "button": {
-                "verified": "已验证",
-                "verify": "验证",
-                "confirm": "确认",
-                "reset_email": "重置电子邮件",
-                "get_token": "只接受代币"
+                "verified": "Verified",
+                "verify": "Verify",
+                "confirm": "Confirm",
+                "reset_email": "Reset email",
+                "get_token": "Just give me tokens"
             },
             "text": {
                 "title": "60 shiny Shurikens (SHURI).",
                 "telegram": "Say hello on telegram.",
                 "telegram2": "Leave your best joke for a chance to win more Shuri.",
-                "twitter": "推特",
+                "twitter": "Twitter",
                 "twitter2": "Our social media guy says we need followers on ",
                 "ninja_name": "Receive your randomly generated ninja name.",
                 "referral_link": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
                 "menu_amount": "Shurikens straight into your pocket, when new ninjas bet through your referral link.",
-                "menu_total": "你带来了{0} 个忍者",
-                "profile_link": "分享可得到20个免费代币"
+                "menu_total": "ninja{0} you've brought in.",
+                "profile_link": "Share to get 20 free tokens."
             },
             "placeholder": {
-                "telegram_username": "您的 Telegram 昵称",
-                "twitter_username": "您的 twitter 用户名",
-                "email": "获取验证码",
+                "telegram_username": "Your telegram alias",
+                "twitter_username": "Your twitter username",
+                "email": "Verification code",
                 "email2": "Your favourite fake email"
             },
             "label": {
-                "menu": "你的团队",
-                "menu_description": "查看你的推荐和奖励。"
+                "menu": "Your clan",
+                "menu_description": "Track your referrals and rewards here."
             },
             "table": {
                 "header": {
@@ -1218,10 +1218,10 @@
             "header": "Shuriken Airdrop Mission",
             "title": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
             "text": {
-                "copy_link": "邀请链接已复制到剪贴板",
-                "note": "不要更改您的昵称, 否则此链接将失效",
-                "number_ninjas": "您带来了{0}个忍者到道场。",
-                "number_total": "总共奖励: {0} 个首里城币"
+                "copy_link": "Referral link copied to clipboard.",
+                "note": "Do not change your alias or this link will be unvalid",
+                "number_ninjas": "You brought {0} ninjas to the dojo.",
+                "number_total": "Total reward: {0} SHURI"
             }
         },
         "action": {
@@ -1282,26 +1282,26 @@
                 "invalid_code": "Invalid redeem code"
             },
             "remove": {
-                "title": "移除",
-                "header": "是否确定？",
-                "message": "这将永久删除您的钱包。",
-                "button_yes": "是，移除",
-                "button_cancel": "取 消"
+                "title": "Remove",
+                "header": "Are you sure?",
+                "message": "This will permanently delete your wallet.",
+                "button_yes": "Yes, remove",
+                "button_cancel": "Cancel"
             },
             "transfer": {
-                "title": "转币",
-                "header": "转币",
+                "title": "Transfer coins",
+                "header": "Transfer coins",
                 "to_address": {
-                    "placeholder": "点对点接收"
+                    "placeholder": "Specify receiving..."
                 },
                 "label": {
-                    "from_wallet": "从钱包支付",
-                    "to_address": "转到钱包地址：",
+                    "from_wallet": "From wallet",
+                    "to_address": "To wallet address",
                     "to_address2": "To address",
-                    "amount": "金额",
-                    "usd": "美元",
-                    "wallet_balance": "钱包余额",
-                    "scan_qrcode": "扫描二维码",
+                    "amount": "Amount",
+                    "usd": "USD",
+                    "wallet_balance": "Wallet balance",
+                    "scan_qrcode": "Scan QR code",
                     "init_scanner": "Initiating Camera. Please wait",
                     "gas_limit": "Gas Limit",
                     "data": "Data",
@@ -1309,11 +1309,11 @@
                     "max_amount": "Max amount"
                 },
                 "placeholder": {
-                    "to_address": "钱包地址",
-                    "select_wallet": "选择钱包"
+                    "to_address": "Wallet address...",
+                    "select_wallet": "Select a wallet"
                 },
                 "text": {
-                    "confirm_transfer": "是否确认转账？"
+                    "confirm_transfer": "Are you sure you want to transfer out "
                 },
                 "error": {
                     "not_enough_coin": "You don't have enough coin right now.",
@@ -1321,32 +1321,32 @@
                     "wallet_not_found": " wallet is not found to transfer."
                 },
                 "button": {
-                    "transfer": "转账",
-                    "confirm": "确认"
+                    "transfer": "Transfer",
+                    "confirm": "Confirm"
                 }
             },
             "copy": {
-                "title": "复制地址到剪贴板",
-                "message": "复制地址到剪贴板",
-                "success": "已复制到剪贴板"
+                "title": "Copy address to clipboard",
+                "message": "Copy address to clipboard",
+                "success": "Copied to clipboard"
             },
             "default": {
-                "title": "设置为默认 {0} 钱包 "
+                "title": "Set as default {0} wallet "
             },
             "cancel": {
-                "title": "取 消"
+                "title": "Cancel"
             },
             "restore": {
-                "title": "恢复钱包",
-                "error": "无效钱包",
-                "header": "恢复钱包",
+                "title": "Restore wallets",
+                "error": "Invalid wallets",
+                "header": "Restore wallets",
                 "success": {
-                    "restore": "你的钱包恢复成功"
+                    "restore": "Your Wallet restore success"
                 },
                 "button": {
-                    "restore": "立即还原"
+                    "restore": "Restore now"
                 },
-                "description": "请输入您的绝密恢复数据, 以恢复您的钱包。"
+                "description": "Please enter your top secret recovery data to restore your wallet."
             },
             "export_private_key": {
                 "title": "Export at your risk!",
@@ -1381,126 +1381,126 @@
                 "description": "Please enter your top secret recovery data to restore your wallet."
             },
             "import": {
-                "title": "添加新的代币/导入代币"
+                "title": "Add new / Import coin"
             },
             "add_token": {
-                "title": "添加自定义代币"
+                "title": "Add custom token"
             },
             "add_collectible": {
-                "title": "添加收藏"
+                "title": "Add collectible"
             },
             "backup": {
-                "title": "备用钱包",
-                "header": "备用钱包",
-                "description": "这些数据是恢复钱包的唯一方法。请务必保证数据秘密安全。",
+                "title": "Backup wallets",
+                "header": "Backup wallets",
+                "description": "This data is the only way to restore your wallets. Keep it secret, keep it safe.",
                 "success": {
-                    "copied": "将恢复数据复制到剪贴板。"
+                    "copied": "Recovery data copied to clipboard."
                 },
                 "button": {
-                    "copy": "把它复制到安全的地方"
+                    "copy": "Copy it somewhere safe"
                 }
             },
             "protect": {
-                "header": "保证这个钱包的安全",
-                "title": "保证这个钱包的安全",
+                "header": "Secure this wallet",
+                "title": "Secure this wallet",
                 "text": {
-                    "step1_msg1": "如果您的手机丢失或被盗, 可以通过此口令短语恢复您的资金账户。",
-                    "step1_msg2": "请确保没有其他人可以得到您的密码。您可以使用密码管理器或将其写下来藏在您的床垫下。",
-                    "step1_label": "我知道, 如果我丢失了我的密码, 我将无法登陆我的帐户。",
-                    "step2_msg1": "请认真记录这些单词。安全起见，请不要用电子邮件或屏幕截图。",
-                    "step3_msg1": "点击将这些单词按正确的顺序排列。",
+                    "step1_msg1": "This passphrase will allow you to recover your funds if your phone is ever lost or stolen.",
+                    "step1_msg2": "Please make sure nobody has access to your passphrase. You can use a password manager or write it down and hide it under your mattress.",
+                    "step1_label": "I understand that if I lose my passphrase, I lose access to my account.",
+                    "step2_msg1": "Record these words carefully. Don't email it or screenshot it.",
+                    "step3_msg1": "Tap to put these words in the correct order.",
                     "need_secure": "Need secure",
                     "need_backup": "Needs Backup"
                 },
                 "button": {
-                    "continue": "继续",
+                    "continue": "Continue",
                     "verify": "Verify your passphrase",
-                    "copy_clipboard": "复制到剪贴板",
-                    "ok": "确认"
+                    "copy_clipboard": "Copy to clipboard",
+                    "ok": "OK"
                 },
                 "error": {
-                    "confirm": "这些单词顺序不对。请重试。"
+                    "confirm": "These words are in the wrong order. Please try again."
                 },
-                "success": "你的钱包已经安全了!"
+                "success": "Your wallet has been secured!"
             },
             "receive": {
-                "title": "收到代币",
-                "header": "钱包地址",
-                "header2": "手动输入金额",
-                "message": "共享您的公共钱包地址以接收",
+                "title": "Receive coins",
+                "header": "Wallet address",
+                "header2": "Custom Amount",
+                "message": "Share your public wallet address to receive",
                 "title2": "MY DESPOSIT ADDRESS",
                 "label": {
-                    "address": "地址",
-                    "amount": "金额",
-                    "usd": "美元"
+                    "address": "Address",
+                    "amount": "Amount",
+                    "usd": "USD"
                 },
                 "placeholder": {
-                    "amount": "指定金额",
-                    "choose_wallet": "选择一个钱包..。"
+                    "amount": "Specify amount ...",
+                    "choose_wallet": "Choose a wallet ..."
                 },
                 "link": {
                     "copy_address": "Copy address",
                     "download_qrcode": "Download QR code"
                 },
                 "button": {
-                    "share": "复制并共享",
-                    "request_amount": "要求特定金额",
-                    "done": "完成",
+                    "share": "Copy to share",
+                    "request_amount": "Request Specific amount ➔",
+                    "done": "Done",
                     "text": "Copy address"
                 },
                 "success": {
-                    "share": "钱包地址已复制到剪贴板中。"
+                    "share": "Wallet address copied to clipboard."
                 }
             },
             "create": {
-                "header": "创建新钱包",
+                "header": "Create new wallet",
                 "label": {
-                    "select_coints": "选择币种",
-                    "wallet_key": "钱包密钥",
-                    "main_net": "主网钱包",
+                    "select_coints": "Select coins",
+                    "wallet_key": "Wallet key",
+                    "main_net": "Mainnet wallets",
                     "test_net": "Testnet",
-                    "header_coins": "加密货币",
-                    "header_tokens": "ERC20 代币",
-                    "header_collectibles": "ERC721 收藏品"
+                    "header_coins": "Cryptocurrencies",
+                    "header_tokens": "ERC20 Tokens",
+                    "header_collectibles": "ERC721 Collectibles"
                 },
                 "text": {
-                    "random": "随机",
-                    "specify_phrase": "指定恢复密码短语"
+                    "random": "Random",
+                    "specify_phrase": "Specify recovery Phrase"
                 },
                 "placeholder": {
-                    "wallet_key": "钱包密钥",
-                    "phrase": "输入您的12个单词密码"
+                    "wallet_key": "Wallet key",
+                    "phrase": "Type your 12 secret recovery words."
                 },
                 "button": {
-                    "create": "创建钱包",
-                    "add_new": "+新建",
+                    "create": "Create wallet",
+                    "add_new": "+ Add new",
                     "done": "Done",
-                    "request_free_eth": "申请免费以太坊代币"
+                    "request_free_eth": "Request free ETH"
                 },
                 "error": {
-                    "recovery_words_invalid": "无法创建钱包，请清除无效字符并使用有效的字符。",
-                    "random": "无法创建钱包，请重新加载并重试。"
+                    "recovery_words_invalid": "Cannot create wallet. Recovery words are invalid.",
+                    "random": "Cannot create wallet. Please reload and try again"
                 }
             },
             "scan_qrcode": {
-                "header": "扫描二维码"
+                "header": "Scan QR code"
             },
             "transaction": {
-                "header": "交易详情"
+                "header": "Transaction details"
             },
             "history": {
-                "title": "查看交易记录",
-                "header": "交易记录",
+                "title": "View transaction history",
+                "header": "Transaction history",
                 "label": {
                     "balance_hidden": "Balance Hidden",
-                    "failed": "失败",
+                    "failed": "Failed",
                     "pending": "Pending",
-                    "unconfirmed": "未确认",
-                    "balance": "余额",
-                    "transactions": "交易",
-                    "status": "订单状态",
-                    "confirmations": "确认",
-                    "success": "操作成功",
+                    "unconfirmed": "Unconfirmed",
+                    "balance": "Balance",
+                    "transactions": "Transactions",
+                    "status": "Status",
+                    "confirmations": "confirmations",
+                    "success": "success",
                     "error": "Error",
                     "detail_etherscan": "View detail on etherscan.io",
                     "detail_blockchaininfo": "View detail on bitpay.com",
@@ -1524,12 +1524,12 @@
     },
     "bitcoin": {
         "error": {
-            "invalid_address": "您只能将代币发送到比特币钱包地址",
-            "invalid_address2": "请输入有效的接收地址",
-            "insufficient": "您没有足够的币进行交易"
+            "invalid_address": "You can only send tokens to Bitcoin address",
+            "invalid_address2": "Please enter a valid receiving address.",
+            "insufficient": "You have insufficient coin to make the transfer."
         },
         "success": {
-            "transaction": "您的交易将在30秒内显示在区块链平台"
+            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
     "bitcoin_cash": {
@@ -1544,13 +1544,13 @@
     },
     "ethereum": {
         "error": {
-            "invalid_address": "您只能将代币转入以太坊钱包地址",
-            "invalid_address2": "请输入有效的代币接收地址",
-            "insufficient": "您没有足够的代币来完成交易",
+            "invalid_address": "You can only send tokens to Ethereum address",
+            "invalid_address2": "Please enter a valid receiving address.",
+            "insufficient": "You have insufficient coin to make the transfer.",
             "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
         },
         "success": {
-            "transaction": "您的交易将在30秒内显示在区块链平台"
+            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
     "ripple": {
@@ -1565,116 +1565,116 @@
         }
     },
     "chat": {
-        "emptyMessage": "此平台交易绝安全。所有通讯都经过加密，没有人能偷听。",
-        "notFoundUser": "你要找的忍者不在这里。也许你把他们的名字弄错了？",
-        "lastMessageContent": "你丢失了秘钥。",
-        "searchPlaceHolder": "输入忍者的名称或昵称"
+        "emptyMessage": "Trade secrets here. All communication is encrypted and no one is listening.",
+        "notFoundUser": "The Ninja you are looking for is not here. Perhaps you have their name wrong?",
+        "lastMessageContent": "You lost the key to this secret message.",
+        "searchPlaceHolder": "Enter a ninja’s name or alias."
     },
-    "WHITE_PAPER_H1": "虚灵议会上的匿名对等预测交换",
-    "WHITE_PAPER_SUBTITLE_1": "你好！我们是中华民国, Bakunawa, Hakawai 和 Grootslang 的忍者队。我们正在建立一个电子预测交换 blockchain。这就是为什么我们这样做, 以及它是如何工作的!",
-    "WHITE_PAPER_SUBTITLE_2": "加入对话在",
-    "WHITE_PAPER_INTRO": "介绍",
-    "WHITE_PAPER_INTRO_1": "在线博彩几乎完全由作为受信任的第三方的收受赌注者运行。通常情况下, 用户会遭受此 \"集中信任的三十方问题\":",
+    "WHITE_PAPER_H1": "Anonymous Peer-to-Peer Prediction Exchange on Ethereum",
+    "WHITE_PAPER_SUBTITLE_1": "Hello! We are Roc, Bakunawa, Hakawai and Grootslang from the Ninja team. We are building an electronic prediction exchange on the blockchain. Here’s why we did it, and how it works!",
+    "WHITE_PAPER_SUBTITLE_2": "Join the conversation at",
+    "WHITE_PAPER_INTRO": "Introduction",
+    "WHITE_PAPER_INTRO_1": "Online betting is run almost exclusively by bookmakers that serve as trusted third parties. As is typically the case, the users suffer from this “centralized trusted thirty party problem”:",
     "WHITE_PAPER_INTRO_2": [
-        "收受赌注者设置了总是青睐他们的赔率 (他们总是赢)",
-        "收受赌注者享受沉重的 5% - 每投注30% 保证金",
-        "赌注是可逆的, 奖金是不确定的",
-        "完全匿名是不可能的",
-        "欺诈是不可避免的, 并接受如此",
-        "单点故障 - 如果庄家消失了怎么办",
-        "博彩被认为是赌博 - 不成比例的风险, 主要是由于中央党缺乏透明度"
+        "Bookmakers set the odds that always favor them (they always win)",
+        "Bookmakers enjoy a hefty 5% — 30% margin on every bet",
+        "Bets are reversible, and winnings are uncertain",
+        "Completely anonymity is not possible",
+        "Fraud is unavoidable, and accepted for being so",
+        "Single point of failure — what if the bookmaker disappears?",
+        "Betting is considered gambling — disproportionately risky, largely due to the centralized party’s lack of transparency"
     ],
-    "WHITE_PAPER_INTRO_3": "在离线下注时, 这些问题成倍增加了 10, 难怪用户越来越少地接受两种罪恶。",
-    "WHITE_PAPER_INTRO_4_HIGH_LIGHT": "解决方案: 一种电子预测系统, 用加密证明取代不情愿的信任, 允许来自世界任何地方的任何两个匿名方在不需要信任的第三方的情况下直接相互下注。",
-    "WHITE_PAPER_INTRO_5": "匿名对等电子预测交换 (PEX) 允许当事方在不通过中央主管机构或收受赌注人的情况下直接下注。投注的管理和奖金的结算由 blockchain 网络集体进行, 保护用户免受任何单一故障点的侵害。PEX 有独特的属性, 允许令人兴奋的用例, 以前不可能在任何传统的投注机制。",
-    "WHITE_PAPER_INTRO_6": "我们希望 PEX 能改变今天的博彩观念. - 通常不必要地被描绘成一个阴暗的赌博游戏, 主要是依靠集中的党派寻找不道德的、残酷的赚钱方式.",
-    "WHITE_PAPER_INTRO_7_HIGH_LIGHT": "PEX 通过公开、透明的预测市场交换直接挑战阴暗的博彩业.",
-    "WHITE_PAPER_INTRO_8": "这种交流将是人们聚集在一起, 并预测像他们一直这样做, 在未来的活动, 在体育, 政治, 科学, 市场, 气候, 一切在阳光下 - 作为在我们正在建设的世界上投资的个人, 我们自然会这样做.",
-    "WHITE_PAPER_PEX": "什么是 PEX？",
-    "WHITE_PAPER_PEX_1": "在虚灵议会 blockchain 的顶部运行时, PEX 是匿名对等的分布式预测交换, 为任何人提供了一个简单的方法:",
+    "WHITE_PAPER_INTRO_3": "These problems multiply by 10 when it comes to betting offline, so it is little wonder that users are increasingly taking the lesser of two evils.",
+    "WHITE_PAPER_INTRO_4_HIGH_LIGHT": "The solution: an electronic prediction system that replaces reluctant trust with cryptographic proof, allowing any two anonymous parties from anywhere in the world to bet directly against each other without the need for a trusted third party.",
+    "WHITE_PAPER_INTRO_5": "The Anonymous Peer-to-Peer Electronic Prediction Exchange (PEX) allows parties to directly bet against each other without going through a central authority or bookmaker. The management of bets and the settlement of winnings are carried out collectively by the blockchain network, protecting users from any single point of failure. PEX has unique properties that allow exciting use cases, previously impossible under any traditional betting mechanism.",
+    "WHITE_PAPER_INTRO_6": "It is our hope that PEX will change today’s perception of betting — often needlessly portrayed as a shady gambling game, due mostly to reliance on centralized parties looking for unethical, cutthroat ways of making a profit.",
+    "WHITE_PAPER_INTRO_7_HIGH_LIGHT": "PEX directly challenges the shadowy gambling industry with an open, transparent prediction market exchange.",
+    "WHITE_PAPER_INTRO_8": "This exchange will be where people get together and predict like they have always done, on future events in sports, politics, science, markets, climate, and everything under the sun — as individuals who are invested in the world we are building naturally do.",
+    "WHITE_PAPER_PEX": "What is PEX?",
+    "WHITE_PAPER_PEX_1": "Running on top of the Ethereum blockchain, PEX is an anonymous peer-to-peer decentralized prediction exchange that provides a simple way for anyone to:",
     "WHITE_PAPER_PEX_2": [
-        "在结果上放置支持命令(请求) 或反对命令(出价)",
-        "成为市场庄家(赔率) 或市场接受者 (后退赔率)",
-        "成为自己预测市场的创造者",
-        "收集奖金立即 (保证在一个聪明的合同下)"
+        "Place a Support Order (Ask) or an Against Order (Bid) on an outcome",
+        "Be a Market Maker (Lay the odds) or a Market Taker (Back the odds)",
+        "Be a Creator of their own Prediction Market",
+        "Collect winnings instantly (guaranteed under a Smart Contract)"
     ],
-    "WHITE_PAPER_PEX_3": "下注吧",
-    "WHITE_PAPER_OUTCOME": "作为可交易资产的结果。价格的赔率。",
-    "WHITE_PAPER_OUTCOME_1": "在证券交易所, 交易资产是共享的, 贸易商押注于股票单价(例如, 每卖出100股苹果200美元)。",
-    "WHITE_PAPER_OUTCOME_2": "在硬币交换中, 交易资产是硬币, 贸易商押注硬币单价(例如, 每买入2比特币7000美元)。",
-    "WHITE_PAPER_OUTCOME_3": "类似地, 在像 PEX 这样的分散式预测交换中, 交易资产是一个事件的结果, 而贸易商则押注该结果的可能性。他们可以打赌结果 (支持它), 或者押注它。例如: 巴西与西班牙的比赛结果可能是 \"巴西获胜\"。约翰可以用2.0 的赔率来打赌这个结果。玛丽可以用2.25 的赔率来打赌这个结果。彼得可以打赌反对那结果 (\"巴西丢失\" 或 \"巴西画\") 以赔率1.9。",
+    "WHITE_PAPER_PEX_3": "Place a bet.",
+    "WHITE_PAPER_OUTCOME": "Outcomes as tradable assets. Odds as prices.",
+    "WHITE_PAPER_OUTCOME_1": "In a stock exchange, the tradeable asset is share, and traders bet on share unit prices (e.g. sell 100 shares of Apple at $200 each).",
+    "WHITE_PAPER_OUTCOME_2": "In a coin exchange, the tradeable asset is coin, and traders bet on coin unit prices (e.g. buy 2 Bitcoin at $7000 each).",
+    "WHITE_PAPER_OUTCOME_3": "Similarly, in a decentralized prediction exchange like PEX, the tradeable asset is outcome of an event, and traders bet on the odds of that outcome. They can bet for the outcome (support it), or bet against it. For example: an outcome of the match Brazil vs. Spain could be that “Brazil wins”. John can bet on that outcome with odds of 2.0. Mary can bet on that outcome with odds of 2.25. Peter can bet against that outcome (“Brazil loses” or “Brazil draws”) with odds of 1.9.",
     "WHITE_PAPER_OUTCOME_4": "A different type of exchange.",
-    "WHITE_PAPER_COMPARE": "PEX 与传统博彩",
-    "WHITE_PAPER_COMPARE_1": "重要的是, PEX 不接受投注和持有赌注, 而是与那些反对结果的用户匹配支持结果的用户。赌注是在一个托管智能合同中持有。",
-    "WHITE_PAPER_COMPARE_2": "托管智能合同不可阻挡。它完全按照程序 运行- 将其代管余额转发到最终 赢家- 而不存在停机、欺诈或第三方干扰的可能性。一旦双方都承诺下注, 这是不可逆转的。付款是保证和即时.",
-    "WHITE_PAPER_COMPARE_3": "整个过程在没有任何一方透露他们的身份的情况下发生。是100% 匿名的",
-    "WHITE_PAPER_COMPARE_4": "所有这些都发生在没有中央当局或庄家的情况下。它是由 blockchain 的所有节点共同执行的。",
+    "WHITE_PAPER_COMPARE": "PEX vs. Traditional betting",
+    "WHITE_PAPER_COMPARE_1": "Importantly, PEX does not accept bets and hold stakes, but instead matches the users who support the outcome with the users who are against the outcome. The stakes are held in an Escrow smart contract.",
+    "WHITE_PAPER_COMPARE_2": "The Escrow smart contract is unstoppable. It runs exactly as programmed — to forward its escrow balance to the winner at the end — without any possibility of downtime, fraud or third-party interference. Once both parties commit to a bet, it is irreversible. Payment is guaranteed and instant.",
+    "WHITE_PAPER_COMPARE_3": "The entire process happens without any party revealing their identities. It’s 100% anonymous.",
+    "WHITE_PAPER_COMPARE_4": "All this happens without a central authority or bookmaker. It’s carried out collectively by all the nodes of the blockchain.",
     "WHITE_PAPER_COMPARE_5": "This is why you should bet on the blockchain.",
-    "WHITE_PAPER_PEX_WORK": "PEX 如何工作？",
-    "WHITE_PAPER_PEX_WORK_SUB_TITLE": "PEX 和你所知道的不一样。它也提供了比你所知道的更多的自主权。同样重要的是, 它的设计是容易创建下注市场和下注订单。",
-    "WHITE_PAPER_STEP_1": "步骤 1: 获取以太",
-    "WHITE_PAPER_STEP_1_1": "如果你还没有, 你可以选择直接购买 PEX 与您的信用卡。你也可以从流行的硬币交换, 如 Coinbase 或 Binance 购买。",
-    "WHITE_PAPER_STEP_1_2": "PEX 将支持其他 cryptocurrencies 很快。",
-    "WHITE_PAPER_STEP_1_3": "轻松地在应用程序中购买。",
-    "WHITE_PAPER_STEP_2": "步骤 2: 顶部您的 PEX 钱包",
-    "WHITE_PAPER_STEP_2_1": "转移你刚买的 PEX 钱包, 这样你就可以开始下注了。PEX 钱包是完全分散的。私钥保存在您的手机上, 只有您可以访问它。只有你可以转移和接受。",
-    "WHITE_PAPER_STEP_2_2": "整齐地组织 PEX 钱包。",
-    "WHITE_PAPER_STEP_3": "步骤 3: 下注",
-    "WHITE_PAPER_STEP_3_1": "首先, 选择一个你感兴趣的预测市场 (即巴西 - 西班牙), 结果 (即 \"巴西获胜\") 和侧面 (即支持或押注于结果).",
-    "WHITE_PAPER_STEP_3_2": "然后输入你想下注的赌注 (即 1) 和赔率 (即 1/2.25)。股权将被放入一个托管智能合同。然后, PEX 匹配引擎将找到另一个命令, 以下注的赔率你设置。",
-    "WHITE_PAPER_STEP_3_3": "就是这样。",
-    "WHITE_PAPER_STEP_3_4": "我们的是阿根廷人。",
-    "WHITE_PAPER_STEP_4": "步骤 4: 等待报告",
-    "WHITE_PAPER_STEP_4_1": "一旦事件结束, 市场的记者将报告的结果在报告窗口 (由市场创造者设置)。通常情况下, 您应该希望在几分钟内有报告。如果你赢了, 你的奖金将自动从代管智能合同转移到您的帐户。",
+    "WHITE_PAPER_PEX_WORK": "How does PEX work?",
+    "WHITE_PAPER_PEX_WORK_SUB_TITLE": "PEX is different from what you know. It also provides more autonomy than what you know. Just as importantly, it is designed to be easy to create bet markets and place bet orders.",
+    "WHITE_PAPER_STEP_1": "Step 1: Get Ether",
+    "WHITE_PAPER_STEP_1_1": "If you don’t have ETH yet, you have a choice of buying ETH directly in PEX with your credit card. You can also buy ETH from popular coin exchanges like Coinbase or Binance.",
+    "WHITE_PAPER_STEP_1_2": "PEX will support other cryptocurrencies soon.",
+    "WHITE_PAPER_STEP_1_3": "Easily buy ETH in-app.",
+    "WHITE_PAPER_STEP_2": "Step 2: Top up your PEX Wallet",
+    "WHITE_PAPER_STEP_2_1": "Transfer the ETH you just bought into the PEX Wallet, so that you can start placing bets with your ETH. The PEX Wallet is completely decentralized. The private key is held on your phone and only you can access it. Only you can transfer and receive ETH.",
+    "WHITE_PAPER_STEP_2_2": "The neatly organized PEX wallet.",
+    "WHITE_PAPER_STEP_3": "Step 3: Place a bet",
+    "WHITE_PAPER_STEP_3_1": "First, pick a prediction market that interests you (i.e. Brazil — Spain), the outcome (i.e. “Brazil wins”) and the side (i.e. support or bet against the outcome).",
+    "WHITE_PAPER_STEP_3_2": "Then enter the stake you want to bet (i.e. 1 ETH) and the odds (i.e. 1/2.25). The stake will be put into an escrow smart contract. The PEX Matching Engine will then find another order that bets against the odds you set.",
+    "WHITE_PAPER_STEP_3_3": "That’s it.",
+    "WHITE_PAPER_STEP_3_4": "Our ETH is on Argentina for this one.",
+    "WHITE_PAPER_STEP_4": "Step 4: Wait for the report",
+    "WHITE_PAPER_STEP_4_1": "Once the event ends, the reporter of the market will report the result within the reporting window (set by the market creator). Generally, you should expect to have the report within minutes. If you win, your winnings will be automatically transferred from the escrow smart contract to your account.",
     "WHITE_PAPER_STEP_4_2": "May the odds be ever in your favour.",
-    "WHITE_PAPER_CREATE": "创建您自己的预测市场",
-    "WHITE_PAPER_CREATE_1": "虽然大多数用户将在现有市场上订单, PEX 允许任何人创建预测市场的任何未来的事件 - 无论是在体育, 政治, 科学, 或字面上任何其他方面的现代生活。您作为 市场创造者, 可以设置市场费用、 市场收盘时间、 记者的结果和报告最后期限.",
-    "WHITE_PAPER_ARCHITECTURE": "PEX 体系结构",
-    "WHITE_PAPER_ARCHITECTURE_1": "PEX 体系结构的核心组件是:",
-    "WHITE_PAPER_ARCHITECTURE_2_HL": "预测市场",
-    "WHITE_PAPER_ARCHITECTURE_2": "PEX 允许任何人创建预测市场的任何未来事件。这可以在任何领域 - 体育, 政治, 科学, 生活方式, 甚至天气等。这里唯一的限制就是你的创造力。每个市场都是连锁智能合同的一部分。它有自己的订单书, 制造商和接受者.",
-    "WHITE_PAPER_ARCHITECTURE_3_HL": "订购书",
-    "WHITE_PAPER_ARCHITECTURE_3": "每个预测市场都有自己的订单书。PEX 订单书管理所有支持结果订单 (询问) 和所有反对结果命令 (出价)。它将相同价格 (赔率) 的所有订单聚合到订单簿中的条目中。",
+    "WHITE_PAPER_CREATE": "Create your own prediction markets",
+    "WHITE_PAPER_CREATE_1": "While most users will place orders in existing markets, PEX allows anyone to create a prediction market about any future event — be it in sports, politics, science, or literally any other aspect of modern life. You, as the market creator, can set the market fee, the market closing time, the reporter of the outcome, and the reporting deadline.",
+    "WHITE_PAPER_ARCHITECTURE": "PEX Architecture",
+    "WHITE_PAPER_ARCHITECTURE_1": "The core components of the PEX architecture are:",
+    "WHITE_PAPER_ARCHITECTURE_2_HL": "Prediction Market",
+    "WHITE_PAPER_ARCHITECTURE_2": "PEX allows anyone to create a prediction market about any future event. This can be in any field — sports, politics, science, lifestyle, even weather and so on. The only limit here is your creativity. Each market is part of an on-chain smart contract. It has its own order book, makers and takers.",
+    "WHITE_PAPER_ARCHITECTURE_3_HL": "Order Book",
+    "WHITE_PAPER_ARCHITECTURE_3": "Each Prediction Market has its own order book. PEX Order Book manages all Support Outcome Orders (ask) and all Against Outcome Order (bid). It aggregates all orders with the same price (odds) into an entry on the order book.",
     "WHITE_PAPER_ARCHITECTURE_3_1": "The order book.",
-    "WHITE_PAPER_ARCHITECTURE_4_HL": "匹配引擎",
-    "WHITE_PAPER_ARCHITECTURE_4_1": "PEX 使用先进、先出 (FIFO) 订购书。订单按价格时间优先级执行。这意味着它将首先匹配的价格, 如果有两个订单相同的价格, 那么它将匹配的时间。",
-    "WHITE_PAPER_ARCHITECTURE_4_2": "在某些情况下, 放置在两边的金额是不均匀的, 订单将被部分填充。余下的订单将与订单书中的下一个最佳价格时间匹配, 直到订单完全填满为止。",
-    "WHITE_PAPER_ARCHITECTURE_4_3": "你的完美匹配。",
+    "WHITE_PAPER_ARCHITECTURE_4_HL": "Matching Engine",
+    "WHITE_PAPER_ARCHITECTURE_4_1": "PEX uses a first-in, first-out (FIFO) order book. Orders are executed in price-time priority. This means that it will match by price first, and if there are two orders with the same price, then it will match by time.",
+    "WHITE_PAPER_ARCHITECTURE_4_2": "In some cases, the amount placed on either side is uneven, and the order will be partially filled. The remaining order will be matched with the next best price-then-time in the order book until the order is completely filled.",
+    "WHITE_PAPER_ARCHITECTURE_4_3": "Your perfect match.",
     "WHITE_PAPER_ARCHITECTURE_4_4": [
-        "用户将支持结果顺序放到打开的订单簿中",
-        "另一个用户将一个反对结果的顺序放到打开的订单书中",
-        "匹配引擎查找匹配项, 并将两个订单从打开的订单簿移动到匹配的订单簿"
+        "A user places a Support Outcome Order into the Open Order Book",
+        "Another user place an Against Outcome Order into the Open Order Book",
+        "Matching Engine finds a match and moves both Orders from the Open Order Book to Matched Order Book"
     ],
     "WHITE_PAPER_ARCHITECTURE_5_HL": "REST API",
-    "WHITE_PAPER_ARCHITECTURE_5": "PEX REST API 具有订单管理、帐户管理和公共市场数据的端点。",
-    "WHITE_PAPER_ARCHITECTURE_6_HL": "网络插座",
-    "WHITE_PAPER_ARCHITECTURE_6": "PEX 网络插座提要为订单和交易提供实时市场数据更新。",
-    "WHITE_PAPER_PRIVACY": "隐私 & 匿名",
-    "WHITE_PAPER_PRIVACY_SUB": "为用户提供的隐私是一种深思熟虑的设计。",
-    "WHITE_PAPER_PRIVACY_1_HL": "无下载",
-    "WHITE_PAPER_PRIVACY_1": "PEX 不是一个移动应用程序。它可以在移动网络上自由访问。虽然本地移动应用程序有时具有更好的 UI/UX, 但它们必须由集中式应用程序存储 (如 Android 播放商店或苹果应用程序商店) 来托管。在我们看来, 一个更有吸引力的 UI 不是一个可接受的折衷隐私。",
-    "WHITE_PAPER_PRIVACY_2_HL": "无标志 ups",
-    "WHITE_PAPER_PRIVACY_2_1": "不再需要密码、电子邮件或电话号码。",
-    "WHITE_PAPER_PRIVACY_2_2": "PEX 没有收集您的个人信息。您可以使用完全隐私的 PEX。当您首次打开 PEX 时, 将在后台静默创建一个公共/私有 keypair, 并将其存储在本地的手机上。公钥作为匿名用户名, 私钥是您的密码。PEX 不能访问您的私钥 - 只有您这样做.",
-    "WHITE_PAPER_PRIVACY_2_3": "请注意, 在配置文件设置中, 我们提供了用户输入其电子邮件地址的选项。其目的不是为了收集您的电子邮件, 而是为了更好的体验, 特别是在与付款相关的用例中。这是完全可选的。",
-    "WHITE_PAPER_PRIVACY_2_4": "还请注意, 有一个选项可以在设置中备份私钥。我们强烈建议这样做。",
-    "WHITE_PAPER_PRIVACY_3_HL": "匿名预测",
-    "WHITE_PAPER_PRIVACY_3": "PEX 是建立在虚灵议会之上的, 这是一个公开的 blockchain, 但隐私是保持你的公钥匿名。虽然公众可以看到有人在预测某事, 但几乎不可能查出某人是谁。",
-    "WHITE_PAPER_PRIVACY_4_HL": "匿名订单匹配",
-    "WHITE_PAPER_PRIVACY_4": "与股票和硬币交易所类似, 订单书、大小、赔率和时间都是公开的, 但订单书并没有透露谁是订单制造商和接受者。订单书记录的赌注匿名党的地方互相反对, 根据他们反对的预测事件。一旦事件结束, 并且报告是可利用的, 保管资金被自动地转移到优胜者。",
-    "WHITE_PAPER_FEE": "费用",
-    "WHITE_PAPER_FEE_1": "收费主要有两类: 中奖费和网络费。",
-    "WHITE_PAPER_FEE_2": "获奖费用由市场创造者设定, 占该市场总奖金的百分比。这完全取决于市场创造者自己设定费用。由于 PEX 允许任何人创建预测市场, 我们预计这些费用将在市场之间具有很强的竞争力。这是用户最好的情况。",
-    "WHITE_PAPER_FEE_3": "网络费用是造物主获奖费用的 20%。这为网络的工程、基础设施和维护支付费用。一开始, 这将由核心忍者团队进行。但我们预计, 随着时间的推移, 我们将分散团队, 并设计一个机制, 向整个社区开放。",
-    "WHITE_PAPER_FEE_4": "另外, 我们正在考虑对市场创造者的转介费 。推荐池可以是 10% - 20% 的获奖费用, 这将有助于增加更多的用户到市场上.",
-    "WHITE_PAPER_SETTLEMENT": "沉降",
-    "WHITE_PAPER_SETTLEMENT_1": "我们越深入建设 PEX, 似乎就越有可能首先在速度和权力下放之间达成妥协, 同时始终保持安全。至于解决办法, 要求在每项活动 (即体育赛事) 后立即提供结果报告, 我们现在就会选择速度。",
-    "WHITE_PAPER_SETTLEMENT_2": "在第一个版本中, 核心忍者团队将承担报告角色并报告所有事件的结果。我们正在研究和设计一个分散的机制, 这将允许社区报告的结果。",
-    "WHITE_PAPER_SUMMARY": "总结",
-    "WHITE_PAPER_SUMMARY_1": "PEX 是一个纯粹的对等版本的电子预测, 允许各方直接下注, 而不通过一个中央机构或庄家。",
-    "WHITE_PAPER_SUMMARY_2": "PEX 是开源的, 它的设计是公开的, 没有人拥有或控制 PEX, 每个人都可以参与.",
-    "WHITE_PAPER_SUMMARY_3": "PEX开源于",
-    "WHITE_PAPER_SUMMARY_4": "与我们建立 PEX。加入",
+    "WHITE_PAPER_ARCHITECTURE_5": "PEX REST API has endpoints for order management, account management, and public market data.",
+    "WHITE_PAPER_ARCHITECTURE_6_HL": "Web Socket",
+    "WHITE_PAPER_ARCHITECTURE_6": "PEX Web Socket feed provides real-time market data updates for orders and trades.",
+    "WHITE_PAPER_PRIVACY": "Privacy & Anonymity",
+    "WHITE_PAPER_PRIVACY_SUB": "The privacy afforded to the user is a deliberate design.",
+    "WHITE_PAPER_PRIVACY_1_HL": "No downloads",
+    "WHITE_PAPER_PRIVACY_1": "PEX is not a mobile app. It’s freely accessible on the mobile web. While native mobile apps sometimes have better UI/UX, they must be hosted by centralized app stores like Android Play Store or Apple App store. In our view, a more attractive UI is not an acceptable tradeoff for compromised privacy.",
+    "WHITE_PAPER_PRIVACY_2_HL": "No sign ups",
+    "WHITE_PAPER_PRIVACY_2_1": "The need for a password, email or phone number is obsolete.",
+    "WHITE_PAPER_PRIVACY_2_2": "PEX doesn’t collect your personal information. You can use PEX with complete privacy. When you first open PEX, a public/private keypair will be created silently in the background and stored locally on your phone. The public key acts as your anonymous username, and the private key is your password. PEX doesn’t have access to your private key — only you do.",
+    "WHITE_PAPER_PRIVACY_2_3": "Note that in the Profile Settings, we provide an option for the user to enter their email address. The purpose is not to collect your email, but for a better experience, especially in use cases related to payments. It’s completely optional.",
+    "WHITE_PAPER_PRIVACY_2_4": "Note also that there is an option to backup your private key in Settings. We highly recommend doing so.",
+    "WHITE_PAPER_PRIVACY_3_HL": "Anonymous prediction",
+    "WHITE_PAPER_PRIVACY_3": "PEX is built on top of Ethereum, which is a public blockchain, but privacy is maintained by keeping your public key anonymous. While the public can see that someone is predicting on something, it’s almost impossible to find out who that someone is.",
+    "WHITE_PAPER_PRIVACY_4_HL": "Anonymous order matching",
+    "WHITE_PAPER_PRIVACY_4": "Similar to stock and coin exchanges, the order book, sizes, odds, and time are public, but the order book doesn’t disclose who the order makers and takers are. The order book records the bet anonymous parties place against each other, based on their opposing predictions of an event. Once the event concludes and the report is available, the escrowed funds are transferred automatically to the winner.",
+    "WHITE_PAPER_FEE": "Fees",
+    "WHITE_PAPER_FEE_1": "There are two main types of fees: winning fee and network fee.",
+    "WHITE_PAPER_FEE_2": "The winning fee is set by the market creator, as a percentage of the total winnings of that market. It’s entirely up to the market creator to set their own fees. Since PEX allows anyone to create a prediction market, we expect that the fees will be very competitive among markets. This is the best case scenario for users.",
+    "WHITE_PAPER_FEE_3": "The network fee is 20% of the creator’s winning fee. This pays for engineering, infrastructure, and maintenance of the network. At the beginning, this will be undertaken by the Core Ninja Team. But we expect that over time we will decentralize the team and design a mechanism that opens it up to the entire community.",
+    "WHITE_PAPER_FEE_4": "Optionally, we are considering a referral fee for the market creator. The referral pool could be 10% — 20% of the winning fee, which will help in adding a lot more users to the market.",
+    "WHITE_PAPER_SETTLEMENT": "Settlement",
+    "WHITE_PAPER_SETTLEMENT_1": "The deeper we dive into building PEX, the more it seems that we have to initially strike a compromise between speed and decentralization, while always retaining security. In relation to settlement, which requires the report of the outcome to be available immediately after each event (i.e. a sports event), we will opt for speed, for now.",
+    "WHITE_PAPER_SETTLEMENT_2": "In the first release, the Core Ninja Team will assume the reporting role and report the outcome of all events. We’re researching and designing a decentralized mechanism that will allow the community to report the outcomes.",
+    "WHITE_PAPER_SUMMARY": "Summary",
+    "WHITE_PAPER_SUMMARY_1": "PEX is a purely peer-to-peer version of electronic prediction that allows parties to bet directly against each other without going through a central authority or bookmaker",
+    "WHITE_PAPER_SUMMARY_2": "PEX is open-source; its design is public, nobody owns or controls PEX and everyone can take part.",
+    "WHITE_PAPER_SUMMARY_3": "PEX is open source at",
+    "WHITE_PAPER_SUMMARY_4": "Build PEX with us. Join the conversation at",
     "WHITE_PAPER_END": "And it actually works",
     "WHITE_PAPER_END_1": "Hey, thanks for reading. Ninja will go live on the testnet on 5 June! We’re excited to hear your thoughts.",
     "atm_cash_transfer": {

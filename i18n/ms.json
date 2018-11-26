@@ -1,12 +1,12 @@
 {
     "app": {
         "name": "Ninja",
-        "fullname": "Ninja: Anonymous Peer-to-Peer Prediction Exchange",
-        "description": "Anonymous Peer-to-Peer Prediction Exchange",
-        "loading": "Loading...",
+        "fullname": "Ninja: Anonymous Peer-to-Peer ramalan Pertukaran",
+        "description": "Ninja: Anonymous Peer-to-Peer ramalan Pertukaran",
+        "loading": "Memuatkan...",
         "navigation": {
-            "me": "Me",
-            "exchanges": "Exchanges",
+            "me": "Saya",
+            "exchanges": "Bursa-Bursa",
             "whisper": "Whisper",
             "wallet": "Wallet",
             "setting": "Me",
@@ -18,16 +18,16 @@
             "invest": "Invest"
         }
     },
-    "buy": "Mua",
-    "sell": "Bán",
-    "amount": "Số lượng",
+    "buy": "Buy",
+    "sell": "Sell",
+    "amount": "amount",
     "askUsingCreditCard": "for {total} {fiatCurrency} using card?",
     "change": "Change",
     "ccNumber": "Number",
     "ccExpire": "Expiry",
     "ccCVC": "CVC",
     "overCCLimit": "You have reached your credit card limit({currency}{limit} per day)! You have already used {currency}{amount} today.",
-    "required": "Bắt buộc",
+    "required": "Required",
     "ccExpireTemplate": "MM/YY",
     "securityCode": "325",
     "shakeNow": "Shake",
@@ -38,7 +38,7 @@
     "offerHandShakeExchangeContentMeDone": "{offerType} {something} for {amount} {currency}",
     "instantOfferHandShakeContent": "You{just}{offerType} {amount} {currency} for {total} {currency_symbol} on your card",
     "offerDistanceContent": "{distance} away",
-    "transactonOfferInfo": "Thành công ({success}) / Thất bại ({failed})",
+    "transactonOfferInfo": "Successful ({success}) / Failed ({failed})",
     "createOfferConfirm": "You are about to {type} {something} by {amount} {currency}",
     "handshakeOfferConfirm": "You are about to {type} {something} for {amount} {currency}",
     "rejectOfferConfirm": "Do you want to Reject this order? You will not be able to make transactions for 4 hours.",
@@ -63,7 +63,7 @@
     "updateOfferStoreConfirm": "Update your ATM?",
     "notEnoughCoinInWalletStores": "You don't have enough coin right now. Do you want to top up your wallet?",
     "addOfferItemSuccessMassage": "Success! Your order is now listed on Ninja",
-    "deleteOfferItemSuccessMassage": "Bạn đã hủy giao dịch thành công.",
+    "deleteOfferItemSuccessMassage": "You have successfully deleted your order.",
     "shakeOfferItemSuccessMassage": "You have successfully shaked on Ninja",
     "acceptOfferItemSuccessMassage": "Good news! Your order has been accepted.",
     "cancelOfferItemSuccessMassage": "Your order has been cancelled!",
@@ -99,31 +99,31 @@
     "ex.createLocal.label.something": "What is it called?",
     "ex.createLocal.placeholder.anyItem": "any item or service",
     "ex.createLocal.label.coin": "Coin",
-    "ex.createLocal.label.amount": "Số lượng",
+    "ex.createLocal.label.amount": "Amount",
     "ex.createLocal.label.phone": "Phone",
     "ex.createLocal.label.address": "Meet-up place",
     "ex.createLocal.label.uploadImage": "Upload an image of your product",
-    "ex.discover.label.priceBuy": "MUA",
-    "ex.discover.label.priceSell": "BÁN",
+    "ex.discover.label.priceBuy": "BUY",
+    "ex.discover.label.priceSell": "SELL",
     "ex.discover.label.reviews": "({reviewCount})",
     "ex.discover.banner.text": "Got coins? Turn them into a money-making machine.",
     "ex.credit.banner.text": "Sell crypto quickly online. 100% secure. Set your own rates",
     "ex.discover.banner.btnText": "BECOME AN ATM",
     "ex.credit.banner.btnText": "SELL CRYPTO NOW",
-    "ex.discover.shakeDetail.label.amount": "Số lượng",
+    "ex.discover.shakeDetail.label.amount": "Amount",
     "ex.discover.shakeDetail.label.total": "Total",
     "ex.discover.shakeDetail.label.maximum": "Maximum:",
     "ex.me.label.with": "With",
     "ex.me.label.from": "From",
     "ex.me.label.about": "About",
-    "ex.btn.confirm": "Xác nhận",
+    "ex.btn.confirm": "Confirm",
     "ex.btn.OK": "OK",
     "ex.btn.notNow": "Not now",
     "ex.btn.topup.now": "Top up now ",
     "ex.btn.create.atm": "Create my ATM first ",
     "ex.btn.update.atm": "Update my ATM first ",
-    "ex.label.buy": "Mua",
-    "ex.label.sell": "Bán",
+    "ex.label.buy": "Buy",
+    "ex.label.sell": "Sell",
     "ex.label.bought": "Bought",
     "ex.label.sold": "Sold",
     "ex.label.buying": "Buying",
@@ -133,22 +133,22 @@
     "ex.label.seller": "Seller",
     "ex.label.sale": "Sale",
     "ex.label.purchase": "Purchase",
-    "ex.label.cost": "Giá",
-    "ex.label.amount": "Số lượng",
-    "ex.exchange.status.created": "Đang xác nhận",
+    "ex.label.cost": "Cost",
+    "ex.label.amount": "Amount",
+    "ex.exchange.status.created": "Verifying",
     "ex.exchange.status.active": "Active",
-    "ex.exchange.status.closing": "Đang xử lý...",
+    "ex.exchange.status.closing": "Processing",
     "ex.exchange.status.closed": "Deleted",
-    "ex.exchange.status.shaking": "Đang xử lý...",
-    "ex.exchange.status.shake": "Đang xử lý...",
-    "ex.exchange.status.completing": "Đang xử lý...",
-    "ex.exchange.status.completed": "Thành công",
-    "ex.exchange.status.pre_shaking": "Đang xử lý...",
-    "ex.exchange.status.pre_shake": "Đang xử lý...",
-    "ex.exchange.status.rejecting": "Đang xử lý...",
-    "ex.exchange.status.rejected": "Đã từ chối",
-    "ex.exchange.status.cancelling": "Đang xử lý...",
-    "ex.exchange.status.cancelled": "Đã hủy",
+    "ex.exchange.status.shaking": "Processing",
+    "ex.exchange.status.shake": "Processing",
+    "ex.exchange.status.completing": "Processing",
+    "ex.exchange.status.completed": "Success",
+    "ex.exchange.status.pre_shaking": "Processing",
+    "ex.exchange.status.pre_shake": "Processing",
+    "ex.exchange.status.rejecting": "Processing",
+    "ex.exchange.status.rejected": "Rejected",
+    "ex.exchange.status.cancelling": "Processing",
+    "ex.exchange.status.cancelled": "Cancelled",
     "ex.shop.explanation.created": "This may take a few minutes. Good things come to those who wait.",
     "ex.shop.explanation.active": "Your ATM is now visible on the map!",
     "ex.shop.explanation.closing": "Please wait a few minutes.",
@@ -163,19 +163,19 @@
     "ex.shop.explanation.rejected": "",
     "ex.shop.explanation.cancelling": "Cancelling your offer. Please wait a few minutes.",
     "ex.shop.explanation.cancelled": "",
-    "ex.cc.status.processing": "Đang xử lý...",
-    "ex.cc.status.success": "Hoàn thành",
-    "ex.cc.status.cancelled": "Thất bại",
+    "ex.cc.status.processing": "Processing",
+    "ex.cc.status.success": "Done",
+    "ex.cc.status.cancelled": "Failed",
     "ex.shop.status.created": "Setting up your ATM",
     "ex.shop.status.active": "ATM listed",
     "ex.shop.status.closing": "Deleting your ATM",
-    "ex.shop.status.closed": "Đã xóa",
-    "ex.shop.shake.status.pre_shaking": "Đang xử lý...",
-    "ex.shop.shake.status.pre_shake": "Đang xử lý...",
-    "ex.shop.shake.status.shaking": "Đang xử lý...",
-    "ex.shop.shake.status.shake": "Đang xử lý...",
-    "ex.shop.shake.status.rejecting": "Đang xử lý...",
-    "ex.shop.shake.status.rejected": "Đã từ chối",
+    "ex.shop.status.closed": "Deleted",
+    "ex.shop.shake.status.pre_shaking": "Processing",
+    "ex.shop.shake.status.pre_shake": "Processing",
+    "ex.shop.shake.status.shaking": "Processing",
+    "ex.shop.shake.status.shake": "Processing",
+    "ex.shop.shake.status.rejecting": "Processing",
+    "ex.shop.shake.status.rejected": "Rejected",
     "ex.shop.shake.status.completing": "Processing",
     "ex.shop.shake.status.completed": "Success",
     "ex.shop.shake.status.cancelling": "Processing",
@@ -192,7 +192,7 @@
     "ex.shop.shake.button.using.scan.address": "Use scanned address",
     "ex.shop.shake.button.using.default.address": "Use Ninja address",
     "ex.shop.shake.button.using.scan.rescan": "Rescan address",
-    "ex.shop.dashboard.label.transaction.successfull.failed": "Giao dịch thành công/thất bại",
+    "ex.shop.dashboard.label.transaction.successfull.failed": "Transactions successful/failed",
     "ex.shop.dashboard.label.transaction.pending": "Transactions pending",
     "ex.shop.dashboard.label.revenue": "Bought/sold revenue",
     "ex.shop.dashboard.label.transaction.total": "Total bought/sold",
@@ -216,18 +216,18 @@
     "ex.error.323": "Exceeding global credit limit. Please try again tomorrow.",
     "ex.error.324": "Credit exists",
     "ex.error.325": "Credit price changed",
-    "ex.error.326": "Tạm thời không đủ coin. Xin vui lòng nhập số lượng nhỏ hơn.",
+    "ex.error.326": "We don’t have enough coin for your request! Please try with smaller amount.",
     "ex.error.327": "Credit item status is invalid",
-    "ex.error.331": "Vượt quá hạn mức 120.000.000 VNĐ/ngày. Xin vui lòng nhập lại số lượng nhỏ hơn hoặc thử lại vào ngày mai.",
+    "ex.error.331": "That exceeds your 5000 USD daily limit. Please enter a smaller amount or come back tomorrow.",
     "ex.error.331.sell": "That exceeds your 5000 USD daily limit. Please enter a smaller amount or come back tomorrow.",
     "ex.error.332": "You haven’t transfered coin yet! Please check",
     "ex.error.default": "Oops! Something went wrong.",
     "ex.earlyBird.label.1": "WELCOME TO OUR <br/> EARLY BIRD PROGRAM!",
     "ex.earlyBird.label.2": "Create your ATM with <br /><span class=\"intro-amount\">{freeETH} ETH</span> free now!",
     "ex.earlyBird.btn": "Open ATM",
-    "error.required": "Bắt buộc",
-    "error.requiredOne": "Vui lòng điền đủ thông tin",
-    "error.greaterThan": "Mức tối thiểu là {min}",
+    "error.required": "Required",
+    "error.requiredOne": "You need to fill in one of these!",
+    "error.greaterThan": "Must be greater than {min}",
     "error.lessThan": "Must be less than {max}",
     "error.greaterThan.equal": "Must be equal or greater than {min}",
     "error.lessThan.equal": "Must be less than or equal {max}",
@@ -238,7 +238,7 @@
     "btn.reject": "Reject",
     "btn.complete": "Complete",
     "btn.withdraw": "Withdraw",
-    "btn.cancel": "Huỷ",
+    "btn.cancel": "Cancel",
     "btn.close": "Close",
     "btn.accept": "Accept",
     "btn.delete": "Delete",
@@ -269,18 +269,18 @@
     "ex.sort.distance": "Distance",
     "ex.sort.price": "Best Price",
     "ex.sort.rating": "Rating",
-    "ex.sort.price.buy.btc": "Mua BTC",
+    "ex.sort.price.buy.btc": "Buy BTC",
     "ex.sort.price.sell.btc": "Sell BTC",
-    "ex.sort.price.buy.eth": "Mua ETH",
+    "ex.sort.price.buy.eth": "Buy ETH",
     "ex.sort.price.sell.eth": "Sell ETH",
     "ex.discover.label.open.atm": "Open your ATM",
     "ex.discover.label.manage.atm": "My ATM",
     "ex.discover.label.dashboard": "New Order",
     "product_info": "Ninja is open-source, decentralized software that never holds your funds. By freely choosing to use Ninja, the user accepts sole responsibility for their behavior and agrees to abide by the legalities of their governing jurisdiction. Ninja cannot be liable for legal, monetary or psychological damages should you do something stupid. Never invest more than you are willing to lose. Play safe!",
-    "cc.label.1": "Mua crypto bằng credit card",
-    "cc.label.2": "Ninja cam kết mang đến giá thành tốt nhất thị trường",
+    "cc.label.1": "Buy crypto with credit card",
+    "cc.label.2": "Ninja has some of the best prices around",
     "cc.label.3": "Common packages:",
-    "cc.btn.buyNow": "Mua ngay",
+    "cc.btn.buyNow": "Buy now",
     "cc.btn.payNow": "Pay now",
     "cc.label.basic": "Basic",
     "cc.label.pro": "Pro",
@@ -295,13 +295,13 @@
     "cc.label.receive.address": "RECEIVING ADDRESS",
     "escrow.label.depositCoin": "Sell crypto safely online",
     "escrow.label.iWantTo": "Deposit the amount of crypto you want to sell. Enter your desired commission as a percentage of the selling price",
-    "escrow.label.price": "Giá",
+    "escrow.label.price": "Price",
     "escrow.label.percentage": "Percentage",
     "escrow.label.howToCalculatePrice": "How do I calculate my percentage?",
     "escrow.label.yourSellingPrice": "Your selling price",
     "escrow.label.sellingPriceCaption": "= Market price + your percentage",
     "escrow.btn.depositNow": "Deposit now",
-    "escrow.btn.depositSuccessMessage": "Thành công!",
+    "escrow.btn.depositSuccessMessage": "Successful!",
     "escrow.label.wallet.setDefaultWallet": "You must set default wallet {currency}",
     "dashboard.heading": "Dashboard",
     "dashboard.label.overview": "Overview",
@@ -311,7 +311,7 @@
     "dashboard.btn.reactivate": "Activate",
     "dashboard.btn.depositing": "Depositing...",
     "dashboard.btn.topUpByCC": "Top up ATM with credit card",
-    "dashboard.btn.scanQRCode": "Quét mã QR",
+    "dashboard.btn.scanQRCode": "Scan QR code",
     "dashboard.btn.depositEscrow": "Deposit to Escrow",
     "dashboard.btn.withdrawEscrow": "Withdraw",
     "dashboard.label.amountSold": "Crypto sold",
@@ -323,7 +323,7 @@
     "dashboard.label.deposit.description1": "Need even more security? Use Escrow. ",
     "dashboard.label.deposit.description2": "Fraud-proof. 100% secured. Safety guaranteed.",
     "askLocationPermission.label.1": "We would like to access your location to find nearest ATMs around you!",
-    "askLocationPermission.label.2": "<span>Please click <strong>\"Allow\"</strong> to start trading now!</span>",
+    "askLocationPermission.label.2": "<span>Please click <strong>\"Allow\"</strong> to start trading now! </span>",
     "askLocationPermission.btn.dontAllow": "Don't Allow",
     "askLocationPermission.btn.allow": "Allow",
     "FAQ_TITLE": "FAQ",
@@ -586,7 +586,7 @@
             "link": "https://t.me/ninja_org"
         }
     ],
-    "COIN_EXCHANGE_LP_FAQ_TITLE": "Những câu hỏi thường gặp",
+    "COIN_EXCHANGE_LP_FAQ_TITLE": "Frequently asked questions",
     "landing_page.cash.faq": [
         {
             "question": "What’s the difference between Ninja ATM and other crypto ATMs?",
@@ -791,48 +791,48 @@
     ],
     "landing_page.coin.faq": [
         {
-            "question": "Giới thiệu Ninja Coin",
-            "answer": "Ninja Coin là một ứng dụng được phát triển bởi Shanzhai Limited - một công ty Hong Kong có văn phòng đại diện tại New York, California và TP. Hồ Chí Minh. Chúng tôi mong muốn tạo ra một nền tảng có thể giúp mọi người mua bán tiền mã hóa thuận tiện, an toàn với mức giá hấp dẫn nhất"
+            "question": "About Ninja Coin",
+            "answer": "Ninja Coin is a product of Shanzhai Limited - a Hong Kong-based company with offices in Ho Chi Minh City, New York and California. We provide a platform where people can buy crypto more conveniently, safely and with the most attractive price"
         },
         {
-            "question": "Mua tiền mã hóa trên Ninja như thế nào?",
-            "answer": "Bước 1: Truy cập vào <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\nBước 2: Xác minh danh tính của bạn<br/>\nBước 3: Nhập địa chỉ ví<br/> \nBước 4: Nhập số lượng crypto bạn muốn mua (hoặc số lượng tiền bạn muốn dùng để mua crypto)<br/>\nBước 5: Chọn hình thức thanh toán: Chuyển khoản qua ngân hàng/Giao dịch trực tiếp<br/>\nBước 6: Ấn 'Mua'<br/>\nBước 7: Thanh toán theo hình thức đã chọn:<br/>\n<ul>\n <li>Nếu chọn chuyển khoản qua ngân hàng, xin hãy thực hiện giao dịch </li>\n <li>Nếu chọn giao dịch trực tiếp, xin hãy nhập địa chỉ, số điện thoại và thời điểm bạn muốn thực hiện giao dịch. Ninja Coin sẽ đến tận nơi để hoàn thành giao dịch. Với hình thức này, bạn có thể thanh toán bằng tiền mặt hoặc quẹt thẻ tín dụng </li>\n</ul>\n"
+            "question": "How do I buy coin on Ninja?",
+            "answer": "Step 1: Visit <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong><br/>\n              Step 2: Verify your identity<br/>\n              Step 3: Select/Scan your crypto wallet<br/>\n              Step 4: Enter the amount of coin you want to buy (or the amount of fiat money you want to use to buy coin)<br/>\n              Step 5: Choose your buying method: Bank Transfer/COD<br/>\n              Step 6: Click Buy<br/>\n              Step 7: Make payment according to your buying method:<br/>\n              <ul>\n                <li>If you choose Bank Transfer: make a bank transfer</li>\n                <li>If you choose COD: Enter your address, time and phone number. Wait for Ninja to come and pay with bank account/credit card/cash</li>\n              </ul>\n"
         },
         {
-            "question": "Tạo tài khoản trên Ninja như thế nào?",
-            "answer": "Ninja Coin sẽ tạo cho bạn một tài khoản ngay từ lần đầu tiên bạn truy cập vào địa chỉ <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong>. Bạn sẽ Không cần tạo tài khoản để đăng nhập. Tuy nhiên, bạn chỉ có thể mua bán trên Ninja Coin sau khi đã hoàn thành các bước xác minh danh tính\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Giá trị giao dịch</th>\n              <th>Yêu cầu</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><12.000.000 VNĐ</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)</td>\n              </tr>\n              <tr>\n                <td><120.000.000 VNĐ</td>\n                <td>Ảnh chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Ảnh chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
+            "question": "How to create account on Ninja?",
+            "answer": "Ninja Coin will create an account for you immediately the first time you visit us at <strong><a href=\"https://ninja.org/coin\">https://ninja.org/coin</a></strong> instead of traditional login with email/username and password. However, you can only purchase after you’ve done the verification process\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Transaction Value</th>\n              <th>Verification Information Required</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td><$500</td>\n                <td>Photo of your ID (both sides)</td>\n              </tr>\n              <tr>\n                <td><$5000</td>\n                <td>Photo of your ID (both sides)<br/>\n                    Selfie with your ID and a paper written “Ninja Coin”\n                    </td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
-            "question": "Tại sao tôi cần phải xác minh danh tính?",
-            "answer": "Ninja yêu cầu người dùng phải xác minh danh tính để tuân thủ những điều luật về phòng chống rửa tiền cũng như phòng chống tội phạm tài chính. Những thông tin của người dùng sẽ được giữ kín tuyệt đối, không bao giờ bị tiết lộ cho một bên thứ ba."
+            "question": "Why do I need to verify my identity?",
+            "answer": "Your account must be verified to comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations. We do not and will never sell or rent your personal information to any third parties"
         },
         {
-            "question": "Mua tiền mã hóa trên Ninja có an toàn không?",
-            "answer": "Tất cả các giao dịch trên Ninja đều có bảo hiểm tiền gửi 100% lên đến $1000 mỗi giao dịch"
+            "question": "Is buying coin on Ninja secure?",
+            "answer": "Every transaction on Ninja is covered 100% by a warranty with value up to $1000 each"
         },
         {
-            "question": "Hạn mức tối đa mà tôi có thể mua?",
-            "answer": "Hiện tại, giới hạn cho mỗi người dùng phụ thuộc vào mức độ xác minh danh tính, lên đến <strong>120.000.000 VNĐ/người/ngày</strong>. Ninja vẫn đang tiếp tục nỗ lực để có thể nâng hạn mức này lên trong tương lai gần.\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Mức độ xác minh danh tính</th>\n              <th>Số lượng tối đa</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt)</td>\n                <td>12.000.000 VNĐ/người/ngày</td>\n              </tr>\n              <tr>\n                <td>Hình chụp chứng minh nhân dân (cả hai mặt)<br/>\n                    Hình chụp của bạn với chứng minh nhân dân cùng tờ giấy có chữ \"Ninja Coin\"\n                </td>\n                <td>120.000.000 VNĐ/người/ngày</td>\n              </tr>\n          </tbody>\n      </table>\n"
+            "question": "What is the maximum amount can I purchase?",
+            "answer": "The maximum amount depends on user verification level and is up to <strong>$5000/day/user</strong> by now. We are working on expanding it in the near future\n<br/><br/>\n<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Verification Level</th>\n              <th>Maximum amount</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Photo of your ID (both sides)</td>\n                <td>$500/user/day</td>\n              </tr>\n              <tr>\n                <td>Photo of your ID (both sides)<br/>\n                    Selfie with your ID and a paper written “Ninja Coin”\n                </td>\n                <td>$5000/user/day</td>\n              </tr>\n          </tbody>\n      </table>\n"
         },
         {
-            "question": "Ninja chấp nhận những phương thức thanh toán nào?",
-            "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Hình thức mua</th>\n              <th>Phương thức thanh toán</td>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Chuyển khoản ngân hàng (mua online)</td>\n                <td>Chuyển khoản ngân hàng</td>\n              </tr>\n              <tr>\n                <td>Giao dịch trực tiếp (mua offline)</td>\n                <td>Chuyển khoản ngân hàng<br/>\n                    Credit card<br/>\n                    Tiền mặt\n              </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>Khi mua online, bạn sẽ chuyển khoản trước cho Ninja. Khi nhận được tiền, Ninja sẽ ngay lập tức chuyển coin vào địa chỉ ví của bạn</li>\n                <li>Khi mua offline, Ninja sẽ đến đúng theo thời gian và địa điểm bạn cung cấp để thực hiện giao dịch. Bạn có thể thanh toán bằng thẻ ngân hàng, thẻ credit hoặc tiền mặt sau khi đã nhận được đúng số coin từ Ninja</li>\n              </ul>\n"
+            "question": "What payment method can I use?",
+            "answer": "<table class=\"landing-table\">\n         <thead>\n            <tr>\n              <th>Buying method</th>\n              <th>Payment method</th>\n            </tr>\n          </thead>\n          <tbody>\n              <tr>\n                <td>Bank Transfer (Buying online)</td>\n                <td>Bank transfer</td>\n              </tr>\n              <tr>\n                <td>COD (Buying offline)</td>\n                <td>Bank transfer<br/>\n                    Credit card<br/>\n                    Cash\n                    </td>\n              </tr>\n          </tbody>\n      </table><br/><ul>\n                <li>For buying online, you conduct the payment separately from the platform. We will transfer the coin to your wallet once we have received your payment</li>\n                <li>For buying offline, we will arrange a meetup with the time and address you provide. You can pay with your bank account, credit card or cash after you have received your coin from Ninja</li>\n              </ul>"
         },
         {
-            "question": "Mất bao lâu để tôi có thể nhận coin của mình?",
-            "answer": "Thời gian nhận coin phụ thuộc vào thời gian ngân hàng xử lí các giao dịch (khi mua online) và thời gian hệ thống blockchain xác nhận giao dịch trên chuỗi khối, nhưng thường cũng chỉ mất vài phút là bạn sẽ nhận được coin của mình"
+            "question": "How long should I wait to receive my coin?",
+            "answer": "It depends on the time for the bank to process transactions (for buying online) and for the blockchain network to do the confirmations, which usually only takes a few minutes"
         },
         {
-            "question": "Sẽ thế nào nếu giá cả thay đổi khi tôi đang thực hiện giao dịch?",
-            "answer": "Giá mua đã được chốt ngay khi bạn thực hiện lệnh mua. Giá cả thay đổi từ sau đó hoàn toàn không ảnh hưởng đến giao dịch của bạn."
+            "question": "What happens if the price changes during my transaction?",
+            "answer": "Your price is fixed at the time you place a buy order. Therefore, all the later changes in price will not affect your transaction"
         },
         {
-            "question": "Phí giao dịch là bao nhiêu?",
-            "answer": "Ninja chỉ tính 2% phí giao dịch khi bạn thanh toán bằng thẻ credit. Chuyển khoản qua ngân hàng hoặc thanh toán trực tiếp bằng tiền mặt hoàn toàn không tốn phí."
+            "question": "What are the fees?",
+            "answer": "We only takes 2% fee when you pay with credit card. Other payment options remain free"
         },
         {
-            "question": "Khi cần hỗ trợ, tôi có thể liên lạc bộ phận nào?",
-            "answer": "Hãy sử dụng tính năng live chat để nhận được sự trợ giúp kịp thời khi mua bán tiền mã hóa trên Ninja."
+            "question": "How can I contact for support?",
+            "answer": "Feel free to contact us via live chat if you need any support for buying coin on Ninja"
         }
     ],
     "COIN_EXCHANGE_LP_TRADE_EASY_TRADE_SAFE": {
@@ -857,7 +857,7 @@
         ]
     },
     "COIN_EXCHANGE_LP_START_TRADING_NOW": "Start Trading Now",
-    "COIN_EXCHANGE_LP_PLACEHOLDER_INPUT": "Xin vui lòng nhập email của bạn",
+    "COIN_EXCHANGE_LP_PLACEHOLDER_INPUT": "Enter your email",
     "COIN_EXCHANGE_LP_TITLE_SUBMIT_BT": "Join mailing list",
     "COIN_EXCHANGE_LP_SECOND_BOX_TITLE": "We are the first to offer a completely decentralized platform to buy and sell Bitcoin and Ethereum.",
     "COIN_EXCHANGE_LP_SECOND_BOX_DESCRIPTION_1": "Multiple payment method: credit card and cash",
@@ -877,110 +877,110 @@
     },
     "me": {
         "profile": {
-            "head_text": "Quá trình xác minh danh tính thường chỉ mất vài phút, hoặc lâu hơn đôi chút nếu ngoài giờ làm việc. Những thông tin cá nhân của bạn sẽ được giữ bí mật tuyệt đối.",
+            "head_text": "Our verification process typically takes just a few minutes. This may take slightly longer outside business hours. Your information will remain 100% private.",
             "username": {
-                "exist": "Tên tài khoản này đã có người sử dụng. Xin vui lòng chọn tên khác.",
-                "success": "Nickname của bạn đã được xác nhận",
-                "required": "Yêu cầu nhập tên"
+                "exist": "Name already exists",
+                "success": "Your alias has been recorded",
+                "required": "Name required"
             },
             "verify": {
                 "alert": {
                     "send": {
-                        "phone": "Ninja đã gửi mã số bí mật đến điện thoại của bạn.",
-                        "email": "Ninja đã gửi mã xác nhận đến email của bạn."
+                        "phone": "We sent the secret code to your phone.",
+                        "email": "We sent a verification code to your email."
                     },
                     "notValid": {
                         "server": {
-                            "phone": "Số điện thoại không đúng. Xin vui lòng nhập lại.",
-                            "email": "Địa chỉ email không đúng. Xin vui lòng nhập lại."
+                            "phone": "That’s not a real number. Try harder.",
+                            "email": "That’s not a real email. Try harder."
                         },
                         "client": {
-                            "phone": "Xin vui lòng nhập chính xác số điện thoại.",
-                            "email": "Xin vui lòng nhập chính xác địa chỉ email."
+                            "phone": "A valid phone number would work better.",
+                            "email": "A valid email would work better."
                         },
                         "idVerification": {
-                            "invalidFullName": "Xin vui lòng nhập đầy đủ tên của bạn.",
-                            "invalidIDNumber": "Xin vui lòng nhập số chứng minh nhân dân.",
-                            "invalidDocument": "Xin vui lòng chọn loại giấy tờ",
-                            "invalidFrontImage": "Xin vui lòng tải lên hình ảnh mặt trước của chứng minh nhân dân",
-                            "invalidBackImage": "Xin vui lòng tải lên hình ảnh mặt sau của chứng minh nhân dân",
-                            "invalidEmail": "Bạn chưa cập nhật địa chỉ email! Bạn có chắc không muốn nhận thông báo về các giao dịch?",
-                            "invalidSelfieImage": "Xin vui lòng tải lên hình ảnh bạn chụp chung với chứng minh nhân dân hoặc hộ chiếu của mình"
+                            "invalidFullName": "Please enter your full name",
+                            "invalidIDNumber": "Please enter valid document ID number",
+                            "invalidDocument": "Please choose a document type",
+                            "invalidFrontImage": "Please upload front page of your document",
+                            "invalidBackImage": "Please upload back page of your document",
+                            "invalidEmail": "Your email address is missing! Are you sure you don’t want to receive transaction info?",
+                            "invalidSelfieImage": "Please upload a selife photo with your document"
                         }
                     },
                     "require": {
-                        "phone": "Xin vui lòng nhập mã xác nhận của bạn.",
-                        "email": "Xin vui lòng nhập mã xác nhận của bạn."
+                        "phone": "Please enter your verify code.",
+                        "email": "Please enter your verify code."
                     },
                     "success": {
-                        "phone": "Số điện thoại đã được lưu thành công.",
-                        "email": "Email đã được xác nhận thành công.",
-                        "idVerification": "Bạn đã tải lên thành công"
+                        "phone": "Phone number securely saved.",
+                        "email": "Your email has been verified.",
+                        "idVerification": "Your documents has been submitted"
                     },
                     "cannot": {
-                        "phone": "Không thể xác nhận số điện thoại của bạn. Xin hãy nhập chính xác mã xác nhận",
-                        "email": "Không thể xác nhận email của bạn. Xin hãy nhập chính xác mã xác nhận.",
-                        "idVerification": "Không thể tải lên tài liệu của bạn. Xin vui lòng thử lại.",
-                        "idVerification2": "Không thể tải lên tài liệu của bạn."
+                        "phone": "Can't verify your phone, please check your code",
+                        "email": "Can't verify your email, please check your code.",
+                        "idVerification": "Can't submit your documents, please try again",
+                        "idVerification2": "Can't submit your documents."
                     }
                 }
             },
             "text": {
-                "verified": "Xác nhận thành công",
+                "verified": "Verified",
                 "username": {
-                    "label": "Nickname",
-                    "desc1": "Tên của bạn",
+                    "label": "Nick Name",
+                    "desc1": "What do they call you?",
                     "button": {
-                        "submit": "Lưu"
+                        "submit": "Save"
                     }
                 },
                 "phone": {
-                    "label": "Số điện thoại",
-                    "desc1": "Để có thể gửi tặng người sử dụng những phần quà, Ninja cần số điện thoại của bạn để tiện xác minh và liên lạc. Điều này không bắt buộc.",
-                    "desc2": "Chúng tôi chỉ có thể gửi những phần quà đến cho những người đã được xác minh.",
-                    "desc3": "Xin vui lòng xác minh số điện thoại của bạn.",
-                    "desc4": "Xin hãy nhập mã xác nhận đã được gửi đến số điện thoại của bạn.",
+                    "label": "Phone Number",
+                    "desc1": "To send you free ETH sometimes, we’ll need your phone number to verify that you are not a robot. This is optional.",
+                    "desc2": "We only send humans rewards.",
+                    "desc3": "Please verify your phone number.",
+                    "desc4": "Enter the secret code sent to your phone.",
                     "button": {
-                        "send": "Gửi",
-                        "submit": "Xin vui lòng xác minh số điện thoại của bạn"
+                        "send": "Send",
+                        "submit": "Verify your number"
                     }
                 },
                 "email": {
                     "label": "Email",
-                    "desc1": "Bạn có thể nhận thông báo và những cập nhật mới nhất từ Ninja qua email. Điều này không hoàn toàn bắt buộc.",
-                    "desc2": "Xin vui lòng xác nhận email. Bạn sẽ nhận được những thông tin về các giao dịch ở địa chỉ email này.",
-                    "desc3": "Xin vui lòng nhập email của bạn",
-                    "desc4": "Xin hãy nhập mã xác nhận đã được gửi đến email của bạn.",
+                    "desc1": "You may prefer to receive updates and notifications via email. This is also optional.",
+                    "desc2": "Verify your email. You will receive transaction info through this email address",
+                    "desc3": "Enter your email",
+                    "desc4": "Enter the secret code sent to your email.",
                     "button": {
                         "send": "OK",
-                        "submit": "Xin vui lòng xác minh địa chỉ email của bạn"
+                        "submit": "Verify your email"
                     }
                 },
                 "id_verification": {
-                    "label": "Xác minh danh tính",
-                    "desc1": "Để tuân thủ những điều luật và quy định về phòng chống rửa tiền (AML) và phòng chống tội phạm tài chính (CTF).",
-                    "desc2": "Họ và tên",
-                    "desc3": "Số chứng minh nhân dân",
-                    "desc4": "Loại giấy tờ",
-                    "desc5": "Mặt trước",
-                    "desc6": "Xin vui lòng tải ảnh cả hai mặt của chứng minh nhân dân, bằng lái xe hoặc hộ chiếu của bạn dưới định dạng JPG hoặc PNG.",
-                    "desc7": "Mặt sau",
-                    "desc8": "Hình chụp của bạn với chứng minh nhân dân",
-                    "desc9": "Xin vui lòng chụp một tấm hình của bạn với chứng minh nhân dân của mình khi đang cầm một tờ giấy có ghi \"I am in Ninja's dojo\". Hãy đảm bảo rằng hình ảnh rõ nét, dễ nhìn và ở định dạng JPG hoặc PNG.",
+                    "label": "ID Verification",
+                    "desc1": "To comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations.",
+                    "desc2": "Full Name",
+                    "desc3": "Document Number",
+                    "desc4": "Document Type",
+                    "desc5": "Front Side",
+                    "desc6": "Please upload a JPG or PNG of both sides of your passport, ID card or driving license.",
+                    "desc7": "Back Side",
+                    "desc8": "Selfie with Identity Card",
+                    "desc9": "Please take a selfie with your previous ID card and a piece of paper writing \"I am in Ninja's dojo\". Make sure that the photo is complete and clearly visible, in JPG or PNG format.",
                     "desc10": "Email",
-                    "desc11": "Tài liệu xác minh danh tính",
-                    "desc12": "Xác minh cấp 1: hạn mức giao dịch tối đa $500/ngày.",
-                    "desc13": "Xác minh cấp 2: hạn mức giao dịch tối đa $5.000/ngày.",
-                    "uploading": "Đang tải lên...",
+                    "desc11": "Identification Document",
+                    "desc12": "Level 1 verification: Trade with a limit of 500 USD a day.",
+                    "desc13": "Level 2 verification: Trade with the top limit of 5000 USD a day.",
+                    "uploading": "Uploading",
                     "button": {
-                        "upload": "Đăng tải hình ảnh",
-                        "submit": "Gửi"
+                        "upload": "Upload file",
+                        "submit": "Submit"
                     },
                     "status": {
-                        "processing": "Đang xử lý...",
-                        "level1": "Cấp độ 1",
-                        "finished": "Đã hoàn thành",
-                        "rejected": "Xác minh danh tính bị từ chối. Xin vui lòng thử lại."
+                        "processing": "Processing",
+                        "level1": "Level 1",
+                        "finished": "Finished",
+                        "rejected": "Rejected"
                     }
                 }
             }
@@ -1008,11 +1008,11 @@
         "credit": {
             "overview": {
                 "askToDeactive": "Pause your coin selling?",
-                "messageDeactiveSuccess": "Tạm dừng thành công"
+                "messageDeactiveSuccess": "Pause successfully"
             },
             "transaction": {
-                "amount": "Số lượng",
-                "processing": "Đang xử lý...",
+                "amount": "Amount",
+                "processing": "Processing...",
                 "deposit": {
                     "title": "DEPOSIT",
                     "percentage": "Percentage"
@@ -1030,14 +1030,14 @@
                 "instant": {
                     "title": "PURCHASE ORDER",
                     "buying": "Buying",
-                    "cost": "Giá"
+                    "cost": "Cost"
                 }
             },
             "withdraw": {
                 "title": "Withdraw money",
                 "yourBalance": "Your balance (USD)",
                 "yourPapalName": "Your Paypal email",
-                "amount": "Số lượng (USD)",
+                "amount": "Amount (USD)",
                 "buttonTitle": "Withdraw to your PayPal",
                 "description": "<span>It will take within a day for us <br /> to transfer money into your account.</span>",
                 "askToWithdraw": "Do you want to withdraw?",
@@ -1048,7 +1048,7 @@
             },
             "withdrawSuccess": {
                 "description": "Withdraw successfully!",
-                "descriptionTransfer": "Ninja sẽ nhanh chóng thực hiện giao dịch, thời hạn: 24 giờ.",
+                "descriptionTransfer": "We will make the transfer very shortly within 24 hours",
                 "buttonTitle": "Back to your dashboard"
             },
             "deposit": {
@@ -1079,12 +1079,12 @@
     },
     "create": {
         "cod_form": {
-            "cod": "Thanh toán bằng tiền mặt",
-            "buy_btn": "Mua",
-            "your_address": "Hiện tại chỉ có tại Tp. Hồ Chí Minh",
-            "your_phone": "Số điện thoại",
-            "time": "Thời điểm giao dịch và lưu ý",
-            "default_time": "Càng sớm càng tốt"
+            "cod": "Cash on Delivery",
+            "buy_btn": "Buy",
+            "your_address": "Only available in Ho Chi Minh City for now",
+            "your_phone": "Phone number",
+            "time": "Time to delivery & Note",
+            "default_time": "As soon as possible"
         },
         "cash": {
             "credit": {
@@ -1108,7 +1108,7 @@
                 "addressHint": "Enter your address...",
                 "bankInfo": "Bank info",
                 "ccInfo": "CC info",
-                "statusTitle": "Trạng thái",
+                "statusTitle": "Status",
                 "personalAtm": "Personal ATM",
                 "storeAtm": "Store ATM",
                 "confirmCreateAtm": "Create your ATM?",
@@ -1118,9 +1118,9 @@
                 "no_history": "You do not have any order yet."
             },
             "confirm_button": {
-                "desc": "Bạn có chắc không?",
-                "confirm": "Có",
-                "cancel": "Không"
+                "desc": "Are you sure?",
+                "confirm": "Sure",
+                "cancel": "Cancel"
             },
             "button": {
                 "create": "Create my ATM",
@@ -1136,21 +1136,21 @@
                 "sunday": "Sunday"
             },
             "transactions": {
-                "amount": "Số lượng",
-                "needToTransfer": "Giá",
-                "status": "Trạng thái",
-                "to_wallet": "Đến địa chỉ ví",
+                "amount": "Amount",
+                "needToTransfer": "Cost",
+                "status": "Status",
+                "to_wallet": "To Wallet",
                 "statusValues": {
-                    "processing": "Đang chờ",
-                    "success": "Thành công",
-                    "transferring": "Đang chuyển coin...",
-                    "cancelled": "Huỷ",
-                    "fiat_transfering": "Đang chuyển tiền...",
-                    "transfer_failed": "Thất bại"
+                    "processing": "Pending",
+                    "success": "Success",
+                    "transferring": "Sending coins...",
+                    "cancelled": "Canceled",
+                    "fiat_transfering": "Sending money...",
+                    "transfer_failed": "Failed"
                 },
-                "messageTransfer": "Bạn vẫn chưa chuyển coin.",
+                "messageTransfer": "You haven't transferred yet.",
                 "transferNow": " View detail",
-                "cancel_order": "Huỷ",
+                "cancel_order": "Cancel",
                 "review_order": "Review"
             }
         }
@@ -1165,22 +1165,22 @@
             "error": {
                 "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
                 "submit_twitter": "You haven't followed us yet. Please try again.",
-                "confirm_code": "Mã xác nhận không đúng. Xin hãy thử lại!",
-                "verify_code": "Không thể gửi email xác nhận",
+                "confirm_code": "Verification code is wrong. Please try again!",
+                "verify_code": "Can't send verify email",
                 "get_token": "Referral incomplete. Please try again."
             },
             "success": {
                 "submit_telegram": "Welcome to our telegram group!",
                 "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "Email của bạn đã được xác minh thành công.",
-                "verify_code": "Mã xác nhận đã được gửi tới email của bạn.",
+                "confirm_code": "Your email has been verified.",
+                "verify_code": "Verification code has been sent to your email.",
                 "get_token": "Success! 60 shurikens have been added to your wallet.",
                 "copy_link": "Referral link copied to clipboard."
             },
             "button": {
-                "verified": "Xác nhận thành công",
+                "verified": "Verified",
                 "verify": "Verify",
-                "confirm": "Xác nhận",
+                "confirm": "Confirm",
                 "reset_email": "Reset email",
                 "get_token": "Just give me tokens"
             },
@@ -1199,7 +1199,7 @@
             "placeholder": {
                 "telegram_username": "Your telegram alias",
                 "twitter_username": "Your twitter username",
-                "email": "Mã xác nhận",
+                "email": "Verification code",
                 "email2": "Your favourite fake email"
             },
             "label": {
@@ -1286,7 +1286,7 @@
                 "header": "Are you sure?",
                 "message": "This will permanently delete your wallet.",
                 "button_yes": "Yes, remove",
-                "button_cancel": "Huỷ"
+                "button_cancel": "Cancel"
             },
             "transfer": {
                 "title": "Transfer coins",
@@ -1296,13 +1296,13 @@
                 },
                 "label": {
                     "from_wallet": "From wallet",
-                    "to_address": "Đến địa chỉ ví",
+                    "to_address": "To wallet address",
                     "to_address2": "To address",
-                    "amount": "Số lượng",
+                    "amount": "Amount",
                     "usd": "USD",
                     "wallet_balance": "Wallet balance",
-                    "scan_qrcode": "Quét mã QR",
-                    "init_scanner": "Đang khởi động camera. Xin vui lòng chờ...",
+                    "scan_qrcode": "Scan QR code",
+                    "init_scanner": "Initiating Camera. Please wait",
                     "gas_limit": "Gas Limit",
                     "data": "Data",
                     "feel_level": "Fee:",
@@ -1322,7 +1322,7 @@
                 },
                 "button": {
                     "transfer": "Transfer",
-                    "confirm": "Xác nhận"
+                    "confirm": "Confirm"
                 }
             },
             "copy": {
@@ -1334,7 +1334,7 @@
                 "title": "Set as default {0} wallet "
             },
             "cancel": {
-                "title": "Huỷ"
+                "title": "Cancel"
             },
             "restore": {
                 "title": "Restore wallets",
@@ -1431,7 +1431,7 @@
                 "title2": "MY DESPOSIT ADDRESS",
                 "label": {
                     "address": "Address",
-                    "amount": "Số lượng",
+                    "amount": "Amount",
                     "usd": "USD"
                 },
                 "placeholder": {
@@ -1483,7 +1483,7 @@
                 }
             },
             "scan_qrcode": {
-                "header": "Quét mã QR"
+                "header": "Scan QR code"
             },
             "transaction": {
                 "header": "Transaction details"
@@ -1498,7 +1498,7 @@
                     "unconfirmed": "Unconfirmed",
                     "balance": "Balance",
                     "transactions": "Transactions",
-                    "status": "Trạng thái",
+                    "status": "Status",
                     "confirmations": "confirmations",
                     "success": "success",
                     "error": "Error",
@@ -1529,7 +1529,7 @@
             "insufficient": "You have insufficient coin to make the transfer."
         },
         "success": {
-            "transaction": "Giao dịch của bạn sẽ xuất hiện trên chuỗi khối trong khoảng 30 giây."
+            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
     "bitcoin_cash": {
@@ -1539,18 +1539,18 @@
             "insufficient": "You have insufficient coin to make the transfer."
         },
         "success": {
-            "transaction": "Giao dịch của bạn sẽ xuất hiện trên chuỗi khối trong khoảng 30 giây."
+            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
     "ethereum": {
         "error": {
             "invalid_address": "You can only send tokens to Ethereum address",
-            "invalid_address2": "Xin vui lòng nhập chính xác địa chỉ ví.",
+            "invalid_address2": "Please enter a valid receiving address.",
             "insufficient": "You have insufficient coin to make the transfer.",
             "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
         },
         "success": {
-            "transaction": "Giao dịch của bạn sẽ xuất hiện trên chuỗi khối trong khoảng 30 giây."
+            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
     "ripple": {
@@ -1561,7 +1561,7 @@
             "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
         },
         "success": {
-            "transaction": "Giao dịch của bạn sẽ xuất hiện trên chuỗi khối trong khoảng 30 giây."
+            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
     "chat": {
@@ -1656,7 +1656,7 @@
     "WHITE_PAPER_PRIVACY_2_HL": "No sign ups",
     "WHITE_PAPER_PRIVACY_2_1": "The need for a password, email or phone number is obsolete.",
     "WHITE_PAPER_PRIVACY_2_2": "PEX doesn’t collect your personal information. You can use PEX with complete privacy. When you first open PEX, a public/private keypair will be created silently in the background and stored locally on your phone. The public key acts as your anonymous username, and the private key is your password. PEX doesn’t have access to your private key — only you do.",
-    "WHITE_PAPER_PRIVACY_2_3": "Xin lưu ý rằng Ninja cần email của bạn để có thể tạo ra những trải nghiệm tốt nhất cho người dùng, đặc biệt là khi cần thông báo các vấn đề liên quan đến thanh toán. Điều này hoàn toàn không bắt buộc.",
+    "WHITE_PAPER_PRIVACY_2_3": "Note that in the Profile Settings, we provide an option for the user to enter their email address. The purpose is not to collect your email, but for a better experience, especially in use cases related to payments. It’s completely optional.",
     "WHITE_PAPER_PRIVACY_2_4": "Note also that there is an option to backup your private key in Settings. We highly recommend doing so.",
     "WHITE_PAPER_PRIVACY_3_HL": "Anonymous prediction",
     "WHITE_PAPER_PRIVACY_3": "PEX is built on top of Ethereum, which is a public blockchain, but privacy is maintained by keeping your public key anonymous. While the public can see that someone is predicting on something, it’s almost impossible to find out who that someone is.",
@@ -1679,201 +1679,201 @@
     "WHITE_PAPER_END_1": "Hey, thanks for reading. Ninja will go live on the testnet on 5 June! We’re excited to hear your thoughts.",
     "atm_cash_transfer": {
         "to_wallet_address": "TO WALLER ADDRESS",
-        "copy_address_or_scan_qr": "Xin hãy nhập địa chỉ ví hoặc quét mã QR",
-        "we_will_send_coin_to_this_address_desc": "Ninja sẽ gửi coin đến địa chỉ ví của bạn ngay sau khi chúng tôi nhận được biên lai thanh toán.",
+        "copy_address_or_scan_qr": "Copy address or scan QR code",
+        "we_will_send_coin_to_this_address_desc": "We will send coins to this address after receiving your bank receipt.",
         "amount": "WANTED AMOUNT",
-        "transfer": "Tiếp theo",
-        "scan_qr_code": "Quét mã QR",
+        "transfer": "Next",
+        "scan_qr_code": "Scan QR code",
         "invalid_address_valid": "Invalid wallet address",
         "success_msg": "Success!",
         "title": "New Order"
     },
     "atm_cash_transfer_info": {
-        "payment_detail": "Chi tiết giao dịch",
-        "order_will_expire_in": "Thời gian để thanh toán ",
-        "expired": "Hết giờ",
+        "payment_detail": "Payment detail",
+        "order_will_expire_in": "This order will expire in ",
+        "expired": "Expired",
         "customer_amount": "CUSTOMER AMOUNT",
         "amount": "YOUR AMOUNT",
-        "account_name": "Tên tài khoản",
-        "account_number": "Số tài khoản",
-        "bank_name": "Tên ngân hàng",
-        "bank_id": "Mã ngân hàng",
-        "reference_code": "Mã giao dịch",
-        "important": "Lưu ý: ",
-        "notice_desc": "Số tiền thanh toán phải khớp với mã giao dịch. Coin sẽ được chuyển đi ngay khi giao dịch được xác nhận.",
-        "upload_btn": "Xin hãy tải lên biên lai thanh toán",
-        "done_btn": "Hoàn thành",
-        "copied": "Đã sao chép vào bộ nhớ tạm!",
-        "title": "Chi tiết giao dịch",
+        "account_name": "ACCOUNT NAME",
+        "account_number": "ACCOUNT NUMBER",
+        "bank_name": "BANK NAME",
+        "bank_id": "BANK ID",
+        "reference_code": "REFERENCE CODE",
+        "important": "IMPORTANT: ",
+        "notice_desc": "You must send the exact amount & reference code as instructed and upload the payment proof below so we can proceed sending coins to you.",
+        "upload_btn": "Upload your bank receipt",
+        "done_btn": "Done",
+        "copied": "Copied to clipboard!",
+        "title": "Payment detail",
         "amount_info": "Profit = Customer Amount - Your Amount"
     },
     "buy_coin": {
         "label": {
             "header": {
-                "buy_crypto": "Mua Coin Giá Tốt",
-                "with_ninja_coin": " tại Ninja Coin"
+                "buy_crypto": "Buy crypto",
+                "with_ninja_coin": " with Ninja Coin"
             },
-            "description": "Ninja cam kết giá tốt nhất thị trường",
-            "common_packages": "Mua Nhanh",
+            "description": "Ninja has some of the best prices around",
+            "common_packages": "One-click Purchases",
             "basic_package_name": "Starter",
             "pro_package_name": "Master",
             "payment_methods": {
-                "bank": "Chuyển Khoản",
-                "cod": "Tiền Mặt",
-                "cod_info": "Chúng tôi sẽ giao dịch trực tiếp bằng tiền mặt theo thời gian và địa điểm mà bạn cung cấp."
+                "bank": "Bank Transfer",
+                "cod": "COD",
+                "cod_info": "State your time and place for meeting up and we will exchange in person."
             },
             "verify": {
                 "notYet": {
-                    "title": "Vui lòng xác minh tài khoản của bạn để bắt đầu giao dịch.",
-                    "action": "Xác minh ngay"
+                    "title": "To start trading, please take a few minutes to verify your account.",
+                    "action": "Verify now"
                 },
                 "rejected": {
-                    "title": "Xác minh tài khoản bị từ chối. Xin vui lòng thử lại.",
-                    "action": "Xác minh ngay"
+                    "title": "Your verification is rejected. Please try again.",
+                    "action": "Verify now"
                 },
                 "processing": {
-                    "title": "Đang xác minh tài khoản. Chúng tôi sẽ gửi email cho bạn ngay khi xác minh thành công.",
-                    "action": "Vui lòng chờ"
+                    "title": "Verifying your account. We will send you an email once we are done.",
+                    "action": "Please wait"
                 },
                 "verified": {
                     "level_1": {
-                        "title": "Bạn được mua tối đa 12.000.000 VNĐ/ngày. Muốn mua nhiều hơn?",
-                        "action": "Xin vui lòng xác minh thêm"
+                        "title": "You're ready to trade! Your max daily limit is now 500 USD. Want more?",
+                        "action": "Provide additional verification"
                     },
                     "level_2": {
-                        "title": "Xác minh tài khoản hoàn tất. Bạn có thể mua tối đa 120.000.000 VNĐ/ngày!",
+                        "title": "You're fully verified. Your limit has now been increased to the max of 5000 USD!",
                         "action": ""
                     },
-                    "need_selfie_verifiy": "Bạn đã mua quá hạn mức 12.000.000 VNĐ/ngày. Xin vui lòng thực hiện xác minh tài khoản bổ sung để nâng hạn mức lên 120.000.000 VNĐ/ngày"
+                    "need_selfie_verifiy": "You are buying more than 500 usd. Please provide additional verification to increase your limit"
                 }
             },
-            "success": "Thành công!"
+            "success": "Successful!"
         },
-        "buy_package_without_wallet_address_notice": "Xin vui lòng nhập địa chỉ ví."
+        "buy_package_without_wallet_address_notice": "Please choose your wallet first."
     },
     "bank_info": {
-        "transfer_detail_text": " THÔNG TIN CHUYỂN KHOẢN",
-        "account_name": "Tên tài khoản",
-        "account_number": "Số tài khoản",
-        "bank_id": "Mã ngân hàng",
-        "bank_name": "Tên ngân hàng"
+        "transfer_detail_text": " PLEASE MAKE PAYMENT TO THIS DETAILS",
+        "account_name": "Account name",
+        "account_number": "Account number",
+        "bank_id": "Bank ID",
+        "bank_name": "Bank name"
     },
     "buy_coin_transaction": {
-        "code": "Mã giao dịch",
+        "code": "Code",
         "statusValues": {
-            "pending": "Đã tạo",
-            "processing": "Đang xử lý",
-            "success": "Hoàn tất",
-            "transferring": "Đang chuyển coin",
-            "cancelled": "Huỷ",
-            "fiat_transferring": "Đang chuyển tiền",
-            "transfer_failed": "Thất bại",
-            "expired": "Hết hạn",
-            "rejected": "Bị từ chối"
+            "pending": "Created",
+            "processing": "Processing",
+            "success": "Success",
+            "transferring": "Transferring coin",
+            "cancelled": "Canceled",
+            "fiat_transferring": "Transferring money",
+            "transfer_failed": "Failed",
+            "expired": "Expired",
+            "rejected": "Rejected"
         }
     },
-    "buy_coin_transaction.text.no_history": "Chưa có giao dịch. <strong><a href=\"https://ninja.org/coin\">Mua coin giá tốt ngay!</a></strong>",
+    "buy_coin_transaction.text.no_history": "No order yet. Don't miss our good price and <strong><a href=\"https://ninja.org/coin\">create one now!</a></strong>",
     "wallet_selector": {
-        "your_wallet": "Ví của bạn",
-        "wallet_dont_match_error": "Đây không phải địa chỉ ví đúng với loại coin bạn muốn mua. Xin vui lòng kiểm tra lại."
+        "your_wallet": "Your wallets",
+        "wallet_dont_match_error": "The address and type of crypto don’t match. Please check"
     },
-    "buy_coin_confirm_popup.msg": "Mua {amount} {currency} với {fiatAmount} {fiatCurrency}?",
-    "buy_coin_confirm_popup.confirm_text": "Xác nhận",
-    "buy_coin_confirm_popup.cancel_text": "Huỷ",
-    "buy_coin.verify.need_selfie_verifiy": "Bạn đang mua nhiều hơn {fiatAmount} {fiatCurrency}. Vui lòng xác minh thêm để nâng hạn mức giao dịch",
-    "buy_coin.verify.need_selfie_verifiy_action": "Xác minh ngay",
-    "sell_coin_confirm_popup.msg": "Bán {amount} {currency} với giá {fiatAmount}?",
-    "sell_coin_confirm_popup.confirm_text": "Xác nhận",
-    "sell_coin_confirm_popup.cancel_text": "Huỷ",
+    "buy_coin_confirm_popup.msg": "Buy {amount} {currency} with {fiatAmount} {fiatCurrency}?",
+    "buy_coin_confirm_popup.confirm_text": "Confirm",
+    "buy_coin_confirm_popup.cancel_text": "Cancel",
+    "buy_coin.verify.need_selfie_verifiy": "You are buying more than {fiatAmount} {fiatCurrency}. Please verify your account to increase the limit",
+    "buy_coin.verify.need_selfie_verifiy_action": "Verify now",
+    "sell_coin_confirm_popup.msg": "Sell {amount} {currency} for {fiatAmount}?",
+    "sell_coin_confirm_popup.confirm_text": "Confirm",
+    "sell_coin_confirm_popup.cancel_text": "Cancel",
     "review": {
-        "title": "Ý kiến đánh giá",
+        "title": "Review",
         "label": {
-            "description": "Bạn đánh giá trải nghiệm của mình với Ninja Coin như thế nào?",
-            "submitButtonTitle": "Đăng",
-            "loadMore": "Tải thêm",
-            "comments": "bình luận"
+            "description": "How is your experience with Ninja Coin?",
+            "submitButtonTitle": "Submit",
+            "loadMore": "Load more",
+            "comments": "comments"
         }
     },
     "sell_coin": {
         "label": {
             "header": {
-                "title": "Bán"
+                "title": "Sell coin"
             },
             "verify": {
                 "notYet": {
-                    "title": "Xin vui lòng xác minh tài khoản để bắt đầu giao dịch.",
-                    "action": "Xác minh ngay"
+                    "title": "To start trading, please take a few minutes to verify your account.",
+                    "action": "Verify now"
                 },
                 "rejected": {
-                    "title": "Xác minh tài khoản thất bại. Xin vui lòng thử lại.",
-                    "action": "Xác minh ngay"
+                    "title": "Your verification is rejected. Please try again.",
+                    "action": "Verify now"
                 },
                 "processing": {
-                    "title": "Tài khoản đang được xác minh. Bạn sẽ nhận được email ngay khi quá trình xác minh hoàn tất.",
-                    "action": "Xin vui lòng đợi"
+                    "title": "Verifying your account. We will send you an email once we are done.",
+                    "action": "Please wait"
                 },
                 "verified": {
                     "level_1": {
-                        "title": "Bạn được bán tối đa 12.000.000 VNĐ/ngày. Muốn bán nhiều hơn?",
-                        "action": "Xin vui lòng xác minh thêm"
+                        "title": "You're ready to trade! Your max daily limit is now 500 USD. Want more?",
+                        "action": "Provide additional verification"
                     },
                     "level_2": {
-                        "title": "Xác minh tài khoản hoàn tất. Bạn được bán tối đa 120.000.000 VNĐ/ngày!",
+                        "title": "You're fully verified. Your limit has now been increased to the max of 5000 USD!",
                         "action": ""
                     },
-                    "need_selfie_verifiy": "Bạn đã mua quá hạn mức 12.000.000 VNĐ/ngày. Xin vui lòng thực hiện xác minh tài khoản bổ sung để nâng hạn mức lên 120.000.000 VNĐ/ngày"
+                    "need_selfie_verifiy": "You are buying more than 500 usd. Please provide additional verification to increase your limit"
                 }
             }
         },
         "order": {
             "inputs": {
                 "currency": {
-                    "amount": "Số lượng"
+                    "amount": "Amount"
                 },
-                "bank_owner": "Tên tài khoản",
-                "bank_name": "Tên ngân hàng",
-                "bank_number": "Số tài khoản",
-                "phone": "Số điện thoại"
+                "bank_owner": "Account Name",
+                "bank_name": "Bank Name",
+                "bank_number": "Account Number",
+                "phone": "Phone Number"
             },
             "btn": {
-                "submit_order": "Tiếp theo"
+                "submit_order": "Next"
             }
         },
         "summary": {
-            "label": "Thông tin giao dịch",
+            "label": "Your Selling Order",
             "info": {
-                "code": "Mã giao dịch",
-                "receiving": "Nhận",
-                "selling": "Bán",
-                "address": "Địa chỉ ví",
+                "code": "Code",
+                "receiving": "Receiving",
+                "selling": "Selling",
+                "address": "Address",
                 "notes": {
-                    "main_note": "Lưu ý: phải ấn \"Hoàn thành\" để hoàn tất giao dịch",
-                    "sub_note": "(Bạn có thể không nhận được tiền nếu bỏ qua bước này)",
+                    "main_note": "NOTE: YOU HAVE TO CLICK \"FINISH\" TO COMPLETE THE TRANSACTION",
+                    "sub_note": "(Transaction may be lost if you forget to complete this step)",
                     "list": [
-                        "Xin vui lòng chuyển coin đến đúng địa chỉ ví ở trên",
-                        "Vì thị trường thay đổi liên tục, giá đã chốt sẽ chỉ được giữ trong 5 phút",
-                        "Ninja sẽ chuyển tiền cho bạn ngay khi có xác nhận đầu tiên từ hệ thống."
+                        "Please transfer the exact number to the above address",
+                        "The price of the crypto fluctuates constantly; therefore, we only keep this price for 5 minutes",
+                        "We will transfer the fiat to you as soon as there is 1 confirmation on the network."
                     ]
                 },
                 "confirm_leave": "You are about to leave this page. Your order will be lost"
             },
             "btn": {
-                "close_summary": "Hoàn thành"
+                "close_summary": "Finish"
             }
         }
     },
     "coin_crypto": {
         "price_panel": {
-            "price": "Giá",
-            "sell": "Bán",
-            "buy": "Mua"
+            "price": "Price",
+            "sell": "Sell",
+            "buy": "Buy"
         },
         "contact": {
-            "faq": "Những câu hỏi thường gặp",
-            "chat_with_us": "Hỗ trợ trực tuyến",
+            "faq": "FAQs",
+            "chat_with_us": "Chat with us Online Support",
             "phone_cs": "097 550 4082"
         }
     },
-    "coin_tabs.sell": "Bán",
-    "coin_tabs.buy": "MUA"
+    "coin_tabs.sell": "SELL COIN",
+    "coin_tabs.buy": "BUY COIN"
 }

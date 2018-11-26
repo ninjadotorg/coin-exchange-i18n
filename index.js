@@ -101,7 +101,7 @@ function prepare() {
   }
 }
 
-function send() {
+function end() {
   const englishPath = path.resolve(storeDir, 'en.csv');
   console.log('========================', englishPath);
   const data = {
@@ -145,14 +145,9 @@ function unparser() {
   rimraf.sync(`${i18nDir}/*`);
 
   const parsedName = {
-    de: 'de',
-    'es-ES': 'es',
-    fr: 'fr',
-    ja: 'ja',
-    ko: 'ko',
-    ru: 'ru',
-    'zh-CN': 'zh',
-    vi: 'vi'
+    id: 'id',
+    ms: 'ms',
+    'zh-HK': 'zh',
   };
   handleDir(unzipDir);
   fs.createReadStream(zipFile)
