@@ -147,7 +147,7 @@ function unparser() {
   const parsedName = {
     id: 'id',
     ms: 'ms',
-    'zh-HK': 'zh',
+    'zh-HK': 'zh_hk',
   };
   handleDir(unzipDir);
   fs.createReadStream(zipFile)
