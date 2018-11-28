@@ -11,7 +11,8 @@ const argv = process.argv.slice(2);
 const appPath = path.resolve('app');
 const envPath = path.resolve('.env');
 
-const name = process.env.APP_NAME || 'coin-exchange';
+// const name = process.env.APP_NAME || 'coin-exchange-i18n';
+const name = 'coin-exchange-i18n';
 
 if (fs.existsSync(envPath)) {
   require('dotenv').config();
@@ -33,7 +34,7 @@ function exit(msg, code = 1) {
 if (!fs.existsSync(appPath)) exit('Please clone submodules');
 if (!argv.length) exit('Please give me some command');
 
-const sourcePath = path.resolve(appPath, 'src', 'locals', 'en.js');
+const sourcePath = path.resolve(appPath, 'src', 'lang/messages', 'en.js');
 const copiedDir = path.resolve('dist');
 const copiedPath = path.resolve(copiedDir, 'en.js');
 const storeDir = path.resolve('store');
@@ -101,7 +102,7 @@ function prepare() {
   }
 }
 
-function end() {
+function send() {
   const englishPath = path.resolve(storeDir, 'en.csv');
   console.log('========================', englishPath);
   const data = {
@@ -146,8 +147,8 @@ function unparser() {
 
   const parsedName = {
     id: 'id',
-    ms: 'ms',
-    'zh-HK': 'zh_hk',
+    km: 'km',
+    'zh-HK': 'zh',
   };
   handleDir(unzipDir);
   fs.createReadStream(zipFile)
