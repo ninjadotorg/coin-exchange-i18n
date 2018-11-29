@@ -15,6 +15,15 @@
             "copied": "%%%.app.common.copied%%%"
         }
     },
+    "headerBar": {
+        "home": "%%%.headerBar.home%%%",
+        "contactUs": "%%%.headerBar.contactUs%%%",
+        "aboutUs": "%%%.headerBar.aboutUs%%%",
+        "faq": "%%%.headerBar.faq%%%",
+        "wallet": "%%%.headerBar.wallet%%%",
+        "signIn": "%%%.headerBar.signIn%%%",
+        "signUp": "%%%.headerBar.signUp%%%"
+    },
     "error": {
         "required": "%%%.error.required%%%",
         "requiredOne": "%%%.error.requiredOne%%%",
@@ -87,12 +96,16 @@
             "frontPhoto": "%%%.me.accountLevel.frontPhoto%%%",
             "selfiePhoto": "%%%.me.accountLevel.selfiePhoto%%%",
             "submit": "%%%.me.accountLevel.submit%%%",
+            "ok": "%%%.me.accountLevel.ok%%%",
             "alert": {
                 "lv2": "%%%.me.accountLevel.alert.lv2%%%",
                 "lv3": "%%%.me.accountLevel.alert.lv3%%%",
                 "lv4": "%%%.me.accountLevel.alert.lv4%%%",
                 "invalidPhone": "%%%.me.accountLevel.alert.invalidPhone%%%",
-                "sendPhoneCodeSuccess": "%%%.me.accountLevel.alert.sendPhoneCodeSuccess%%%"
+                "sendPhoneCodeSuccess": "%%%.me.accountLevel.alert.sendPhoneCodeSuccess%%%",
+                "sendEmailCodeSuccess": "%%%.me.accountLevel.alert.sendEmailCodeSuccess%%%",
+                "imageIdentifierRequired": "%%%.me.accountLevel.alert.imageIdentifierRequired%%%",
+                "imageSelfieRequired": "%%%.me.accountLevel.alert.imageSelfieRequired%%%"
             }
         }
     },
@@ -172,6 +185,7 @@
             "requiredYourName": "%%%.landingPage.contactUS.requiredYourName%%%",
             "placeholderYourName": "%%%.landingPage.contactUS.placeholderYourName%%%",
             "email": "%%%.landingPage.contactUS.email%%%",
+            "placeholderYourEmail": "%%%.landingPage.contactUS.placeholderYourEmail%%%",
             "requiredEmail": "%%%.landingPage.contactUS.requiredEmail%%%",
             "notValidEmail": "%%%.landingPage.contactUS.notValidEmail%%%",
             "phone": "%%%.landingPage.contactUS.phone%%%",
@@ -179,7 +193,8 @@
             "description": "%%%.landingPage.contactUS.description%%%",
             "placeholderDescription": "%%%.landingPage.contactUS.placeholderDescription%%%",
             "requiredDescription": "%%%.landingPage.contactUS.requiredDescription%%%",
-            "contactButton": "%%%.landingPage.contactUS.contactButton%%%"
+            "contactButton": "%%%.landingPage.contactUS.contactButton%%%",
+            "message": "%%%.landingPage.contactUS.message%%%"
         }
     },
     "wallet": {
@@ -672,7 +687,8 @@
             },
             "walletSelector": {
                 "qrScannerText": "%%%.coin.components.walletSelector.qrScannerText%%%",
-                "currency": "%%%.coin.components.walletSelector.currency%%%"
+                "currency": "%%%.coin.components.walletSelector.currency%%%",
+                "invalidAddressMsg": "%%%.coin.components.walletSelector.invalidAddressMsg%%%"
             },
             "sellOrderInfo": {
                 "transferCoinFirst": "%%%.coin.components.sellOrderInfo.transferCoinFirst%%%",
@@ -695,8 +711,7 @@
             },
             "exchange": {
                 "amountLabel": "%%%.coin.components.exchange.amountLabel%%%",
-                "currency": "%%%.coin.components.exchange.currency%%%",
-                "fiatAmountLabel": "%%%.coin.components.exchange.fiatAmountLabel%%%"
+                "currency": "%%%.coin.components.exchange.currency%%%"
             }
         }
     },
