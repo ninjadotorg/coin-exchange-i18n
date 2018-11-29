@@ -53,6 +53,9 @@
                 "passwordFailed": "%%%.me.accountInfo.alert.passwordFailed%%%",
                 "success": "%%%.me.accountInfo.alert.success%%%",
                 "failed": "%%%.me.accountInfo.alert.failed%%%"
+            },
+            "validate": {
+                "newPasswordRequired": "%%%.me.accountInfo.validate.newPasswordRequired%%%"
             }
         },
         "setting": {},
@@ -64,198 +67,32 @@
             "amount": "%%%.me.history.amount%%%"
         },
         "accountLevel": {
+            "head_text": "%%%.me.accountLevel.head_text%%%",
+            "step1": "%%%.me.accountLevel.step1%%%",
+            "step2": "%%%.me.accountLevel.step2%%%",
+            "step3": "%%%.me.accountLevel.step3%%%",
+            "step4": "%%%.me.accountLevel.step4%%%",
+            "wrm1": "%%%.me.accountLevel.wrm1%%%",
+            "wrm2": "%%%.me.accountLevel.wrm2%%%",
+            "wrm3": "%%%.me.accountLevel.wrm3%%%",
+            "lv3desc": "%%%.me.accountLevel.lv3desc%%%",
+            "fullName": "%%%.me.accountLevel.fullName%%%",
+            "fullNameDesc": "%%%.me.accountLevel.fullNameDesc%%%",
+            "documentType": "%%%.me.accountLevel.documentType%%%",
+            "documentNumber": "%%%.me.accountLevel.documentNumber%%%",
+            "documentNumberDesc": "%%%.me.accountLevel.documentNumberDesc%%%",
+            "emailDesc": "%%%.me.accountLevel.emailDesc%%%",
+            "emailButton": "%%%.me.accountLevel.emailButton%%%",
             "backPhoto": "%%%.me.accountLevel.backPhoto%%%",
             "frontPhoto": "%%%.me.accountLevel.frontPhoto%%%",
             "selfiePhoto": "%%%.me.accountLevel.selfiePhoto%%%",
+            "submit": "%%%.me.accountLevel.submit%%%",
             "alert": {
                 "lv2": "%%%.me.accountLevel.alert.lv2%%%",
                 "lv3": "%%%.me.accountLevel.alert.lv3%%%",
                 "lv4": "%%%.me.accountLevel.alert.lv4%%%",
                 "invalidPhone": "%%%.me.accountLevel.alert.invalidPhone%%%",
                 "sendPhoneCodeSuccess": "%%%.me.accountLevel.alert.sendPhoneCodeSuccess%%%"
-            }
-        },
-        "profile": {
-            "head_text": "%%%.me.profile.head_text%%%",
-            "username": {
-                "exist": "%%%.me.profile.username.exist%%%",
-                "success": "%%%.me.profile.username.success%%%",
-                "required": "%%%.me.profile.username.required%%%"
-            },
-            "verify": {
-                "step1": "%%%.me.profile.verify.step1%%%",
-                "step2": "%%%.me.profile.verify.step2%%%",
-                "step3": "%%%.me.profile.verify.step3%%%",
-                "step4": "%%%.me.profile.verify.step4%%%",
-                "alert": {
-                    "send": {
-                        "phone": "%%%.me.profile.verify.alert.send.phone%%%",
-                        "email": "%%%.me.profile.verify.alert.send.email%%%"
-                    },
-                    "notValid": {
-                        "server": {
-                            "phone": "%%%.me.profile.verify.alert.notValid.server.phone%%%",
-                            "email": "%%%.me.profile.verify.alert.notValid.server.email%%%"
-                        },
-                        "client": {
-                            "phone": "%%%.me.profile.verify.alert.notValid.client.phone%%%",
-                            "email": "%%%.me.profile.verify.alert.notValid.client.email%%%"
-                        },
-                        "idVerification": {
-                            "invalidFullName": "%%%.me.profile.verify.alert.notValid.idVerification.invalidFullName%%%",
-                            "invalidIDNumber": "%%%.me.profile.verify.alert.notValid.idVerification.invalidIDNumber%%%",
-                            "invalidDocument": "%%%.me.profile.verify.alert.notValid.idVerification.invalidDocument%%%",
-                            "invalidFrontImage": "%%%.me.profile.verify.alert.notValid.idVerification.invalidFrontImage%%%",
-                            "invalidBackImage": "%%%.me.profile.verify.alert.notValid.idVerification.invalidBackImage%%%",
-                            "invalidEmail": "%%%.me.profile.verify.alert.notValid.idVerification.invalidEmail%%%",
-                            "invalidSelfieImage": "%%%.me.profile.verify.alert.notValid.idVerification.invalidSelfieImage%%%"
-                        }
-                    },
-                    "require": {
-                        "phone": "%%%.me.profile.verify.alert.require.phone%%%",
-                        "email": "%%%.me.profile.verify.alert.require.email%%%"
-                    },
-                    "success": {
-                        "phone": "%%%.me.profile.verify.alert.success.phone%%%",
-                        "email": "%%%.me.profile.verify.alert.success.email%%%",
-                        "idVerification": "%%%.me.profile.verify.alert.success.idVerification%%%"
-                    },
-                    "cannot": {
-                        "phone": "%%%.me.profile.verify.alert.cannot.phone%%%",
-                        "email": "%%%.me.profile.verify.alert.cannot.email%%%",
-                        "idVerification": "%%%.me.profile.verify.alert.cannot.idVerification%%%",
-                        "idVerification2": "%%%.me.profile.verify.alert.cannot.idVerification2%%%"
-                    }
-                }
-            },
-            "text": {
-                "verified": "%%%.me.profile.text.verified%%%",
-                "username": {
-                    "label": "%%%.me.profile.text.username.label%%%",
-                    "desc1": "%%%.me.profile.text.username.desc1%%%",
-                    "button": {
-                        "submit": "%%%.me.profile.text.username.button.submit%%%"
-                    }
-                },
-                "phone": {
-                    "label": "%%%.me.profile.text.phone.label%%%",
-                    "desc1": "%%%.me.profile.text.phone.desc1%%%",
-                    "desc2": "%%%.me.profile.text.phone.desc2%%%",
-                    "desc3": "%%%.me.profile.text.phone.desc3%%%",
-                    "desc4": "%%%.me.profile.text.phone.desc4%%%",
-                    "button": {
-                        "send": "%%%.me.profile.text.phone.button.send%%%",
-                        "submit": "%%%.me.profile.text.phone.button.submit%%%"
-                    }
-                },
-                "email": {
-                    "label": "%%%.me.profile.text.email.label%%%",
-                    "desc1": "%%%.me.profile.text.email.desc1%%%",
-                    "desc2": "%%%.me.profile.text.email.desc2%%%",
-                    "desc3": "%%%.me.profile.text.email.desc3%%%",
-                    "desc4": "%%%.me.profile.text.email.desc4%%%",
-                    "button": {
-                        "send": "%%%.me.profile.text.email.button.send%%%",
-                        "submit": "%%%.me.profile.text.email.button.submit%%%"
-                    }
-                },
-                "id_verification": {
-                    "label": "%%%.me.profile.text.id_verification.label%%%",
-                    "desc1": "%%%.me.profile.text.id_verification.desc1%%%",
-                    "desc2": "%%%.me.profile.text.id_verification.desc2%%%",
-                    "desc3": "%%%.me.profile.text.id_verification.desc3%%%",
-                    "desc4": "%%%.me.profile.text.id_verification.desc4%%%",
-                    "desc5": "%%%.me.profile.text.id_verification.desc5%%%",
-                    "desc6": "%%%.me.profile.text.id_verification.desc6%%%",
-                    "desc7": "%%%.me.profile.text.id_verification.desc7%%%",
-                    "desc8": "%%%.me.profile.text.id_verification.desc8%%%",
-                    "desc9": "%%%.me.profile.text.id_verification.desc9%%%",
-                    "desc10": "%%%.me.profile.text.id_verification.desc10%%%",
-                    "desc11": "%%%.me.profile.text.id_verification.desc11%%%",
-                    "desc12": "%%%.me.profile.text.id_verification.desc12%%%",
-                    "desc13": "%%%.me.profile.text.id_verification.desc13%%%",
-                    "uploading": "%%%.me.profile.text.id_verification.uploading%%%",
-                    "button": {
-                        "upload": "%%%.me.profile.text.id_verification.button.upload%%%",
-                        "submit": "%%%.me.profile.text.id_verification.button.submit%%%"
-                    },
-                    "status": {
-                        "processing": "%%%.me.profile.text.id_verification.status.processing%%%",
-                        "level1": "%%%.me.profile.text.id_verification.status.level1%%%",
-                        "finished": "%%%.me.profile.text.id_verification.status.finished%%%",
-                        "rejected": "%%%.me.profile.text.id_verification.status.rejected%%%"
-                    }
-                }
-            }
-        },
-        "feed": {
-            "profileTitle": "%%%.me.feed.profileTitle%%%",
-            "profileDescription": "%%%.me.feed.profileDescription%%%",
-            "shopTitle": "%%%.me.feed.shopTitle%%%",
-            "shopDescription": "%%%.me.feed.shopDescription%%%",
-            "shopNoDataDescription": "%%%.me.feed.shopNoDataDescription%%%",
-            "noDataMessage": "%%%.me.feed.noDataMessage%%%",
-            "filterBy": "%%%.me.feed.filterBy%%%",
-            "cash": {
-                "predition": "%%%.me.feed.cash.predition%%%",
-                "cash": "%%%.me.feed.cash.cash%%%",
-                "stationExplain": "%%%.me.feed.cash.stationExplain%%%",
-                "stationCreateSuggest": "%%%.me.feed.cash.stationCreateSuggest%%%",
-                "restoreStation": "%%%.me.feed.cash.restoreStation%%%",
-                "backupStation": "%%%.me.feed.cash.backupStation%%%",
-                "transactions": "%%%.me.feed.cash.transactions%%%",
-                "dashboard": "%%%.me.feed.cash.dashboard%%%",
-                "buyMoreCoin": "%%%.me.feed.cash.buyMoreCoin%%%"
-            }
-        },
-        "credit": {
-            "overview": {
-                "askToDeactive": "%%%.me.credit.overview.askToDeactive%%%",
-                "messageDeactiveSuccess": "%%%.me.credit.overview.messageDeactiveSuccess%%%"
-            },
-            "transaction": {
-                "amount": "%%%.me.credit.transaction.amount%%%",
-                "processing": "%%%.me.credit.transaction.processing%%%",
-                "deposit": {
-                    "title": "%%%.me.credit.transaction.deposit.title%%%",
-                    "percentage": "%%%.me.credit.transaction.deposit.percentage%%%"
-                },
-                "withdraw": {
-                    "title": "%%%.me.credit.transaction.withdraw.title%%%",
-                    "toAccount": "%%%.me.credit.transaction.withdraw.toAccount%%%"
-                },
-                "transaction": {
-                    "title": "%%%.me.credit.transaction.transaction.title%%%",
-                    "selling": "%%%.me.credit.transaction.transaction.selling%%%",
-                    "receiving": "%%%.me.credit.transaction.transaction.receiving%%%",
-                    "fee": "%%%.me.credit.transaction.transaction.fee%%%"
-                },
-                "instant": {
-                    "title": "%%%.me.credit.transaction.instant.title%%%",
-                    "buying": "%%%.me.credit.transaction.instant.buying%%%",
-                    "cost": "%%%.me.credit.transaction.instant.cost%%%"
-                }
-            },
-            "withdraw": {
-                "title": "%%%.me.credit.withdraw.title%%%",
-                "yourBalance": "%%%.me.credit.withdraw.yourBalance%%%",
-                "yourPapalName": "%%%.me.credit.withdraw.yourPapalName%%%",
-                "amount": "%%%.me.credit.withdraw.amount%%%",
-                "buttonTitle": "%%%.me.credit.withdraw.buttonTitle%%%",
-                "description": "%%%.me.credit.withdraw.description%%%",
-                "askToWithdraw": "%%%.me.credit.withdraw.askToWithdraw%%%",
-                "validate": {
-                    "amountMustLargerThan0": "%%%.me.credit.withdraw.validate.amountMustLargerThan0%%%",
-                    "amountMustLessThanBalance": "%%%.me.credit.withdraw.validate.amountMustLessThanBalance%%%"
-                }
-            },
-            "withdrawSuccess": {
-                "description": "%%%.me.credit.withdrawSuccess.description%%%",
-                "descriptionTransfer": "%%%.me.credit.withdrawSuccess.descriptionTransfer%%%",
-                "buttonTitle": "%%%.me.credit.withdrawSuccess.buttonTitle%%%"
-            },
-            "deposit": {
-                "title": "%%%.me.credit.deposit.title%%%"
             }
         }
     },
@@ -865,7 +702,9 @@
     },
     "userVerifyStatus": {
         "level1Pending": "%%%.userVerifyStatus.level1Pending%%%",
-        "verifyBtn": "%%%.userVerifyStatus.verifyBtn%%%"
+        "verifyBtn": "%%%.userVerifyStatus.verifyBtn%%%",
+        "notLogin": "%%%.userVerifyStatus.notLogin%%%",
+        "notLoginBtn": "%%%.userVerifyStatus.notLoginBtn%%%"
     },
     "static_page": {
         "userAgreement": "%%%.static_page.userAgreement%%%",
