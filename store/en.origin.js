@@ -6,8 +6,9 @@
         "name": "%%%.app.name%%%",
         "navigation": {
             "me": "%%%.app.navigation.me%%%",
-            "ninjaCoin": "%%%.app.navigation.ninjaCoin%%%",
-            "wallet": "%%%.app.navigation.wallet%%%"
+            "coin": "%%%.app.navigation.coin%%%",
+            "wallet": "%%%.app.navigation.wallet%%%",
+            "home": "%%%.app.navigation.home%%%"
         },
         "common": {
             "error": "%%%.app.common.error%%%",
@@ -32,7 +33,12 @@
         "greaterThanEqual": "%%%.error.greaterThanEqual%%%",
         "lessThanEqual": "%%%.error.lessThanEqual%%%",
         "mustBeANumber": "%%%.error.mustBeANumber%%%",
-        "mustBeAPositiveInteger": "%%%.error.mustBeAPositiveInteger%%%"
+        "mustBeAPositiveInteger": "%%%.error.mustBeAPositiveInteger%%%",
+        "serverCode": {
+            "generalCode400": "%%%.error.serverCode.generalCode400%%%",
+            "coinUserOverLimit": "%%%.error.serverCode.coinUserOverLimit%%%",
+            "amountIsTooSmall": "%%%.error.serverCode.amountIsTooSmall%%%"
+        }
     },
     "me": {
         "accountInfo": {
@@ -46,6 +52,8 @@
             "lastName": "%%%.me.accountInfo.lastName%%%",
             "legalName": "%%%.me.accountInfo.legalName%%%",
             "country": "%%%.me.accountInfo.country%%%",
+            "currency": "%%%.me.accountInfo.currency%%%",
+            "language": "%%%.me.accountInfo.language%%%",
             "save": "%%%.me.accountInfo.save%%%",
             "userProfile": "%%%.me.accountInfo.userProfile%%%",
             "personalDetails": "%%%.me.accountInfo.personalDetails%%%",
@@ -91,6 +99,7 @@
             "documentNumber": "%%%.me.accountLevel.documentNumber%%%",
             "documentNumberDesc": "%%%.me.accountLevel.documentNumberDesc%%%",
             "emailDesc": "%%%.me.accountLevel.emailDesc%%%",
+            "phoneCode": "%%%.me.accountLevel.phoneCode%%%",
             "emailButton": "%%%.me.accountLevel.emailButton%%%",
             "backPhoto": "%%%.me.accountLevel.backPhoto%%%",
             "frontPhoto": "%%%.me.accountLevel.frontPhoto%%%",
@@ -105,6 +114,7 @@
                 "sendPhoneCodeSuccess": "%%%.me.accountLevel.alert.sendPhoneCodeSuccess%%%",
                 "sendEmailCodeSuccess": "%%%.me.accountLevel.alert.sendEmailCodeSuccess%%%",
                 "imageIdentifierRequired": "%%%.me.accountLevel.alert.imageIdentifierRequired%%%",
+                "imageIdentifierPassportRequired": "%%%.me.accountLevel.alert.imageIdentifierPassportRequired%%%",
                 "imageSelfieRequired": "%%%.me.accountLevel.alert.imageSelfieRequired%%%"
             }
         }
@@ -678,7 +688,12 @@
                 "refCode": "%%%.coin.components.bankTransferInfo.refCode%%%",
                 "nameCard": "%%%.coin.components.bankTransferInfo.nameCard%%%",
                 "willExpiredIn": "%%%.coin.components.bankTransferInfo.willExpiredIn%%%",
-                "expiredText": "%%%.coin.components.bankTransferInfo.expiredText%%%"
+                "expiredText": "%%%.coin.components.bankTransferInfo.expiredText%%%",
+                "saveReceiptSuccessMsg": "%%%.coin.components.bankTransferInfo.saveReceiptSuccessMsg%%%",
+                "saveReceiptFailedMsg": "%%%.coin.components.bankTransferInfo.saveReceiptFailedMsg%%%",
+                "getBankInfoFailedMsg": "%%%.coin.components.bankTransferInfo.getBankInfoFailedMsg%%%",
+                "retryGetBankInfo": "%%%.coin.components.bankTransferInfo.retryGetBankInfo%%%",
+                "retryBtn": "%%%.coin.components.bankTransferInfo.retryBtn%%%"
             },
             "paymentMethod": {
                 "wireTransferName": "%%%.coin.components.paymentMethod.wireTransferName%%%",
@@ -723,6 +738,7 @@
     },
     "static_page": {
         "userAgreement": "%%%.static_page.userAgreement%%%",
-        "privacyPolicy": "%%%.static_page.privacyPolicy%%%"
+        "privacyPolicy": "%%%.static_page.privacyPolicy%%%",
+        "promotionPrograms": "%%%.static_page.promotionPrograms%%%"
     }
 }
