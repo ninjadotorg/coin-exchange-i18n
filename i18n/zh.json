@@ -5,9 +5,10 @@
         "keywords": "区块链技术，以太坊，比特币，加密货币，加密，交换平台，用现金购买比特币，购买大量比特币",
         "name": "CoinBowl",
         "navigation": {
-            "me": "我",
-            "ninjaCoin": "硬幣",
-            "wallet": "钱包"
+            "me": "Profile",
+            "coin": "Coin",
+            "wallet": "钱包",
+            "home": "Home"
         },
         "common": {
             "error": "哦！有些事情是錯的!",
@@ -32,7 +33,12 @@
         "greaterThanEqual": "必須等於或大於 {min}",
         "lessThanEqual": "必須小於或等於 {max}",
         "mustBeANumber": "必須是一個數位",
-        "mustBeAPositiveInteger": "必須是大於或等於0的整數"
+        "mustBeAPositiveInteger": "必須是大於或等於0的整數",
+        "serverCode": {
+            "generalCode400": "Something went wrong, please try again!",
+            "coinUserOverLimit": "Over Coin limit",
+            "amountIsTooSmall": "Amount is too small"
+        }
     },
     "me": {
         "accountInfo": {
@@ -46,6 +52,8 @@
             "lastName": "姓名",
             "legalName": "法定名稱",
             "country": "國家",
+            "currency": "Local Currency",
+            "language": "Language",
             "save": "記録",
             "userProfile": "使用者檔案",
             "personalDetails": "個人詳細資訊",
@@ -91,6 +99,7 @@
             "documentNumber": "檔編號",
             "documentNumberDesc": "檔編號",
             "emailDesc": "輸入您的電子郵件",
+            "phoneCode": "Enter your code",
             "emailButton": "發送",
             "backPhoto": "背面照片",
             "frontPhoto": "前部照片",
@@ -102,9 +111,10 @@
                 "lv3": "您的請求最高為3級",
                 "lv4": "您的請求最高為4級",
                 "invalidPhone": "電話無效",
-                "sendPhoneCodeSuccess": "驗證代碼已成功發送到您的手機",
-                "sendEmailCodeSuccess": "驗證代碼是否已成功發送到您的郵件",
+                "sendPhoneCodeSuccess": "We sent the secret code to your phone.",
+                "sendEmailCodeSuccess": "We sent a verification code to your email",
                 "imageIdentifierRequired": "背面/正面圖像是必需的",
+                "imageIdentifierPassportRequired": "Passport Photo is requied",
                 "imageSelfieRequired": "你的自拍是必需的"
             }
         }
@@ -678,7 +688,12 @@
                 "refCode": "參考代碼",
                 "nameCard": "銀行轉帳資訊",
                 "willExpiredIn": "將過期於",
-                "expiredText": "過期"
+                "expiredText": "過期",
+                "saveReceiptSuccessMsg": "Your receipt was uploaded successfully",
+                "saveReceiptFailedMsg": "Your receipt was not uploaded, please try again",
+                "getBankInfoFailedMsg": "Get bank info failed, please try again",
+                "retryGetBankInfo": "No bank info data {retry}",
+                "retryBtn": "Retry?"
             },
             "paymentMethod": {
                 "wireTransferName": "電匯",
@@ -723,6 +738,7 @@
     },
     "static_page": {
         "userAgreement": "用戶協議",
-        "privacyPolicy": "隱私權政策"
+        "privacyPolicy": "隱私權政策",
+        "promotionPrograms": "Promotion Programs"
     }
 }

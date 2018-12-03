@@ -11,6 +11,7 @@
 %%%.app.common.required%%%,"Required"
 %%%.app.common.copied%%%,"Copied"
 %%%.headerBar.home%%%,"Home"
+%%%.headerBar.promotionPrograms%%%,"Promotion Programs"
 %%%.headerBar.contactUs%%%,"Contact Us"
 %%%.headerBar.aboutUs%%%,"About Us"
 %%%.headerBar.faq%%%,"FAQ"

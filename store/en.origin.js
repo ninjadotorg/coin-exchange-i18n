@@ -18,6 +18,7 @@
     },
     "headerBar": {
         "home": "%%%.headerBar.home%%%",
+        "promotionPrograms": "%%%.headerBar.promotionPrograms%%%",
         "contactUs": "%%%.headerBar.contactUs%%%",
         "aboutUs": "%%%.headerBar.aboutUs%%%",
         "faq": "%%%.headerBar.faq%%%",

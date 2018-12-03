@@ -5,9 +5,10 @@
         "keywords": "区块链技术，以太坊，比特币，加密货币，加密，交换平台，用现金购买比特币，购买大量比特币",
         "name": "Coinbowl",
         "navigation": {
-            "me": "Me",
-            "ninjaCoin": "Coin",
-            "wallet": "Wallet"
+            "me": "Profile",
+            "coin": "Coin",
+            "wallet": "Wallet",
+            "home": "Home"
         },
         "common": {
             "error": "OH! something went wrong!",
@@ -32,7 +33,12 @@
         "greaterThanEqual": "Must be equal or greater than {min}",
         "lessThanEqual": "Must be less than or equal {max}",
         "mustBeANumber": "Must be a number",
-        "mustBeAPositiveInteger": "Must be a integer number greater or equal 0"
+        "mustBeAPositiveInteger": "Must be a integer number greater or equal 0",
+        "serverCode": {
+            "generalCode400": "Something went wrong, please try again!",
+            "coinUserOverLimit": "Over Coin limit",
+            "amountIsTooSmall": "Amount is too small"
+        }
     },
     "me": {
         "accountInfo": {
@@ -46,6 +52,8 @@
             "lastName": "Last Name",
             "legalName": "Legal Name",
             "country": "Country",
+            "currency": "Local Currency",
+            "language": "Language",
             "save": "Save",
             "userProfile": "User Profile",
             "personalDetails": "Personal Details",
@@ -91,6 +99,7 @@
             "documentNumber": "Document Number",
             "documentNumberDesc": "Document Number",
             "emailDesc": "Enter your email",
+            "phoneCode": "Enter your code",
             "emailButton": "SEND",
             "backPhoto": "Back Photo",
             "frontPhoto": "Front Photo",
@@ -102,9 +111,10 @@
                 "lv3": "Your request upto level 3 is sent",
                 "lv4": "Your request upto level 4 is sent",
                 "invalidPhone": "Invalid Phone",
-                "sendPhoneCodeSuccess": "Verify code was sent successful to your phone",
-                "sendEmailCodeSuccess": "Verify code is sent success to your mail",
+                "sendPhoneCodeSuccess": "We sent the secret code to your phone.",
+                "sendEmailCodeSuccess": "We sent a verification code to your email",
                 "imageIdentifierRequired": "Back/Front Image is required",
+                "imageIdentifierPassportRequired": "Passport Photo is requied",
                 "imageSelfieRequired": "Image Selifie is required"
             }
         }
@@ -678,7 +688,12 @@
                 "refCode": "REFERENCE CODE",
                 "nameCard": "BANK TRANSFER INFO",
                 "willExpiredIn": "Will expired in",
-                "expiredText": "Expired"
+                "expiredText": "Expired",
+                "saveReceiptSuccessMsg": "Your receipt was uploaded successfully",
+                "saveReceiptFailedMsg": "Your receipt was not uploaded, please try again",
+                "getBankInfoFailedMsg": "Get bank info failed, please try again",
+                "retryGetBankInfo": "No bank info data {retry}",
+                "retryBtn": "Retry?"
             },
             "paymentMethod": {
                 "wireTransferName": "Wire transfer",
@@ -723,6 +738,7 @@
     },
     "static_page": {
         "userAgreement": "User Agreement",
-        "privacyPolicy": "Privacy Policy"
+        "privacyPolicy": "Privacy Policy",
+        "promotionPrograms": "Promotion Programs"
     }
 }
