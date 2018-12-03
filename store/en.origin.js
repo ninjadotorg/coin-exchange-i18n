@@ -118,6 +118,19 @@
                 "imageIdentifierPassportRequired": "%%%.me.accountLevel.alert.imageIdentifierPassportRequired%%%",
                 "imageSelfieRequired": "%%%.me.accountLevel.alert.imageSelfieRequired%%%"
             }
+        },
+        "bankInfo": {
+            "title": "%%%.me.bankInfo.title%%%",
+            "bankName": "%%%.me.bankInfo.bankName%%%",
+            "bankAccountName": "%%%.me.bankInfo.bankAccountName%%%",
+            "bankAccountNumber": "%%%.me.bankInfo.bankAccountNumber%%%",
+            "bankNameHolder": "%%%.me.bankInfo.bankNameHolder%%%",
+            "bankAccountNameHolder": "%%%.me.bankInfo.bankAccountNameHolder%%%",
+            "bankAccountNumberHolder": "%%%.me.bankInfo.bankAccountNumberHolder%%%",
+            "alert": {
+                "success": "%%%.me.bankInfo.alert.success%%%",
+                "failed": "%%%.me.bankInfo.alert.failed%%%"
+            }
         }
     },
     "COIN_EXCHANGE_LP_FAQ_TITLE": "%%%.COIN_EXCHANGE_LP_FAQ_TITLE%%%",
@@ -740,6 +753,7 @@
     "static_page": {
         "userAgreement": "%%%.static_page.userAgreement%%%",
         "privacyPolicy": "%%%.static_page.privacyPolicy%%%",
-        "promotionPrograms": "%%%.static_page.promotionPrograms%%%"
+        "promotionPrograms": "%%%.static_page.promotionPrograms%%%",
+        "aboutUs": "%%%.static_page.aboutUs%%%"
     }
 }
