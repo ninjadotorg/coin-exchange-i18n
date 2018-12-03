@@ -3,205 +3,205 @@
         "title": "Coinbowl：购买和出售大量比特币",
         "description": "大量购买和出售比特币和其他加密货币。 支持银行转账，现金和信用卡。 所有交易都有保险",
         "keywords": "区块链技术，以太坊，比特币，加密货币，加密，交换平台，用现金购买比特币，购买大量比特币",
-        "name": "Coinbowl",
+        "name": "CoinBowl",
         "navigation": {
-            "me": "Me",
-            "ninjaCoin": "Coin",
-            "wallet": "Wallet"
+            "me": "我",
+            "ninjaCoin": "硬幣",
+            "wallet": "钱包"
         },
         "common": {
-            "error": "OH! something went wrong!",
+            "error": "哦！有些事情是錯的!",
             "required": "必填項目",
-            "copied": "Copied"
+            "copied": "已複製！"
         }
     },
     "headerBar": {
-        "home": "Home",
-        "contactUs": "Contact Us",
-        "aboutUs": "About Us",
-        "faq": "FAQ",
-        "wallet": "Wallet",
-        "signIn": "Sign In",
-        "signUp": "Sign Up"
+        "home": "首頁",
+        "contactUs": "聯繫我們",
+        "aboutUs": "關於我們",
+        "faq": "常見問題",
+        "wallet": "钱包",
+        "signIn": "登入",
+        "signUp": "註冊"
     },
     "error": {
         "required": "必填項目",
         "requiredOne": "你需要填寫其中的一個!",
         "greaterThan": "必須大於 {min}",
-        "lessThan": "Must be less than {max}",
-        "greaterThanEqual": "Must be equal or greater than {min}",
-        "lessThanEqual": "Must be less than or equal {max}",
-        "mustBeANumber": "Must be a number",
-        "mustBeAPositiveInteger": "Must be a integer number greater or equal 0"
+        "lessThan": "必須小於 {max}",
+        "greaterThanEqual": "必須等於或大於 {min}",
+        "lessThanEqual": "必須小於或等於 {max}",
+        "mustBeANumber": "必須是一個數位",
+        "mustBeAPositiveInteger": "必須是大於或等於0的整數"
     },
     "me": {
         "accountInfo": {
             "email": "電子郵件",
-            "nickname": "Nickname",
-            "nickname_note": "This name will be shown in your preview",
-            "oldPassword": "Old Password",
-            "newPassword": "New Password",
-            "changePassword": "Change Password",
-            "firstName": "First Name",
-            "lastName": "Last Name",
-            "legalName": "Legal Name",
-            "country": "Country",
-            "save": "Save",
-            "userProfile": "User Profile",
-            "personalDetails": "Personal Details",
-            "personalDetailsDesc": "Your personal information is never shown to other users",
-            "referralTitle": "Refferal",
-            "referralLink": "Your Referral Link Here: ",
+            "nickname": "昵稱",
+            "nickname_note": "此名稱將顯示在預覽中",
+            "oldPassword": "舊密碼",
+            "newPassword": "新密碼",
+            "changePassword": "更改密碼",
+            "firstName": "名名",
+            "lastName": "姓名",
+            "legalName": "法定名稱",
+            "country": "國家",
+            "save": "記録",
+            "userProfile": "使用者檔案",
+            "personalDetails": "個人詳細資訊",
+            "personalDetailsDesc": "您的個人資訊永遠不會顯示給其他使用者",
+            "referralTitle": "轉診",
+            "referralLink": "您的推薦連結在這裡: ",
             "referral": {
-                "name": "Name",
-                "status": "Status",
-                "date": "Date"
+                "name": "名字",
+                "status": "地位",
+                "date": "日期"
             },
             "alert": {
-                "passwordSuccess": "Update Password Success",
-                "passwordFailed": "Update Password Failed",
+                "passwordSuccess": "更新密碼成功",
+                "passwordFailed": "更新密碼失敗",
                 "success": "成功",
                 "failed": "失敗"
             },
             "validate": {
-                "newPasswordRequired": "New Password is required"
+                "newPasswordRequired": "需要新密碼"
             }
         },
         "setting": {},
         "history": {
-            "title": "Transaction History",
-            "date": "Date",
-            "refcode": "Ref Code",
-            "type": "Type",
+            "title": "交易記錄",
+            "date": "日期",
+            "refcode": "參考代碼",
+            "type": "類型",
             "amount": "金額"
         },
         "accountLevel": {
-            "head_text": "Our verification process typically takes just a few minutes. This may take slightly longer outside business hours. Your information will remain 100% private.",
-            "step1": "Level 1 : Email Verification",
-            "step2": "Level 2 : Phone Verification",
-            "step3": "Level 3 : ID Card Verification",
-            "step4": "Level 4 : Upload Photo Selfie",
-            "wrm1": "Trade with a limit upto 500 USD a day.",
-            "wrm2": "Trade with the top limit of 5000 USD a day.",
-            "wrm3": "Trade with the top limit of 50000 USD a day.",
-            "lv3desc": "To comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations.",
-            "fullName": "Full Name",
-            "fullNameDesc": "Please enter your full name",
-            "documentType": "Document Type",
-            "documentNumber": "Document Number",
-            "documentNumberDesc": "Document Number",
-            "emailDesc": "Enter your email",
-            "emailButton": "SEND",
-            "backPhoto": "Back Photo",
-            "frontPhoto": "Front Photo",
-            "selfiePhoto": "Your Selfie Photo",
-            "submit": "Submit",
-            "ok": "OK",
+            "head_text": "我們的驗證過程通常只需幾分鐘。 這可能需要稍長的工作時間。 您的信息將保持100％私密。",
+            "step1": "第1級: 電子郵件驗證",
+            "step2": "第2級: 電話驗證",
+            "step3": "第3級: 身份證驗證",
+            "step4": "第4級: 上傳照片自拍",
+            "wrm1": "交易金額限制為每天500美元。",
+            "wrm2": "以每天5000美元的最高限額進行交易。",
+            "wrm3": "以每天50000美元的最高限額進行交易。",
+            "lv3desc": "遵守相關的反洗錢和反恐融資法律和條例。",
+            "fullName": "全名",
+            "fullNameDesc": "請輸入您的全名",
+            "documentType": "文件類型",
+            "documentNumber": "檔編號",
+            "documentNumberDesc": "檔編號",
+            "emailDesc": "輸入您的電子郵件",
+            "emailButton": "發送",
+            "backPhoto": "背面照片",
+            "frontPhoto": "前部照片",
+            "selfiePhoto": "您的自拍照片",
+            "submit": "提交",
+            "ok": "確定",
             "alert": {
-                "lv2": "Congratulation! Your level is upto level 2",
-                "lv3": "Your request upto level 3 is sent",
-                "lv4": "Your request upto level 4 is sent",
-                "invalidPhone": "Invalid Phone",
-                "sendPhoneCodeSuccess": "Verify code was sent successful to your phone",
-                "sendEmailCodeSuccess": "Verify code is sent success to your mail",
-                "imageIdentifierRequired": "Back/Front Image is required",
-                "imageSelfieRequired": "Image Selifie is required"
+                "lv2": "恭喜！ 您的等級達到2級",
+                "lv3": "您的請求最高為3級",
+                "lv4": "您的請求最高為4級",
+                "invalidPhone": "電話無效",
+                "sendPhoneCodeSuccess": "驗證代碼已成功發送到您的手機",
+                "sendEmailCodeSuccess": "驗證代碼是否已成功發送到您的郵件",
+                "imageIdentifierRequired": "背面/正面圖像是必需的",
+                "imageSelfieRequired": "你的自拍是必需的"
             }
         }
     },
     "COIN_EXCHANGE_LP_FAQ_TITLE": "常見問答集",
-    "landing_page.label.footer": "Coinbowl.com is an online exchange developed by Shanzhai Limited, a Hong Kong based company, offering bulk crypto purchasing at competitive prices with full delivery service.<br />Join the dojo: <a href=\"https://t.me/coin_bowl\" class=\"landing-link\">t.me/coin_bowl</a><br />Contact us: <a href=\"mailto:support@coin_bowl.com\" class=\"landing-link\" target=\"_top\">support@coin_bowl.com</a>",
+    "landing_page.label.footer": "Coinbowl是一家在線交易所，由Shanzhai Limited（一家香港公司）開發，提供具有競爭力的價格的批量加密服務，並提供全面的送貨服務。<br />加入我們: <a href=\"https://t.me/coin_bowl\" class=\"landing-link\">t.me/coin_bowl</a><br />聯繫我們： <a href=\"mailto:support@coin_bowl.com\" class=\"landing-link\" target=\"_top\">support@coin_bowl.com</a>",
     "user": {
-        "logout": "Sign out",
+        "logout": "登出",
         "login": {
-            "title": "Sign in to Coinbowl",
-            "username": "Your email",
-            "password": "Password",
-            "loginButton": "Sign in",
-            "keepSignin": "Keep me signed in",
-            "registerButton": "Don't have an account?",
-            "forgetPassword": "Forget password?",
-            "requiredPassword": "Please enter your password",
-            "notValidUsername": "Invalid email address",
-            "requiredUsername": "Please enter your email",
-            "loginFailure": "Email and password not match.",
-            "warningVerify": "To start trading, please take a few minutes to verify your account. {action}",
-            "warningVerifyNow": "Verify now"
+            "title": "登錄Coinbowl",
+            "username": "你的郵件",
+            "password": "密碼",
+            "loginButton": "登入",
+            "keepSignin": "保持登錄狀態",
+            "registerButton": "沒有賬號？",
+            "forgetPassword": "忘記密碼？",
+            "requiredPassword": "請輸入您的密碼",
+            "notValidUsername": "無效的郵件地址",
+            "requiredUsername": "請輸入您的電子郵件",
+            "loginFailure": "電子郵件和密碼不匹配。",
+            "warningVerify": "要開始交易，請花幾分鐘時間驗證您的帳戶{action}。",
+            "warningVerifyNow": "立即驗證"
         },
         "forgetPassword": {
-            "title": "Forgot your password?",
-            "description": "Enter your email address to reset your password. You may need to check your spam folder or unblock no-reply@coinbowl.com.",
-            "username": "Your email",
-            "requiredUsername": "Email is required",
-            "notValidUsername": "Invalid email address",
-            "submitButton": "Submit",
-            "resetPasswordIntro": "If a Coinbowl account exists for {email}, an e-mail will be sent with further instructions.",
-            "newPasswordTitle": "Enter a new password for your {email} account.",
-            "password": "New password",
-            "requiredPassword": "Password is required",
-            "notValidPassword": "Password must be 8 characters or more",
-            "confirmPassword": "Retype new password",
-            "notValidConfirmPassword": "Confirm password not match",
-            "newPasswordIntro": "Password of Coinbowl account for {email} has been changed",
-            "notRecoverPass": "I can’t recover my account using this page"
+            "title": "忘記密碼了嗎？",
+            "description": "輸入您的電子郵件地址來重置您的密碼。 您可能需要檢查垃圾郵件文件夾或取消阻止no-reply@coinbowl.com。",
+            "username": "你的郵件",
+            "requiredUsername": "需要電子郵件",
+            "notValidUsername": "無效的郵件地址",
+            "submitButton": "提交",
+            "resetPasswordIntro": "如果{email} 存在Coinbowl帳戶，則會發送一封電子郵件，其中包含進一步的說明。",
+            "newPasswordTitle": "輸入{email} 帳戶的新密碼。",
+            "password": "新密碼",
+            "requiredPassword": "密碼是必需的",
+            "notValidPassword": "密碼必須為8個字符或更多",
+            "confirmPassword": "重新輸入新密碼",
+            "notValidConfirmPassword": "確認密碼不匹配",
+            "newPasswordIntro": "{email} 的Coinbowl帳戶密碼已更改",
+            "notRecoverPass": "我無法使用此頁面恢復帳戶"
         },
         "register": {
-            "title": "Create your account",
-            "firstName": "First name",
-            "requiredFirstName": "First name is required",
-            "placeholderFirstName": "Enter your first name",
-            "lastName": "Last name",
-            "placeholderLastName": "Enter your last name",
-            "requiredLastName": "Last name is required",
-            "placeholderNickName": "Enter your nick name",
-            "requiredNickName": "Nick name is required",
-            "notValidNickName": "Nickname must be greater than 3 and less than 30 characters, Allowed characters are a-z, 0-9, _, - (dash), and .(dot).",
-            "username": "Your email",
-            "requiredUsername": "Username is required",
-            "notValidUsername": "Invalid email address",
-            "password": "Password",
-            "requiredPassword": "Password is required",
-            "notValidPassword": "Password must be 8 characters or more",
-            "placeholderPassword": "Enter your password",
-            "confirmPassword": "Confirm password",
-            "notValidConfirmPassword": "Confirm password not match",
-            "placeholderConfirmPassword": "Enter confirm password",
-            "country": "Country",
-            "placeholderCountry": "Please select your country",
-            "requiredCountry": "Country is required",
-            "notValidReCaptcha": "Please validate your reCAPTCHA.",
-            "agreement": "I certify that I am 18 years of age or older, and I agree to the {action}",
-            "requiredAgreement": "Please indicate that you have read and agree to the User Agreement and Privacy Policy",
-            "registerButton": "Create account",
-            "loginButton": "Already have an account?",
-            "registerSuccessfully": "You have registered successfully. Don’t forget to verify your email later.",
-            "agreementAction": "User Agreement and Privacy Policy."
+            "title": "創建您的帳戶",
+            "firstName": "名字",
+            "requiredFirstName": "姓名（必需輸入）",
+            "placeholderFirstName": "輸入您的名字",
+            "lastName": "姓",
+            "placeholderLastName": "輸入您的姓氏",
+            "requiredLastName": "姓名（必需輸入）",
+            "placeholderNickName": "輸入你的暱稱",
+            "requiredNickName": "姓名（必需輸入）",
+            "notValidNickName": "暱稱必須大於3且小於30個字符，允許的字符為a-z，0-9，_， - （破折號）和。（點）。",
+            "username": "您的電子郵件",
+            "requiredUsername": "姓名（必需輸入）",
+            "notValidUsername": "不正確電子郵件地址",
+            "password": "密碼",
+            "requiredPassword": "密碼是必需的",
+            "notValidPassword": "密碼必須為8個字元或更多",
+            "placeholderPassword": "輸入您的密碼",
+            "confirmPassword": "確認密碼",
+            "notValidConfirmPassword": "確認密碼不匹配",
+            "placeholderConfirmPassword": "輸入確認密碼",
+            "country": "國家",
+            "placeholderCountry": "請選擇您所在的國家/地區",
+            "requiredCountry": "國家/地區是必需的",
+            "notValidReCaptcha": "請驗證您的重新驗證。",
+            "agreement": "我證明我是18歲或以上, 我同意 {action}",
+            "requiredAgreement": "請表明您已閱讀並同意使用者協定和隱私政策",
+            "registerButton": "創建帳戶",
+            "loginButton": "已經有一個帳戶？",
+            "registerSuccessfully": "您已成功註冊。以後不要忘記驗證您的電子郵件。",
+            "agreementAction": "使用者協定和隱私政策。"
         }
     },
     "landingPage": {
         "contactUS": {
-            "title": "Contact US",
-            "yourName": "Your name",
-            "requiredYourName": "Your name is required",
-            "placeholderYourName": "Enter your name",
-            "email": "Your email",
-            "placeholderYourEmail": "Enter your email",
-            "requiredEmail": "Your email is required",
-            "notValidEmail": "Invalid email address",
-            "phone": "Your phone",
-            "placeholderPhone": "Enter your phone number",
-            "description": "Your message",
-            "placeholderDescription": "Enter your message",
-            "requiredDescription": "Your message is required",
-            "contactButton": "Submit",
-            "message": "Thank you! Your message has been sent. You should receive a response from one of our representatives within 12-24 hours."
+            "title": "聯繫我們",
+            "yourName": "您的姓名",
+            "requiredYourName": "姓名（必需輸入）",
+            "placeholderYourName": "輸入您的姓名",
+            "email": "您的電子郵件",
+            "placeholderYourEmail": "輸入您的電子郵件",
+            "requiredEmail": "您的電子郵件是必需的",
+            "notValidEmail": "不正確電子郵件地址",
+            "phone": "您的手機",
+            "placeholderPhone": "輸入您的電話號碼",
+            "description": "您的留言",
+            "placeholderDescription": "輸入您的留言",
+            "requiredDescription": "您的資訊是必需的",
+            "contactButton": "提交",
+            "message": "謝謝！您的消息已發送。您應該會在12-24 內收到我們的代表的回復。"
         }
     },
     "wallet": {
-        "title": "Your Accounts",
+        "title": "您的帳戶",
         "top_banner": {
             "message": "Shuriken Airdrop (limited)",
-            "button": "Click here"
+            "button": "點擊這裡"
         },
         "refers": {
             "header": "Shuriken Airdrop Mission",
@@ -213,23 +213,23 @@
                 "get_token": "Referral incomplete. Please try again."
             },
             "success": {
-                "submit_telegram": "Welcome to our telegram group!",
+                "submit_telegram": "歡迎來到我們的電報組！",
                 "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "Your email has been verified.",
+                "confirm_code": "您的電子郵件已經過驗證。",
                 "verify_code": "Verification code has been sent to your email.",
                 "get_token": "Success! 60 shurikens have been added to your wallet.",
-                "copy_link": "Referral link copied to clipboard."
+                "copy_link": "推薦鏈接已復製到剪貼板。"
             },
             "button": {
-                "verified": "Verified",
-                "verify": "Verify",
+                "verified": "驗證",
+                "verify": "驗證",
                 "confirm": "確認",
-                "reset_email": "Reset email",
+                "reset_email": "重置電子郵件",
                 "get_token": "Just give me tokens"
             },
             "text": {
                 "title": "60 shiny Shurikens (SHURI).",
-                "telegram": "Say hello on telegram.",
+                "telegram": "在電報上問好。",
                 "telegram2": "Leave your best joke for a chance to win more Shuri.",
                 "twitter": "Twitter",
                 "twitter2": "Our social media guy says we need followers on ",
@@ -240,20 +240,20 @@
                 "profile_link": "Share to get 20 free tokens."
             },
             "placeholder": {
-                "telegram_username": "Your telegram alias",
+                "telegram_username": "你的電報別名",
                 "twitter_username": "Your twitter username",
-                "email": "Verification code",
+                "email": "驗證碼",
                 "email2": "Your favourite fake email"
             },
             "label": {
                 "menu": "Your clan",
-                "menu_description": "Track your referrals and rewards here."
+                "menu_description": "在此跟踪您的推薦和獎勵。"
             },
             "table": {
                 "header": {
-                    "user": "User",
-                    "date": "Date",
-                    "referalValue": "Referal Value"
+                    "user": "用戶",
+                    "date": "日期",
+                    "referalValue": "推薦價值"
                 }
             }
         },
@@ -261,8 +261,8 @@
             "header": "Shuriken Airdrop Mission",
             "title": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
             "text": {
-                "copy_link": "Referral link copied to clipboard.",
-                "note": "Do not change your alias or this link will be unvalid",
+                "copy_link": "推薦鏈接已復製到剪貼板。",
+                "note": "請勿更改別名，否則此鏈接將無效",
                 "number_ninjas": "You brought {0} ninjas to the dojo.",
                 "number_total": "Total reward: {0} SHURI"
             }
@@ -270,107 +270,107 @@
         "action": {
             "payment": {
                 "button": {
-                    "checkout": "Checkout"
+                    "checkout": "查看"
                 },
                 "label": {
-                    "from_wallet": "From wallet",
-                    "to_address": "To address",
-                    "wallet_balance": "Wallet balance",
-                    "email": "Email",
+                    "from_wallet": "從錢包",
+                    "to_address": "講話",
+                    "wallet_balance": "錢包平衡",
+                    "email": "電子郵件",
                     "shop_id": "Shop ID",
-                    "confirm_url": "Confirm URL",
+                    "confirm_url": "確認網址",
                     "shop_name": "Shop/App name",
                     "note": "Note",
                     "crypto_currency": "Crypto Currencies"
                 },
                 "placeholder": {
-                    "to_address": "Wallet address...",
-                    "select_wallet": "Select a wallet"
+                    "to_address": "電子錢包位址..。",
+                    "select_wallet": "選擇一個錢包"
                 },
                 "error": {
-                    "insufficient": "You have insufficient coin to make the transfer."
+                    "insufficient": "你沒有足夠的硬幣進行轉移。"
                 },
                 "menu": {
-                    "developer_docs": "Developer Docs",
-                    "payment_buttons": "Payment Buttons",
-                    "help": "Help & Support"
+                    "developer_docs": "開發人員文檔",
+                    "payment_buttons": "付款按鈕",
+                    "help": "説明和支援"
                 }
             },
             "preferecens": {
                 "list_item": {
-                    "wallet_name": "Wallet Name",
-                    "hide_balance": "Hide Balance",
-                    "backup_wallet": "Backup Wallet",
-                    "export_private_key": "Export Private Key",
-                    "delete_wallet": "Delete Wallet"
+                    "wallet_name": "電子錢包名稱",
+                    "hide_balance": "隱藏餘額",
+                    "backup_wallet": "備份錢包",
+                    "export_private_key": "出口私密金鑰",
+                    "delete_wallet": "刪除電子錢包"
                 },
                 "update_name": {
-                    "title": "Wallet name",
-                    "label": "What do you call this wallet?",
+                    "title": "電子錢包名稱",
+                    "label": "你怎麼稱呼這個錢包？",
                     "button": {
-                        "save": "Save"
+                        "save": "記録"
                     }
                 }
             },
             "redeem": {
-                "title": "Redeem to coin",
-                "your_code": "Reedem code",
-                "giftcard": "Gift Amount",
-                "value": "Value",
-                "agree_text": "By clicking REDEEM, you agree to Gift Card & Promotional code {0} as applicable",
-                "button_redeem": "Redeem now",
-                "button_check": "Check redeem code",
-                "swipe_button_redeem": "Swipe to redeem",
-                "find_code": "How do find claim code?",
-                "invalid_code": "Invalid redeem code"
+                "title": "兌換硬幣",
+                "your_code": "兌換代碼",
+                "giftcard": "禮品金額",
+                "value": "價值",
+                "agree_text": "點擊贖回，即表示您同意禮品卡和促銷代碼{0} 適用的",
+                "button_redeem": "立即兌換",
+                "button_check": "檢查兌換代碼",
+                "swipe_button_redeem": "輕掃兌換",
+                "find_code": "如何查找聲明代碼？",
+                "invalid_code": "不正確兌換代碼"
             },
             "remove": {
-                "title": "Remove",
-                "header": "Are you sure?",
-                "message": "This will permanently delete your wallet.",
-                "button_yes": "Yes, remove",
+                "title": "刪除",
+                "header": "你確定嗎？",
+                "message": "這將永久刪除您的錢包。",
+                "button_yes": "是的，刪除",
                 "button_cancel": "取消"
             },
             "transfer": {
-                "title": "Transfer coins",
-                "header": "Transfer coins",
+                "title": "轉移硬幣",
+                "header": "轉移硬幣",
                 "to_address": {
-                    "placeholder": "Specify receiving..."
+                    "placeholder": "指定接收..."
                 },
                 "label": {
-                    "from_wallet": "From wallet",
-                    "to_address": "To wallet address",
-                    "to_address2": "To address",
+                    "from_wallet": "從錢包",
+                    "to_address": "錢包地址",
+                    "to_address2": "講話",
                     "amount": "金額",
-                    "usd": "USD",
-                    "wallet_balance": "Wallet balance",
+                    "usd": "美元",
+                    "wallet_balance": "錢包平衡",
                     "scan_qrcode": "掃描二維碼",
-                    "init_scanner": "Initiating Camera. Please wait",
-                    "gas_limit": "Gas Limit",
-                    "data": "Data",
-                    "feel_level": "Fee:",
-                    "max_amount": "Max amount",
-                    "from_contact": "From contacts"
+                    "init_scanner": "啟動相機。 請耐心等待",
+                    "gas_limit": "氣體限制",
+                    "data": "數據",
+                    "feel_level": "費用：",
+                    "max_amount": "最高金額",
+                    "from_contact": "來自聯繫人"
                 },
                 "placeholder": {
-                    "to_address": "Wallet address...",
-                    "select_wallet": "Select a wallet"
+                    "to_address": "錢包地址...",
+                    "select_wallet": "選擇一個錢包"
                 },
                 "text": {
-                    "confirm_transfer": "Are you sure you want to transfer out "
+                    "confirm_transfer": "你確定要轉出嗎？ "
                 },
                 "error": {
-                    "not_enough_coin": "You don't have enough coin right now.",
-                    "max_amount": "Your balance isn't enough to transaction fee.",
-                    "wallet_not_found": " wallet is not found to transfer."
+                    "not_enough_coin": "你現在沒有足夠的硬幣。",
+                    "max_amount": "您的餘額不足以支付交易費用。",
+                    "wallet_not_found": " 錢包沒有被發現轉移。"
                 },
                 "button": {
-                    "transfer": "Transfer",
+                    "transfer": "傳遞",
                     "confirm": "確認"
                 }
             },
             "copy": {
-                "title": "Copy address to clipboard",
+                "title": "將地址複製到剪貼板",
                 "message": "Copy address to clipboard",
                 "success": "Copied to clipboard"
             },
@@ -403,132 +403,132 @@
                 "success": {
                     "restore": "Your Wallet restore success",
                     "save_alternative_currency": "Save currency selected!",
-                    "save_crypto_address": "Save format crypto address seleted!"
+                    "save_crypto_address": "保存格式加密地址選擇！"
                 },
                 "label": {
-                    "alternative_currency": "Currency",
-                    "select_alternative_currency": "Select currency",
-                    "crypto_address": "Cryptocurrency address",
-                    "select_crypto_address": "Select cryptocurrency address",
-                    "short_address": "Show short address",
-                    "shortest_address": "Show shortest address",
-                    "hide_address": "Hide address",
-                    "passcode": "Passcode",
-                    "push_notifications": "Push Notifications",
-                    "community": "Community",
-                    "wallet_account": "Wallet Account",
-                    "support": "Support",
-                    "address_book": "Address Book",
-                    "contact_name": "Name",
-                    "contact_email": "Email",
-                    "contact_address": "Address",
-                    "contact_send_money": "Send Money",
-                    "contact_remove": "Remove",
-                    "contact_empty_title": "No contacts yet",
-                    "contact_empty_desc": "Get started by adding your first one.",
-                    "contact_empty_button": "Add contact",
-                    "contact_add_contact_search_box": "Search a contact ...",
-                    "select_a_contact": "Select a contact",
-                    "add_new_address": "+ add new",
-                    "remove_new_address": "remove",
-                    "update_button_text": "Update",
-                    "update_title_text": "Update contact",
-                    "select_an_address": "Select an address"
+                    "alternative_currency": "貨幣",
+                    "select_alternative_currency": "選擇貨幣",
+                    "crypto_address": "加密貨幣地址",
+                    "select_crypto_address": "選擇加密貨幣地址",
+                    "short_address": "顯示簡短地址",
+                    "shortest_address": "顯示簡短地址",
+                    "hide_address": "隱藏地址",
+                    "passcode": "密碼",
+                    "push_notifications": "推送通知",
+                    "community": "社區",
+                    "wallet_account": "錢包賬戶",
+                    "support": "支持",
+                    "address_book": "地址簿",
+                    "contact_name": "名字",
+                    "contact_email": "電子郵件",
+                    "contact_address": "地址",
+                    "contact_send_money": "寄錢",
+                    "contact_remove": "去掉",
+                    "contact_empty_title": "還沒有聯繫方式",
+                    "contact_empty_desc": "開始添加您的第一個。",
+                    "contact_empty_button": "增加聯繫人",
+                    "contact_add_contact_search_box": "搜索聯繫人...",
+                    "select_a_contact": "選擇聯繫人",
+                    "add_new_address": "+添加新的",
+                    "remove_new_address": "去掉",
+                    "update_button_text": "更新",
+                    "update_title_text": "更新聯繫人",
+                    "select_an_address": "選擇一個地址"
                 },
                 "button": {
-                    "restore": "Restore now"
+                    "restore": "現在恢復"
                 },
-                "description": "Please enter your top secret recovery data to restore your wallet."
+                "description": "請輸入您的最高機密恢復數據以恢復您的錢包。"
             },
             "import": {
-                "title": "Add new / Import coin"
+                "title": "添加新/導入硬幣"
             },
             "add_token": {
-                "title": "Add custom token"
+                "title": "添加自定義令牌"
             },
             "add_collectible": {
-                "title": "Add collectible"
+                "title": "添加收藏品"
             },
             "backup": {
-                "title": "Backup wallets",
-                "header": "Backup wallets",
-                "description": "This data is the only way to restore your wallets. Keep it secret, keep it safe.",
+                "title": "備用錢包",
+                "header": "備用錢包",
+                "description": "這些數據是恢復錢包的唯一方法。 保守秘密，保證安全。",
                 "success": {
-                    "copied": "Recovery data copied to clipboard."
+                    "copied": "恢復數據複製到剪貼板。"
                 },
                 "button": {
-                    "copy": "Copy it somewhere safe"
+                    "copy": "將它複製到安全的地方"
                 }
             },
             "protect": {
-                "header": "Secure this wallet",
-                "title": "Secure this wallet",
+                "header": "保護這個錢包",
+                "title": "保護這個錢包",
                 "text": {
-                    "step1_msg1": "This passphrase will allow you to recover your funds if your phone is ever lost or stolen.",
-                    "step1_msg2": "Please make sure nobody has access to your passphrase. You can use a password manager or write it down and hide it under your mattress.",
-                    "step1_label": "I understand that if I lose my passphrase, I lose access to my account.",
-                    "step2_msg1": "Record these words carefully. Don't email it or screenshot it.",
-                    "step3_msg1": "Tap to put these words in the correct order.",
-                    "need_secure": "Need secure",
-                    "need_backup": "Needs Backup"
+                    "step1_msg1": "如果您的手機丟失或被盜，此密碼短語將允許您收回資金。",
+                    "step1_msg2": "請確保沒有人可以訪問您的密碼。 您可以使用密碼管理器或將其寫下來並將其隱藏在床墊下。",
+                    "step1_label": "我理解，如果我丟失了密碼，我將無法訪問自己的帳戶。",
+                    "step2_msg1": "仔細記錄這些單詞。 不要通過電子郵件發送或截圖。",
+                    "step3_msg1": "點擊以正確的順序放置這些單詞。",
+                    "need_secure": "需要安全",
+                    "need_backup": "需要備份"
                 },
                 "button": {
-                    "continue": "Continue",
-                    "verify": "Verify your passphrase",
-                    "copy_clipboard": "Copy to clipboard",
-                    "ok": "OK"
+                    "continue": "繼續",
+                    "verify": "驗證您的密碼",
+                    "copy_clipboard": "複製到剪貼板",
+                    "ok": "好"
                 },
                 "error": {
-                    "confirm": "These words are in the wrong order. Please try again."
+                    "confirm": "這些單詞的順序錯誤。 請再試一次。"
                 },
-                "success": "Your wallet has been secured!"
+                "success": "你的錢包已經安全了！"
             },
             "receive": {
-                "title": "Receive coins",
-                "header": "Wallet address",
-                "header2": "Custom Amount",
-                "message": "Share your public wallet address to receive",
-                "title2": "MY DESPOSIT ADDRESS",
+                "title": "收到硬幣",
+                "header": "錢包地址",
+                "header2": "自定義金額",
+                "message": "分享您的公共錢包地址以便接收",
+                "title2": "我的存款地址",
                 "label": {
-                    "address": "Address",
+                    "address": "地址",
                     "amount": "金額",
-                    "usd": "USD"
+                    "usd": "美元"
                 },
                 "placeholder": {
-                    "amount": "Specify amount ...",
-                    "choose_wallet": "Choose a wallet ..."
+                    "amount": "指定金額......",
+                    "choose_wallet": "選一個錢包......"
                 },
                 "link": {
-                    "copy_address": "Copy address",
-                    "download_qrcode": "Download QR code"
+                    "copy_address": "複製地址",
+                    "download_qrcode": "下載二維碼"
                 },
                 "button": {
-                    "share": "Copy to share",
-                    "request_amount": "Request Specific amount ➔",
+                    "share": "複製分享",
+                    "request_amount": "要求具體金額➔",
                     "done": "完成",
-                    "text": "Copy address"
+                    "text": "複製地址"
                 },
                 "success": {
-                    "share": "Wallet address copied to clipboard."
+                    "share": "錢包地址已復製到剪貼板。"
                 }
             },
             "create": {
-                "header": "Create new wallet",
+                "header": "創建新錢包",
                 "label": {
-                    "select_coints": "Select coins",
-                    "wallet_key": "Wallet key",
-                    "main_net": "Mainnet wallets",
+                    "select_coints": "選擇硬幣",
+                    "wallet_key": "錢包鑰匙",
+                    "main_net": "主網錢包",
                     "test_net": "Testnet",
                     "header_coins": "Cryptocurrencies",
                     "header_tokens": "ERC20 Tokens",
                     "header_collectibles": "ERC721 Collectibles"
                 },
                 "text": {
-                    "random": "Random",
-                    "specify_phrase": "Specify recovery Phrase"
+                    "random": "隨機",
+                    "specify_phrase": "指定恢復短語"
                 },
                 "placeholder": {
-                    "wallet_key": "Wallet key",
+                    "wallet_key": "錢包鑰匙",
                     "phrase": "Type your 12 secret recovery words."
                 },
                 "button": {
@@ -546,183 +546,183 @@
                 "header": "掃描二維碼"
             },
             "transaction": {
-                "header": "Transaction details"
+                "header": "交易明細"
             },
             "history": {
-                "title": "View transaction history",
-                "header": "Transaction history",
+                "title": "查看交易記錄",
+                "header": "交易記錄",
                 "label": {
-                    "balance_hidden": "Balance Hidden",
+                    "balance_hidden": "平衡隱藏",
                     "failed": "失敗",
-                    "pending": "Pending",
+                    "pending": "有待",
                     "unconfirmed": "Unconfirmed",
-                    "balance": "Balance",
-                    "transactions": "Transactions",
-                    "status": "Status",
-                    "confirmations": "confirmations",
+                    "balance": "餘額",
+                    "transactions": "交易",
+                    "status": "狀態",
+                    "confirmations": "確認",
                     "success": "成功",
-                    "error": "Error",
-                    "detail_etherscan": "View detail on etherscan.io",
-                    "detail_blockchaininfo": "View detail on bitpay.com",
-                    "view_all_etherscan": "Watch etherscan",
-                    "self": "Self",
-                    "sent": "Sent",
-                    "received": "Received",
-                    "create": "Create",
-                    "transfer": "transfer",
-                    "from": "from",
-                    "to": "to",
-                    "internal_transactions": "Internal",
-                    "no_trans": "No transactions yet",
-                    "no_internal_trans": "No internal transactions yet",
-                    "coming_soon": "Coming soon ...",
-                    "send": "Send",
-                    "receive": "Receive"
+                    "error": "錯誤",
+                    "detail_etherscan": "查看etherscan.io上的詳細信息",
+                    "detail_blockchaininfo": "查看bitpay.com上的詳細信息",
+                    "view_all_etherscan": "觀看etherscan",
+                    "self": "自",
+                    "sent": "發送",
+                    "received": "收到",
+                    "create": "創建",
+                    "transfer": "傳遞",
+                    "from": "從",
+                    "to": "至",
+                    "internal_transactions": "內部",
+                    "no_trans": "還沒有交易",
+                    "no_internal_trans": "還沒有內部交易記錄",
+                    "coming_soon": "即將推出。。。",
+                    "send": "傳送",
+                    "receive": "已接收"
                 }
             }
         }
     },
     "bitcoin": {
         "error": {
-            "invalid_address": "You can only send tokens to Bitcoin address",
-            "invalid_address2": "Please enter a valid receiving address.",
-            "insufficient": "You have insufficient coin to make the transfer."
+            "invalid_address": "您只能將權杖發送到比特幣位址",
+            "invalid_address2": "請輸入有效的接收位址。",
+            "insufficient": "你沒有足夠的硬幣進行轉移。"
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易將在大約30秒後顯示在區塊鏈上。"
         }
     },
     "bitcoin_cash": {
         "error": {
-            "invalid_address": "You can only send tokens to BitcoinCash address",
-            "invalid_address2": "Please enter a valid receiving address.",
-            "insufficient": "You have insufficient coin to make the transfer."
+            "invalid_address": "您只能將權杖發送到比特幣位址",
+            "invalid_address2": "請輸入有效的接收位址。",
+            "insufficient": "你沒有足夠的硬幣進行轉移。"
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易將在大約30秒後顯示在區塊鏈上。"
         }
     },
     "ethereum": {
         "error": {
-            "invalid_address": "You can only send tokens to Ethereum address",
-            "invalid_address2": "Please enter a valid receiving address.",
-            "insufficient": "You have insufficient coin to make the transfer.",
-            "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
+            "invalid_address": "您只能將權杖發送到以太幣位址",
+            "invalid_address2": "請輸入有效的接收位址。",
+            "insufficient": "你沒有足夠的硬幣進行轉移。",
+            "insufficient_gas": "您沒有足夠的硬幣來支付燃氣費"
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易將在大約30秒後顯示在區塊鏈上。"
         }
     },
     "ripple": {
         "error": {
             "invalid_address": "You can only send tokens to Ripple address",
-            "invalid_address2": "Please enter a valid receiving address.",
-            "insufficient": "You have insufficient coin to make the transfer.",
-            "insufficient_gas": "You have insufficient coin to make the transfer with gas fee."
+            "invalid_address2": "請輸入有效的接收位址。",
+            "insufficient": "你沒有足夠的硬幣進行轉移。",
+            "insufficient_gas": "您沒有足夠的硬幣來支付燃氣費"
         },
         "success": {
-            "transaction": "Your transaction will appear on blockchain in about 30 seconds."
+            "transaction": "您的交易將在大約30秒後顯示在區塊鏈上。"
         }
     },
     "requirePassword": {
-        "passNotMatch": "Password do not match, please try again.",
-        "title": "Wallet Security",
-        "description": "Please enter your password to Unlock wallet",
-        "btnUnlockText": "Unlock"
+        "passNotMatch": "Passwords do not match, please try again.\"",
+        "title": "電子錢包安全",
+        "description": "請輸入您的密碼解鎖錢包",
+        "btnUnlockText": "解鎖"
     },
     "review": {
-        "title": "Review",
+        "title": "審查",
         "label": {
-            "description": "How is your experience with Coinbowl?",
-            "required": "Please enter your comments",
-            "submitButtonTitle": "Submit",
-            "loadMore": "Load more",
-            "comments": "{numReview} comments",
-            "button": "Submit"
+            "description": "你在的經歷如何同 Coinbowl",
+            "required": "請輸入您的評論",
+            "submitButtonTitle": "提交",
+            "loadMore": "載入更多",
+            "comments": "{numReview} 評論",
+            "button": "提交"
         },
-        "thanksMessage": "Thank you! Your message has been sent."
+        "thanksMessage": "謝謝！您的消息已發送。"
     },
     "coin": {
-        "buyTabTitle": "BUY COIN",
-        "sellTabTitle": "SELL COIN",
-        "introText": "Buy & Sell Crypto at best prices",
-        "subIntroText": "See how it works",
+        "buyTabTitle": "購買硬幣",
+        "sellTabTitle": "出售硬幣",
+        "introText": "以最優惠的價格購買和出售加密產品",
+        "subIntroText": "瞭解其工作原理",
         "buy": {
-            "orderSuccessMsg": "Your order was created successfully!",
-            "orderFailedMsg": "Create order failed, please try again!",
-            "userAddress": "Address",
-            "userPhone": "Phone",
-            "userNote": "As soon as possible"
+            "orderSuccessMsg": "您的訂單已成功創建!",
+            "orderFailedMsg": "創建訂單失敗, 請再試一次!",
+            "userAddress": "位址",
+            "userPhone": "電話",
+            "userNote": "儘快"
         },
         "sell": {
-            "prepareOrderFailed": "Error while preparing to order, pls try again",
-            "orderSuccessful": "Your order was created successfully",
-            "orderFailed": "Error while making new order, pls try again",
-            "bankName": "Bank name",
-            "accountNumber": "Account number",
-            "accountName": "Account name",
-            "phone": "Phone number"
+            "prepareOrderFailed": "準備訂購時出錯, 請重試",
+            "orderSuccessful": "您的訂單已成功創建",
+            "orderFailed": "做新訂單時出錯, 請重試",
+            "bankName": "銀行名稱",
+            "accountNumber": "帳戶號碼",
+            "accountName": "帳戶名稱",
+            "phone": "手機號碼"
         },
         "components": {
             "bankTransferInfo": {
-                "noteTitle": "IMPORTANT",
-                "noteDesc": "You must send the exact amount & reference code as instructed and upload the payment proof below so we can proceed sending coins to you.",
-                "uploadBtn": "Upload Your Receipt",
-                "saveBtn": "Save",
-                "customerAmount": "CUSTOMER AMOUNT",
-                "yourAmount": "YOUR AMOUNT",
-                "accountName": "ACCOUNT NAME",
-                "accountNumber": "ACCOUNT NUMBER",
-                "bankName": "BANK NAME",
-                "bankId": "BANK ID",
-                "refCode": "REFERENCE CODE",
-                "nameCard": "BANK TRANSFER INFO",
-                "willExpiredIn": "Will expired in",
-                "expiredText": "Expired"
+                "noteTitle": "重要",
+                "noteDesc": "您必須按照指示發送確切的金額和參考代碼, 並在下面上傳付款證明, 以便我們可以繼續向您發送硬幣。",
+                "uploadBtn": "上傳您的收據",
+                "saveBtn": "記録",
+                "customerAmount": "客戶數量",
+                "yourAmount": "你的金额",
+                "accountName": "帳戶名稱",
+                "accountNumber": "帳戶號碼",
+                "bankName": "銀行名稱",
+                "bankId": "銀行 ID",
+                "refCode": "參考代碼",
+                "nameCard": "銀行轉帳資訊",
+                "willExpiredIn": "將過期於",
+                "expiredText": "過期"
             },
             "paymentMethod": {
-                "wireTransferName": "Wire transfer",
-                "codName": "Cash on Delivery",
-                "codInfo": "State your time and place for meeting up and we will exchange in person."
+                "wireTransferName": "電匯",
+                "codName": "貨到付款",
+                "codInfo": "說明你開會的時間和地點, 我們將親自交流。"
             },
             "walletSelector": {
-                "qrScannerText": "Scan QR code or copy wallet address",
-                "currency": "Currency",
-                "invalidAddressMsg": "The address and type of crypto don't match. Please check"
+                "qrScannerText": "掃描二維碼或複製錢包位址",
+                "currency": "貨幣",
+                "invalidAddressMsg": "加密的位址和類型不匹配。請檢查"
             },
             "sellOrderInfo": {
-                "transferCoinFirst": "You have to transfer coin to this address first",
-                "Receiving": "Receiving",
-                "Selling": "Selling",
-                "mainNote": "NOTE: YOU HAVE TO CLICK \"FINISH\" TO COMPLETE THE TRANSACTION",
-                "subNote": "(Transaction may be lost if you forget to complete this step)",
+                "transferCoinFirst": "你必須先把硬幣轉移到這個位址",
+                "Receiving": "接收",
+                "Selling": "銷售",
+                "mainNote": "注: 您必須點擊 \"完成\" 來完成交易",
+                "subNote": "(如果您忘記完成此步驟, 事務可能會丟失)",
                 "listNote": {
-                    "note1": "Please transfer the exact number to the above address",
-                    "note2": "The price of the crypto fluctuates constantly; therefore, we only keep this price for 5 minutes",
-                    "note3": "We will transfer the fiat to you as soon as there is 1 confirmation on the network."
+                    "note1": "請將確切號碼轉到上述位址",
+                    "note2": "密碼的價格不斷波動; 因此, 我們只保留這個價格5分鐘",
+                    "note3": "一旦網路上有1個確認, 我們將把法令轉讓給你。"
                 },
-                "cardName": "ORDER INFO",
-                "priceWillUpdateIn": "Price will be updated after",
-                "orderBtn": "Finish"
+                "cardName": "訂單資訊",
+                "priceWillUpdateIn": "價格將在之後更新",
+                "orderBtn": "完成"
             },
             "pricePanel": {
                 "buy": "購買",
                 "sell": "賣"
             },
             "exchange": {
-                "amountLabel": "Amount to {direction}",
-                "currency": "Currency"
+                "amountLabel": "</div> 的金額 {direction}",
+                "currency": "貨幣"
             }
         }
     },
     "userVerifyStatus": {
-        "level1Pending": "To start trading, please take a few minutes to verify your account. {verify}",
-        "verifyBtn": "Verify now",
-        "notLogin": "Please sign in to start trading.{action}",
-        "notLoginBtn": "Sign In Now"
+        "level1Pending": "要開始交易, 請花幾分鐘來驗證您的帳戶 {verify}",
+        "verifyBtn": "立即驗證",
+        "notLogin": "請登錄以開始交易。{action}",
+        "notLoginBtn": "立即註冊"
     },
     "static_page": {
-        "userAgreement": "User Agreement",
-        "privacyPolicy": "Privacy Policy"
+        "userAgreement": "用戶協議",
+        "privacyPolicy": "隱私權政策"
     }
 }
