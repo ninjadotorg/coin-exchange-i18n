@@ -42,6 +42,13 @@
         }
     },
     "me": {
+        "navigation": {
+            "accountInfo": "My Profile",
+            "setting": "My Setting",
+            "accountLevel": "Account Level",
+            "history": "History",
+            "bankInfo": "Bank Info"
+        },
         "accountInfo": {
             "email": "電子郵件",
             "nickname": "昵稱",
@@ -59,7 +66,7 @@
             "userProfile": "使用者檔案",
             "personalDetails": "個人詳細資訊",
             "personalDetailsDesc": "您的個人資訊永遠不會顯示給其他使用者",
-            "referralTitle": "轉診",
+            "referralTitle": "Referral",
             "referralLink": "您的推薦連結在這裡: ",
             "referral": {
                 "name": "名字",
@@ -76,13 +83,23 @@
                 "newPasswordRequired": "需要新密碼"
             }
         },
-        "setting": {},
+        "setting": {
+            "title": "General Settings"
+        },
         "history": {
             "title": "交易記錄",
             "date": "日期",
             "refcode": "參考代碼",
             "type": "類型",
-            "amount": "金額"
+            "amount": "金額",
+            "viewDetail": "View Detail",
+            "status": "Status",
+            "value": "Value",
+            "link": "Link",
+            "action": "Action",
+            "cancel": "Cancel",
+            "close": "Close",
+            "detail": "Detail"
         },
         "accountLevel": {
             "head_text": "我們的驗證過程通常只需幾分鐘。 這可能需要稍長的工作時間。 您的信息將保持100％私密。",
@@ -91,8 +108,9 @@
             "step3": "第3級: 身份證驗證",
             "step4": "第4級: 上傳照片自拍",
             "wrm1": "交易金額限制為每天500美元。",
-            "wrm2": "以每天5000美元的最高限額進行交易。",
-            "wrm3": "以每天50000美元的最高限額進行交易。",
+            "wrm2": "Trade with the top limit of 2000 USD a day.",
+            "wrm3": "Trade with the top limit of 5000 USD a day.",
+            "wrm4": "Unlimited Amount.",
             "lv3desc": "遵守相關的反洗錢和反恐融資法律和條例。",
             "fullName": "全名",
             "fullNameDesc": "請輸入您的全名",
@@ -117,6 +135,19 @@
                 "imageIdentifierRequired": "背面/正面圖像是必需的",
                 "imageIdentifierPassportRequired": "護照照片是必需的",
                 "imageSelfieRequired": "你的自拍是必需的"
+            }
+        },
+        "bankInfo": {
+            "title": "銀行資訊",
+            "bankName": "銀行名稱",
+            "bankAccountName": "銀行帳戶名稱",
+            "bankAccountNumber": "銀行帳戶號碼",
+            "bankNameHolder": "輸入銀行名稱",
+            "bankAccountNameHolder": "輸入銀行帳戶名稱",
+            "bankAccountNumberHolder": "輸入銀行帳號",
+            "alert": {
+                "success": "更新成功",
+                "failed": "更新失敗"
             }
         }
     },
@@ -740,6 +771,7 @@
     "static_page": {
         "userAgreement": "用戶協議",
         "privacyPolicy": "隱私權政策",
-        "promotionPrograms": "推廣計畫"
+        "promotionPrograms": "推廣計畫",
+        "aboutUs": "About Us"
     }
 }

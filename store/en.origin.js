@@ -42,6 +42,13 @@
         }
     },
     "me": {
+        "navigation": {
+            "accountInfo": "%%%.me.navigation.accountInfo%%%",
+            "setting": "%%%.me.navigation.setting%%%",
+            "accountLevel": "%%%.me.navigation.accountLevel%%%",
+            "history": "%%%.me.navigation.history%%%",
+            "bankInfo": "%%%.me.navigation.bankInfo%%%"
+        },
         "accountInfo": {
             "email": "%%%.me.accountInfo.email%%%",
             "nickname": "%%%.me.accountInfo.nickname%%%",
@@ -76,13 +83,23 @@
                 "newPasswordRequired": "%%%.me.accountInfo.validate.newPasswordRequired%%%"
             }
         },
-        "setting": {},
+        "setting": {
+            "title": "%%%.me.setting.title%%%"
+        },
         "history": {
             "title": "%%%.me.history.title%%%",
             "date": "%%%.me.history.date%%%",
             "refcode": "%%%.me.history.refcode%%%",
             "type": "%%%.me.history.type%%%",
-            "amount": "%%%.me.history.amount%%%"
+            "amount": "%%%.me.history.amount%%%",
+            "viewDetail": "%%%.me.history.viewDetail%%%",
+            "status": "%%%.me.history.status%%%",
+            "value": "%%%.me.history.value%%%",
+            "link": "%%%.me.history.link%%%",
+            "action": "%%%.me.history.action%%%",
+            "cancel": "%%%.me.history.cancel%%%",
+            "close": "%%%.me.history.close%%%",
+            "detail": "%%%.me.history.detail%%%"
         },
         "accountLevel": {
             "head_text": "%%%.me.accountLevel.head_text%%%",
@@ -93,6 +110,7 @@
             "wrm1": "%%%.me.accountLevel.wrm1%%%",
             "wrm2": "%%%.me.accountLevel.wrm2%%%",
             "wrm3": "%%%.me.accountLevel.wrm3%%%",
+            "wrm4": "%%%.me.accountLevel.wrm4%%%",
             "lv3desc": "%%%.me.accountLevel.lv3desc%%%",
             "fullName": "%%%.me.accountLevel.fullName%%%",
             "fullNameDesc": "%%%.me.accountLevel.fullNameDesc%%%",
