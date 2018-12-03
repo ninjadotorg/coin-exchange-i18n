@@ -730,6 +730,7 @@
             "paymentMethod": {
                 "wireTransferName": "%%%.coin.components.paymentMethod.wireTransferName%%%",
                 "codName": "%%%.coin.components.paymentMethod.codName%%%",
+                "tngName": "%%%.coin.components.paymentMethod.tngName%%%",
                 "codInfo": "%%%.coin.components.paymentMethod.codInfo%%%"
             },
             "walletSelector": {
@@ -758,7 +759,18 @@
             },
             "exchange": {
                 "amountLabel": "%%%.coin.components.exchange.amountLabel%%%",
-                "currency": "%%%.coin.components.exchange.currency%%%"
+                "currency": "%%%.coin.components.exchange.currency%%%",
+                "buy": "%%%.coin.components.exchange.buy%%%",
+                "sell": "%%%.coin.components.exchange.sell%%%"
+            },
+            "phoneVerify": {
+                "submitPhoneSuccessMsg": "%%%.coin.components.phoneVerify.submitPhoneSuccessMsg%%%",
+                "submitPhoneFailedMsg": "%%%.coin.components.phoneVerify.submitPhoneFailedMsg%%%",
+                "submitCodeSuccessMsg": "%%%.coin.components.phoneVerify.submitCodeSuccessMsg%%%",
+                "submitCodeFailedMsg": "%%%.coin.components.phoneVerify.submitCodeFailedMsg%%%",
+                "verifyCode": "%%%.coin.components.phoneVerify.verifyCode%%%",
+                "submitCode": "%%%.coin.components.phoneVerify.submitCode%%%",
+                "submitPhone": "%%%.coin.components.phoneVerify.submitPhone%%%"
             }
         }
     },
