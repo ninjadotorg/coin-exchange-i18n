@@ -13,7 +13,12 @@
         "common": {
             "error": "%%%.app.common.error%%%",
             "required": "%%%.app.common.required%%%",
-            "copied": "%%%.app.common.copied%%%"
+            "copied": "%%%.app.common.copied%%%",
+            "remove": "%%%.app.common.remove%%%",
+            "save": "%%%.app.common.save%%%",
+            "update": "%%%.app.common.update%%%",
+            "delete": "%%%.app.common.delete%%%",
+            "fileupload": "%%%.app.common.fileupload%%%"
         }
     },
     "headerBar": {
@@ -134,11 +139,14 @@
                 "sendEmailCodeSuccess": "%%%.me.accountLevel.alert.sendEmailCodeSuccess%%%",
                 "imageIdentifierRequired": "%%%.me.accountLevel.alert.imageIdentifierRequired%%%",
                 "imageIdentifierPassportRequired": "%%%.me.accountLevel.alert.imageIdentifierPassportRequired%%%",
-                "imageSelfieRequired": "%%%.me.accountLevel.alert.imageSelfieRequired%%%"
+                "imageSelfieRequired": "%%%.me.accountLevel.alert.imageSelfieRequired%%%",
+                "overSMSLimit": "%%%.me.accountLevel.alert.overSMSLimit%%%",
+                "error": "%%%.me.accountLevel.alert.error%%%"
             }
         },
         "bankInfo": {
             "title": "%%%.me.bankInfo.title%%%",
+            "desc": "%%%.me.bankInfo.desc%%%",
             "bankName": "%%%.me.bankInfo.bankName%%%",
             "bankAccountName": "%%%.me.bankInfo.bankAccountName%%%",
             "bankAccountNumber": "%%%.me.bankInfo.bankAccountNumber%%%",
@@ -147,7 +155,23 @@
             "bankAccountNumberHolder": "%%%.me.bankInfo.bankAccountNumberHolder%%%",
             "alert": {
                 "success": "%%%.me.bankInfo.alert.success%%%",
-                "failed": "%%%.me.bankInfo.alert.failed%%%"
+                "failed": "%%%.me.bankInfo.alert.failed%%%",
+                "deleteSuccess": "%%%.me.bankInfo.alert.deleteSuccess%%%",
+                "deleteFailed": "%%%.me.bankInfo.alert.deleteFailed%%%"
+            },
+            "dialog": {
+                "update": {
+                    "title": "%%%.me.bankInfo.dialog.update.title%%%",
+                    "body": "%%%.me.bankInfo.dialog.update.body%%%",
+                    "confirm": "%%%.me.bankInfo.dialog.update.confirm%%%",
+                    "cancel": "%%%.me.bankInfo.dialog.update.cancel%%%"
+                },
+                "delete": {
+                    "title": "%%%.me.bankInfo.dialog.delete.title%%%",
+                    "body": "%%%.me.bankInfo.dialog.delete.body%%%",
+                    "confirm": "%%%.me.bankInfo.dialog.delete.confirm%%%",
+                    "cancel": "%%%.me.bankInfo.dialog.delete.cancel%%%"
+                }
             }
         }
     },
@@ -698,12 +722,14 @@
         },
         "sell": {
             "prepareOrderFailed": "%%%.coin.sell.prepareOrderFailed%%%",
+            "addPaymentInfoFailed": "%%%.coin.sell.addPaymentInfoFailed%%%",
             "orderSuccessful": "%%%.coin.sell.orderSuccessful%%%",
             "orderFailed": "%%%.coin.sell.orderFailed%%%",
             "bankName": "%%%.coin.sell.bankName%%%",
             "accountNumber": "%%%.coin.sell.accountNumber%%%",
             "accountName": "%%%.coin.sell.accountName%%%",
-            "phone": "%%%.coin.sell.phone%%%"
+            "phone": "%%%.coin.sell.phone%%%",
+            "sellBtn": "%%%.coin.sell.sellBtn%%%"
         },
         "components": {
             "bankTransferInfo": {
@@ -771,19 +797,34 @@
                 "verifyCode": "%%%.coin.components.phoneVerify.verifyCode%%%",
                 "submitCode": "%%%.coin.components.phoneVerify.submitCode%%%",
                 "submitPhone": "%%%.coin.components.phoneVerify.submitPhone%%%"
+            },
+            "sellBankInfo": {
+                "bankInfo": "%%%.coin.components.sellBankInfo.bankInfo%%%",
+                "bankName": "%%%.coin.components.sellBankInfo.bankName%%%",
+                "bankAccountName": "%%%.coin.components.sellBankInfo.bankAccountName%%%",
+                "bankAccountNumber": "%%%.coin.components.sellBankInfo.bankAccountNumber%%%",
+                "gotoEdit": "%%%.coin.components.sellBankInfo.gotoEdit%%%"
             }
         }
-    },
-    "userVerifyStatus": {
-        "level1Pending": "%%%.userVerifyStatus.level1Pending%%%",
-        "verifyBtn": "%%%.userVerifyStatus.verifyBtn%%%",
-        "notLogin": "%%%.userVerifyStatus.notLogin%%%",
-        "notLoginBtn": "%%%.userVerifyStatus.notLoginBtn%%%"
     },
     "static_page": {
         "userAgreement": "%%%.static_page.userAgreement%%%",
         "privacyPolicy": "%%%.static_page.privacyPolicy%%%",
         "promotionPrograms": "%%%.static_page.promotionPrograms%%%",
         "aboutUs": "%%%.static_page.aboutUs%%%"
+    },
+    "components": {
+        "userVerifyStatus": {
+            "level1Pending": "%%%.components.userVerifyStatus.level1Pending%%%",
+            "verifyBtn": "%%%.components.userVerifyStatus.verifyBtn%%%",
+            "notLogin": "%%%.components.userVerifyStatus.notLogin%%%",
+            "notLoginBtn": "%%%.components.userVerifyStatus.notLoginBtn%%%"
+        },
+        "confirmBtn": {
+            "defaultMsg": "%%%.components.confirmBtn.defaultMsg%%%",
+            "defaultConfirmText": "%%%.components.confirmBtn.defaultConfirmText%%%",
+            "defaultDeclineText": "%%%.components.confirmBtn.defaultDeclineText%%%",
+            "defaultLabelText": "%%%.components.confirmBtn.defaultLabelText%%%"
+        }
     }
 }

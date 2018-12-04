@@ -43,11 +43,11 @@
     },
     "me": {
         "navigation": {
-            "accountInfo": "My Profile",
-            "setting": "My Setting",
-            "accountLevel": "Account Level",
-            "history": "History",
-            "bankInfo": "Bank Info"
+            "accountInfo": "我的個人資料",
+            "setting": "我的設置",
+            "accountLevel": "帳戶級別",
+            "history": "歷史",
+            "bankInfo": "銀行資訊"
         },
         "accountInfo": {
             "email": "電子郵件",
@@ -66,7 +66,7 @@
             "userProfile": "使用者檔案",
             "personalDetails": "個人詳細資訊",
             "personalDetailsDesc": "您的個人資訊永遠不會顯示給其他使用者",
-            "referralTitle": "Referral",
+            "referralTitle": "轉 介",
             "referralLink": "您的推薦連結在這裡: ",
             "referral": {
                 "name": "名字",
@@ -84,7 +84,7 @@
             }
         },
         "setting": {
-            "title": "General Settings"
+            "title": "常規設置"
         },
         "history": {
             "title": "交易記錄",
@@ -92,14 +92,14 @@
             "refcode": "參考代碼",
             "type": "類型",
             "amount": "金額",
-            "viewDetail": "View Detail",
-            "status": "Status",
-            "value": "Value",
-            "link": "Link",
-            "action": "Action",
-            "cancel": "Cancel",
-            "close": "Close",
-            "detail": "Detail"
+            "viewDetail": "查看詳情",
+            "status": "地位",
+            "value": "價值",
+            "link": "連結",
+            "action": "行動",
+            "cancel": "取消",
+            "close": "關閉",
+            "detail": "詳細"
         },
         "accountLevel": {
             "head_text": "我們的驗證過程通常只需幾分鐘。 這可能需要稍長的工作時間。 您的信息將保持100％私密。",
@@ -108,9 +108,9 @@
             "step3": "第3級: 身份證驗證",
             "step4": "第4級: 上傳照片自拍",
             "wrm1": "交易金額限制為每天500美元。",
-            "wrm2": "Trade with the top limit of 2000 USD a day.",
-            "wrm3": "Trade with the top limit of 5000 USD a day.",
-            "wrm4": "Unlimited Amount.",
+            "wrm2": "以每天2000美元的最高限額進行交易。",
+            "wrm3": "以每天5000美元的最高限額進行交易。",
+            "wrm4": "無限金額。",
             "lv3desc": "遵守相關的反洗錢和反恐融資法律和條例。",
             "fullName": "全名",
             "fullNameDesc": "請輸入您的全名",
@@ -439,7 +439,7 @@
                 "desc": "Anyone with your Private Key will have FULL access to your wallet!!!"
             },
             "setting": {
-                "title": "Settings",
+                "title": "設置",
                 "error": "Invalid wallets",
                 "header": "Wallet Settings",
                 "success": {
@@ -730,6 +730,7 @@
             "paymentMethod": {
                 "wireTransferName": "電匯",
                 "codName": "貨到付款",
+                "tngName": "TNG",
                 "codInfo": "說明你開會的時間和地點, 我們將親自交流。"
             },
             "walletSelector": {
@@ -757,8 +758,19 @@
                 "sell": "賣"
             },
             "exchange": {
-                "amountLabel": "</div> 的金額 {direction}",
-                "currency": "貨幣"
+                "amountLabel": "的金額 {direction}",
+                "currency": "貨幣",
+                "buy": "買",
+                "sell": "賣"
+            },
+            "phoneVerify": {
+                "submitPhoneSuccessMsg": "我們成功地向您的手機發送了代碼",
+                "submitPhoneFailedMsg": "已發送代碼失敗, 請重試",
+                "submitCodeSuccessMsg": "驗證成功",
+                "submitCodeFailedMsg": "驗證失敗, 請重試",
+                "verifyCode": "驗證代碼",
+                "submitCode": "提交代碼",
+                "submitPhone": "提交"
             }
         }
     },
@@ -772,6 +784,6 @@
         "userAgreement": "用戶協議",
         "privacyPolicy": "隱私權政策",
         "promotionPrograms": "推廣計畫",
-        "aboutUs": "About Us"
+        "aboutUs": "關於我們"
     }
 }
