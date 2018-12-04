@@ -13,7 +13,12 @@
         "common": {
             "error": "哦！有些事情是錯的!",
             "required": "必填項目",
-            "copied": "已複製！"
+            "copied": "已複製！",
+            "remove": "Remove",
+            "save": "Save",
+            "update": "Update",
+            "delete": "Delete",
+            "fileupload": "Try dropping some files here, or click to select files to upload."
         }
     },
     "headerBar": {
@@ -134,11 +139,14 @@
                 "sendEmailCodeSuccess": "我們向您的電子郵件發送了驗證碼",
                 "imageIdentifierRequired": "背面/正面圖像是必需的",
                 "imageIdentifierPassportRequired": "護照照片是必需的",
-                "imageSelfieRequired": "你的自拍是必需的"
+                "imageSelfieRequired": "你的自拍是必需的",
+                "overSMSLimit": "You are over sms limit",
+                "error": "OH! something went wrong! Please try again"
             }
         },
         "bankInfo": {
             "title": "銀行資訊",
+            "desc": "Add your bank account details now to receive attractive commission from referral programs and faster payment",
             "bankName": "銀行名稱",
             "bankAccountName": "銀行帳戶名稱",
             "bankAccountNumber": "銀行帳戶號碼",
@@ -147,7 +155,23 @@
             "bankAccountNumberHolder": "輸入銀行帳號",
             "alert": {
                 "success": "更新成功",
-                "failed": "更新失敗"
+                "failed": "更新失敗",
+                "deleteSuccess": "Delete Success",
+                "deleteFailed": "Delete Failed"
+            },
+            "dialog": {
+                "update": {
+                    "title": "Confirm Update",
+                    "body": "Are you sure to update?",
+                    "confirm": "Yes",
+                    "cancel": "No"
+                },
+                "delete": {
+                    "title": "Confirm Delete",
+                    "body": "Are you sure to delete?",
+                    "confirm": "Yes",
+                    "cancel": "No"
+                }
             }
         }
     },
@@ -697,13 +721,15 @@
             "userNote": "儘快"
         },
         "sell": {
-            "prepareOrderFailed": "準備訂購時出錯, 請重試",
+            "prepareOrderFailed": "Failed while preparing to order, please try again",
+            "addPaymentInfoFailed": "Failed while adding your payment info",
             "orderSuccessful": "您的訂單已成功創建",
             "orderFailed": "做新訂單時出錯, 請重試",
             "bankName": "銀行名稱",
             "accountNumber": "帳戶號碼",
             "accountName": "帳戶名稱",
-            "phone": "手機號碼"
+            "phone": "手機號碼",
+            "sellBtn": "Sell {amount} {currency}"
         },
         "components": {
             "bankTransferInfo": {
@@ -771,19 +797,34 @@
                 "verifyCode": "驗證代碼",
                 "submitCode": "提交代碼",
                 "submitPhone": "提交"
+            },
+            "sellBankInfo": {
+                "bankInfo": "Your bank info",
+                "bankName": "Bank name",
+                "bankAccountName": "Account name",
+                "bankAccountNumber": "Account number",
+                "gotoEdit": "Edit your bank info?"
             }
         }
-    },
-    "userVerifyStatus": {
-        "level1Pending": "要開始交易, 請花幾分鐘來驗證您的帳戶 {verify}",
-        "verifyBtn": "立即驗證",
-        "notLogin": "請登錄以開始交易。{action}",
-        "notLoginBtn": "立即註冊"
     },
     "static_page": {
         "userAgreement": "用戶協議",
         "privacyPolicy": "隱私權政策",
         "promotionPrograms": "推廣計畫",
         "aboutUs": "關於我們"
+    },
+    "components": {
+        "userVerifyStatus": {
+            "level1Pending": "To start trading, please take a few minutes to verify your account. {verify}",
+            "verifyBtn": "Verify now",
+            "notLogin": "Please sign in to start trading.{action}",
+            "notLoginBtn": "Sign In Now"
+        },
+        "confirmBtn": {
+            "defaultMsg": "Please confirm",
+            "defaultConfirmText": "Yes",
+            "defaultDeclineText": "No",
+            "defaultLabelText": "Confirm"
+        }
     }
 }

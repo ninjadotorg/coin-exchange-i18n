@@ -811,7 +811,8 @@
         "userAgreement": "%%%.static_page.userAgreement%%%",
         "privacyPolicy": "%%%.static_page.privacyPolicy%%%",
         "promotionPrograms": "%%%.static_page.promotionPrograms%%%",
-        "aboutUs": "%%%.static_page.aboutUs%%%"
+        "aboutUs": "%%%.static_page.aboutUs%%%",
+        "howItworks": "%%%.static_page.howItworks%%%"
     },
     "components": {
         "userVerifyStatus": {
