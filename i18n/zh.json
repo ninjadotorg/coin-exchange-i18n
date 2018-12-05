@@ -15,7 +15,7 @@
             "required": "必填項目",
             "copied": "已複製！",
             "remove": "Remove",
-            "save": "Save",
+            "save": "記録",
             "update": "Update",
             "delete": "Delete",
             "fileupload": "Try dropping some files here, or click to select files to upload."
@@ -130,6 +130,7 @@
             "selfiePhoto": "您的自拍照片",
             "submit": "提交",
             "ok": "確定",
+            "resend": "發送",
             "alert": {
                 "lv2": "恭喜！ 您的等級達到2級",
                 "lv3": "您的請求最高為3級",
@@ -141,6 +142,7 @@
                 "imageIdentifierPassportRequired": "護照照片是必需的",
                 "imageSelfieRequired": "你的自拍是必需的",
                 "overSMSLimit": "You are over sms limit",
+                "invalidCode": "您的代碼不正確, 請重試!",
                 "error": "哦！出什麼事了! 請再試一次"
             }
         },
@@ -148,16 +150,16 @@
             "title": "銀行資訊",
             "desc": "立即添加您的銀行帳戶詳細資訊, 以便從推薦計畫和更快的付款中獲得有吸引力的傭金",
             "bankName": "銀行名稱",
-            "bankAccountName": "Account Name",
-            "bankAccountNumber": "Account Number",
+            "bankAccountName": "帳戶名稱",
+            "bankAccountNumber": "帳戶號碼",
             "bankNameHolder": "輸入銀行名稱",
             "bankAccountNameHolder": "輸入銀行帳戶名稱",
             "bankAccountNumberHolder": "輸入銀行帳號",
             "alert": {
-                "success": "更新成功",
+                "success": "已成功更新",
                 "failed": "更新失敗",
-                "deleteSuccess": "Delete Success",
-                "deleteFailed": "Delete Failed"
+                "deleteSuccess": "已成功刪除",
+                "deleteFailed": "無法刪除"
             },
             "dialog": {
                 "update": {
@@ -718,7 +720,8 @@
             "orderFailedMsg": "創建訂單失敗, 請再試一次!",
             "userAddress": "位址",
             "userPhone": "電話",
-            "userNote": "儘快"
+            "userNote": "儘快",
+            "buyBtn": "Buy {amount} {currency}"
         },
         "sell": {
             "prepareOrderFailed": "在準備訂購時失敗, 請重試",
@@ -756,7 +759,7 @@
             "paymentMethod": {
                 "wireTransferName": "電匯",
                 "codName": "貨到付款",
-                "tngName": "TNG",
+                "tngName": "TNG錢包",
                 "codInfo": "說明你開會的時間和地點, 我們將親自交流。"
             },
             "walletSelector": {
