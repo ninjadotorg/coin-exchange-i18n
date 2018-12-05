@@ -130,6 +130,7 @@
             "selfiePhoto": "%%%.me.accountLevel.selfiePhoto%%%",
             "submit": "%%%.me.accountLevel.submit%%%",
             "ok": "%%%.me.accountLevel.ok%%%",
+            "resend": "%%%.me.accountLevel.resend%%%",
             "alert": {
                 "lv2": "%%%.me.accountLevel.alert.lv2%%%",
                 "lv3": "%%%.me.accountLevel.alert.lv3%%%",
@@ -141,6 +142,7 @@
                 "imageIdentifierPassportRequired": "%%%.me.accountLevel.alert.imageIdentifierPassportRequired%%%",
                 "imageSelfieRequired": "%%%.me.accountLevel.alert.imageSelfieRequired%%%",
                 "overSMSLimit": "%%%.me.accountLevel.alert.overSMSLimit%%%",
+                "invalidCode": "%%%.me.accountLevel.alert.invalidCode%%%",
                 "error": "%%%.me.accountLevel.alert.error%%%"
             }
         },
@@ -718,7 +720,8 @@
             "orderFailedMsg": "%%%.coin.buy.orderFailedMsg%%%",
             "userAddress": "%%%.coin.buy.userAddress%%%",
             "userPhone": "%%%.coin.buy.userPhone%%%",
-            "userNote": "%%%.coin.buy.userNote%%%"
+            "userNote": "%%%.coin.buy.userNote%%%",
+            "buyBtn": "%%%.coin.buy.buyBtn%%%"
         },
         "sell": {
             "prepareOrderFailed": "%%%.coin.sell.prepareOrderFailed%%%",
