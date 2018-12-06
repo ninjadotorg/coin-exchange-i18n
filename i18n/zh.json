@@ -52,7 +52,8 @@
             "setting": "我的設置",
             "accountLevel": "帳戶級別",
             "history": "歷史",
-            "bankInfo": "銀行資訊"
+            "bankInfo": "銀行資訊",
+            "referral": "Referral"
         },
         "accountInfo": {
             "email": "電子郵件",
@@ -104,7 +105,23 @@
             "action": "行動",
             "cancel": "取消",
             "close": "關閉",
-            "detail": "詳細"
+            "detail": "Transaction Detail",
+            "orderStatus": {
+                "pending": "有待",
+                "processing": "Processing",
+                "fiat_transferring": "Fiat Transferring",
+                "transferring": "Transferring",
+                "transferred": "Transferred",
+                "success": "Success",
+                "transfer_failed": "Transfer Failed",
+                "cancelled": "Cancelled",
+                "rejected": "Rejected",
+                "expired": "Expired"
+            },
+            "direction": {
+                "buy": "Buy",
+                "sell": "Sell"
+            }
         },
         "accountLevel": {
             "head_text": "我們的驗證過程通常只需幾分鐘。 這可能需要稍長的工作時間。 您的信息將保持100％私密。",
@@ -790,7 +807,8 @@
                 "amountLabel": "的金額 {direction}",
                 "currency": "貨幣",
                 "buy": "買",
-                "sell": "賣"
+                "sell": "賣",
+                "exchangeFailed": "Failed while exchanging, please try again"
             },
             "phoneVerify": {
                 "submitPhoneSuccessMsg": "我們成功地向您的手機發送了代碼",
@@ -807,6 +825,14 @@
                 "bankAccountName": "帳戶名稱",
                 "bankAccountNumber": "帳戶號碼",
                 "gotoEdit": "編輯您的銀行資訊？"
+            },
+            "popularPlace": {
+                "invalidPlace": "Invalid place",
+                "getPlacesFailed": "Failed while getting popular places"
+            },
+            "popularBanks": {
+                "invalidBank": "Invalid bank",
+                "getBanksFailed": "Failed while getting popular banks"
             }
         }
     },
