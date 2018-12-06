@@ -52,7 +52,8 @@
             "setting": "%%%.me.navigation.setting%%%",
             "accountLevel": "%%%.me.navigation.accountLevel%%%",
             "history": "%%%.me.navigation.history%%%",
-            "bankInfo": "%%%.me.navigation.bankInfo%%%"
+            "bankInfo": "%%%.me.navigation.bankInfo%%%",
+            "referral": "%%%.me.navigation.referral%%%"
         },
         "accountInfo": {
             "email": "%%%.me.accountInfo.email%%%",
@@ -104,7 +105,23 @@
             "action": "%%%.me.history.action%%%",
             "cancel": "%%%.me.history.cancel%%%",
             "close": "%%%.me.history.close%%%",
-            "detail": "%%%.me.history.detail%%%"
+            "detail": "%%%.me.history.detail%%%",
+            "orderStatus": {
+                "pending": "%%%.me.history.orderStatus.pending%%%",
+                "processing": "%%%.me.history.orderStatus.processing%%%",
+                "fiat_transferring": "%%%.me.history.orderStatus.fiat_transferring%%%",
+                "transferring": "%%%.me.history.orderStatus.transferring%%%",
+                "transferred": "%%%.me.history.orderStatus.transferred%%%",
+                "success": "%%%.me.history.orderStatus.success%%%",
+                "transfer_failed": "%%%.me.history.orderStatus.transfer_failed%%%",
+                "cancelled": "%%%.me.history.orderStatus.cancelled%%%",
+                "rejected": "%%%.me.history.orderStatus.rejected%%%",
+                "expired": "%%%.me.history.orderStatus.expired%%%"
+            },
+            "direction": {
+                "buy": "%%%.me.history.direction.buy%%%",
+                "sell": "%%%.me.history.direction.sell%%%"
+            }
         },
         "accountLevel": {
             "head_text": "%%%.me.accountLevel.head_text%%%",
@@ -790,7 +807,8 @@
                 "amountLabel": "%%%.coin.components.exchange.amountLabel%%%",
                 "currency": "%%%.coin.components.exchange.currency%%%",
                 "buy": "%%%.coin.components.exchange.buy%%%",
-                "sell": "%%%.coin.components.exchange.sell%%%"
+                "sell": "%%%.coin.components.exchange.sell%%%",
+                "exchangeFailed": "%%%.coin.components.exchange.exchangeFailed%%%"
             },
             "phoneVerify": {
                 "submitPhoneSuccessMsg": "%%%.coin.components.phoneVerify.submitPhoneSuccessMsg%%%",
@@ -807,6 +825,14 @@
                 "bankAccountName": "%%%.coin.components.sellBankInfo.bankAccountName%%%",
                 "bankAccountNumber": "%%%.coin.components.sellBankInfo.bankAccountNumber%%%",
                 "gotoEdit": "%%%.coin.components.sellBankInfo.gotoEdit%%%"
+            },
+            "popularPlace": {
+                "invalidPlace": "%%%.coin.components.popularPlace.invalidPlace%%%",
+                "getPlacesFailed": "%%%.coin.components.popularPlace.getPlacesFailed%%%"
+            },
+            "popularBanks": {
+                "invalidBank": "%%%.coin.components.popularBanks.invalidBank%%%",
+                "getBanksFailed": "%%%.coin.components.popularBanks.getBanksFailed%%%"
             }
         }
     },

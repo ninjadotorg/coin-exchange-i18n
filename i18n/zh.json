@@ -141,7 +141,7 @@
                 "imageIdentifierRequired": "背面/正面圖像是必需的",
                 "imageIdentifierPassportRequired": "護照照片是必需的",
                 "imageSelfieRequired": "你的自拍是必需的",
-                "overSMSLimit": "You are over sms limit",
+                "overSMSLimit": "您已輸入錯誤的驗證碼10次。 請使用發送到手機的最後一個代碼進行驗證。",
                 "invalidCode": "您的代碼不正確, 請重試!",
                 "error": "哦！出什麼事了! 請再試一次"
             }
@@ -198,12 +198,12 @@
         },
         "forgetPassword": {
             "title": "忘記密碼了嗎？",
-            "description": "Please type your email you used to sign in to reset your password. You may need to check your spam folder or unblock info@coinbowl.com",
+            "description": "請輸入您用於登錄的電子郵件以重置密碼。 您可能需要檢查垃圾郵件文件夾或取消阻止info@coinbowl.com",
             "username": "你的郵件",
             "requiredUsername": "需要電子郵件",
             "notValidUsername": "無效的郵件地址",
             "submitButton": "提交",
-            "resetPasswordIntro": "We have sent a link to your email. Please follow the instruction to sign in with new password",
+            "resetPasswordIntro": "我們已向您的電子郵件發送了一個鏈接。 請按照說明使用新密碼登錄",
             "newPasswordTitle": "輸入{email} 帳戶的新密碼。",
             "password": "新密碼",
             "requiredPassword": "密碼是必需的",
@@ -721,7 +721,7 @@
             "userAddress": "位址",
             "userPhone": "電話",
             "userNote": "儘快",
-            "buyBtn": "Buy {amount} {currency}"
+            "buyBtn": "購買{amount} {currency}"
         },
         "sell": {
             "prepareOrderFailed": "在準備訂購時失敗, 請重試",
@@ -759,7 +759,7 @@
             "paymentMethod": {
                 "wireTransferName": "電匯",
                 "codName": "貨到付款",
-                "tngName": "TNG錢包",
+                "tngName": "TNG wallet",
                 "codInfo": "說明你開會的時間和地點, 我們將親自交流。"
             },
             "walletSelector": {
@@ -815,7 +815,7 @@
         "privacyPolicy": "隱私權政策",
         "promotionPrograms": "推廣計畫",
         "aboutUs": "關於我們",
-        "howItworks": "How It Works"
+        "howItworks": "這個怎麼運作"
     },
     "components": {
         "userVerifyStatus": {
