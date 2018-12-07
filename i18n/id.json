@@ -118,9 +118,21 @@
                 "rejected": "Rejected",
                 "expired": "Expired"
             },
+            "dialog": {
+                "cancel": {
+                    "title": "Cancel Order",
+                    "body": "Are you sure to cancel?",
+                    "confirm": "Yes",
+                    "cancel": "No"
+                }
+            },
             "direction": {
                 "buy": "Buy",
                 "sell": "Sell"
+            },
+            "alert": {
+                "cancelSuccess": "Successfully Cancelled",
+                "cancelFailed": "Failed To Cancel"
             }
         },
         "accountLevel": {
