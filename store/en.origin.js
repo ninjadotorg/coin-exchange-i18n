@@ -49,7 +49,7 @@
     "me": {
         "navigation": {
             "accountInfo": "%%%.me.navigation.accountInfo%%%",
-            "setting": "%%%.me.navigation.setting%%%",
+            "preferecens": "%%%.me.navigation.preferecens%%%",
             "accountLevel": "%%%.me.navigation.accountLevel%%%",
             "history": "%%%.me.navigation.history%%%",
             "bankInfo": "%%%.me.navigation.bankInfo%%%",
@@ -209,6 +209,7 @@
     "COIN_EXCHANGE_LP_FAQ_TITLE": "%%%.COIN_EXCHANGE_LP_FAQ_TITLE%%%",
     "landing_page.label.footer": "%%%.landing_page.label.footer%%%",
     "user": {
+        "setting": "%%%.user.setting%%%",
         "logout": "%%%.user.logout%%%",
         "login": {
             "title": "%%%.user.login.title%%%",
@@ -219,6 +220,7 @@
             "registerButton": "%%%.user.login.registerButton%%%",
             "forgetPassword": "%%%.user.login.forgetPassword%%%",
             "requiredPassword": "%%%.user.login.requiredPassword%%%",
+            "notValidPassword": "%%%.user.login.notValidPassword%%%",
             "notValidUsername": "%%%.user.login.notValidUsername%%%",
             "requiredUsername": "%%%.user.login.requiredUsername%%%",
             "loginFailure": "%%%.user.login.loginFailure%%%",
