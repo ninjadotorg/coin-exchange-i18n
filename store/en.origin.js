@@ -118,9 +118,21 @@
                 "rejected": "%%%.me.history.orderStatus.rejected%%%",
                 "expired": "%%%.me.history.orderStatus.expired%%%"
             },
+            "dialog": {
+                "cancel": {
+                    "title": "%%%.me.history.dialog.cancel.title%%%",
+                    "body": "%%%.me.history.dialog.cancel.body%%%",
+                    "confirm": "%%%.me.history.dialog.cancel.confirm%%%",
+                    "cancel": "%%%.me.history.dialog.cancel.cancel%%%"
+                }
+            },
             "direction": {
                 "buy": "%%%.me.history.direction.buy%%%",
                 "sell": "%%%.me.history.direction.sell%%%"
+            },
+            "alert": {
+                "cancelSuccess": "%%%.me.history.alert.cancelSuccess%%%",
+                "cancelFailed": "%%%.me.history.alert.cancelFailed%%%"
             }
         },
         "accountLevel": {

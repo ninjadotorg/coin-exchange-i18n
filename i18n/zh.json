@@ -105,22 +105,22 @@
             "action": "行動",
             "cancel": "取消",
             "close": "關閉",
-            "detail": "Transaction Detail",
+            "detail": "交易明細",
             "orderStatus": {
                 "pending": "有待",
-                "processing": "Processing",
-                "fiat_transferring": "Fiat Transferring",
-                "transferring": "Transferring",
-                "transferred": "Transferred",
-                "success": "Success",
-                "transfer_failed": "Transfer Failed",
-                "cancelled": "Cancelled",
-                "rejected": "Rejected",
-                "expired": "Expired"
+                "processing": "處理",
+                "fiat_transferring": "菲亞特轉移",
+                "transferring": "轉移",
+                "transferred": "轉移",
+                "success": "成功",
+                "transfer_failed": "轉移失敗",
+                "cancelled": "取消",
+                "rejected": "被拒絕",
+                "expired": "過期"
             },
             "direction": {
-                "buy": "Buy",
-                "sell": "Sell"
+                "buy": "購買",
+                "sell": "賣"
             }
         },
         "accountLevel": {
