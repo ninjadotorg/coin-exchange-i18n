@@ -209,7 +209,7 @@
     "COIN_EXCHANGE_LP_FAQ_TITLE": "常見問答集",
     "landing_page.label.footer": "Coinbowl是一家在線交易所，由Shanzhai Limited（一家香港公司）開發，提供具有競爭力的價格的批量加密服務，並提供全面的送貨服務。<br />加入我們: <a href=\"https://t.me/coin_bowl\" class=\"landing-link\">t.me/coin_bowl</a><br />聯繫我們： <a href=\"mailto:support@coin_bowl.com\" class=\"landing-link\" target=\"_top\">support@coin_bowl.com</a>",
     "user": {
-        "setting": "Settings",
+        "setting": "設置",
         "logout": "登出",
         "login": {
             "title": "登錄Coinbowl",
@@ -220,7 +220,7 @@
             "registerButton": "沒有賬號？",
             "forgetPassword": "忘記密碼？",
             "requiredPassword": "請輸入您的密碼",
-            "notValidPassword": "Password must be 8 characters or more",
+            "notValidPassword": "密碼必須為8個字符或更多",
             "notValidUsername": "無效的郵件地址",
             "requiredUsername": "請輸入您的電子郵件",
             "loginFailure": "電子郵件和密碼不匹配。",
@@ -297,7 +297,7 @@
         }
     },
     "wallet": {
-        "title": "Coinbowl Wallet",
+        "title": "Coinbowl錢包",
         "top_banner": {
             "message": "Shuriken Airdrop (limited)",
             "button": "點擊這裡"
@@ -498,7 +498,7 @@
             "setting": {
                 "title": "設置",
                 "error": "Invalid wallets",
-                "header": "Wallet Settings",
+                "header": "錢包設置",
                 "success": {
                     "restore": "Your Wallet restore success",
                     "save_alternative_currency": "保存所選貨幣!",

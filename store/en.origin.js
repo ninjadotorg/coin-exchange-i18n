@@ -79,6 +79,13 @@
                 "status": "%%%.me.accountInfo.referral.status%%%",
                 "date": "%%%.me.accountInfo.referral.date%%%"
             },
+            "referralEarningTitle": "%%%.me.accountInfo.referralEarningTitle%%%",
+            "referralEarning": {
+                "from": "%%%.me.accountInfo.referralEarning.from%%%",
+                "type": "%%%.me.accountInfo.referralEarning.type%%%",
+                "value": "%%%.me.accountInfo.referralEarning.value%%%",
+                "date": "%%%.me.accountInfo.referralEarning.date%%%"
+            },
             "alert": {
                 "passwordSuccess": "%%%.me.accountInfo.alert.passwordSuccess%%%",
                 "passwordFailed": "%%%.me.accountInfo.alert.passwordFailed%%%",
@@ -173,6 +180,17 @@
                 "overSMSLimit": "%%%.me.accountLevel.alert.overSMSLimit%%%",
                 "invalidCode": "%%%.me.accountLevel.alert.invalidCode%%%",
                 "error": "%%%.me.accountLevel.alert.error%%%"
+            },
+            "levelStatus": {
+                "pending": "%%%.me.accountLevel.levelStatus.pending%%%",
+                "processing": "%%%.me.accountLevel.levelStatus.processing%%%",
+                "rejected": "%%%.me.accountLevel.levelStatus.rejected%%%",
+                "approved": "%%%.me.accountLevel.levelStatus.approved%%%"
+            },
+            "idTypes": {
+                "passport": "%%%.me.accountLevel.idTypes.passport%%%",
+                "driver_license": "%%%.me.accountLevel.idTypes.driver_license%%%",
+                "id_card": "%%%.me.accountLevel.idTypes.id_card%%%"
             }
         },
         "bankInfo": {
@@ -752,7 +770,8 @@
             "userAddress": "%%%.coin.buy.userAddress%%%",
             "userPhone": "%%%.coin.buy.userPhone%%%",
             "userNote": "%%%.coin.buy.userNote%%%",
-            "buyBtn": "%%%.coin.buy.buyBtn%%%"
+            "buyBtn": "%%%.coin.buy.buyBtn%%%",
+            "confirmMsg": "%%%.coin.buy.confirmMsg%%%"
         },
         "sell": {
             "prepareOrderFailed": "%%%.coin.sell.prepareOrderFailed%%%",
@@ -763,7 +782,8 @@
             "accountNumber": "%%%.coin.sell.accountNumber%%%",
             "accountName": "%%%.coin.sell.accountName%%%",
             "phone": "%%%.coin.sell.phone%%%",
-            "sellBtn": "%%%.coin.sell.sellBtn%%%"
+            "sellBtn": "%%%.coin.sell.sellBtn%%%",
+            "confirmMsg": "%%%.coin.sell.confirmMsg%%%"
         },
         "components": {
             "bankTransferInfo": {
