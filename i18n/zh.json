@@ -14,11 +14,11 @@
             "error": "哦！有些事情是錯的!",
             "required": "必填項目",
             "copied": "已複製！",
-            "remove": "Remove",
+            "remove": "刪除",
             "save": "記録",
             "update": "Update",
             "delete": "Delete",
-            "fileupload": "Try dropping some files here, or click to select files to upload."
+            "fileupload": "嘗試在此處刪除一些文件, 或單擊以選擇要上載的文件."
         }
     },
     "headerBar": {
@@ -49,7 +49,7 @@
     "me": {
         "navigation": {
             "accountInfo": "我的個人資料",
-            "preferecens": "Preferecens",
+            "preferecens": "喜好",
             "accountLevel": "帳戶級別",
             "history": "歷史",
             "bankInfo": "銀行資訊",
@@ -78,6 +78,13 @@
                 "name": "名字",
                 "status": "地位",
                 "date": "日期"
+            },
+            "referralEarningTitle": "Referral Earning",
+            "referralEarning": {
+                "from": "From",
+                "type": "Type",
+                "value": "Value",
+                "date": "Date"
             },
             "alert": {
                 "passwordSuccess": "更新密碼成功",
@@ -173,6 +180,17 @@
                 "overSMSLimit": "您已輸入錯誤的驗證碼10次。 請使用發送到手機的最後一個代碼進行驗證。",
                 "invalidCode": "您的代碼不正確, 請重試!",
                 "error": "哦！出什麼事了! 請再試一次"
+            },
+            "levelStatus": {
+                "pending": "有待",
+                "processing": "處理",
+                "rejected": "被拒絕",
+                "approved": "驗證"
+            },
+            "idTypes": {
+                "passport": "護照",
+                "driver_license": "駕駛執照",
+                "id_card": "政府身份證"
             }
         },
         "bankInfo": {
@@ -752,7 +770,8 @@
             "userAddress": "位址",
             "userPhone": "電話",
             "userNote": "儘快",
-            "buyBtn": "購買{amount} {currency}"
+            "buyBtn": "購買{amount} {currency}",
+            "confirmMsg": "Do you want to buy {amount} {currency}?"
         },
         "sell": {
             "prepareOrderFailed": "在準備訂購時失敗, 請重試",
@@ -763,7 +782,8 @@
             "accountNumber": "帳戶號碼",
             "accountName": "帳戶名稱",
             "phone": "手機號碼",
-            "sellBtn": "銷售 {amount} {currency}"
+            "sellBtn": "銷售 {amount} {currency}",
+            "confirmMsg": "你想賣嗎 {amount} {currency}？"
         },
         "components": {
             "bankTransferInfo": {
@@ -869,6 +889,46 @@
             "defaultConfirmText": "是的",
             "defaultDeclineText": "不",
             "defaultLabelText": "確認"
+        }
+    },
+    "promotion_programs": {
+        "termAndConditions": "Term & Conditions",
+        "early_bird_program": {
+            "title": "Early Bird Program",
+            "description": "You will instantly receive 20 HKD after finishing the first three transactions.",
+            "numTermAndConditions": "4",
+            "termAndConditions": [
+                "You must be one of the first 1,000 users.",
+                "The total value of the first three transactions must be equal or more than 1,000 HKD.",
+                "If the total value of the first two transactions already reached 1,000 HKD or more, you still have to complete the third transaction to receive 20 HKD",
+                "Once you make the first transaction, you have 5 days to finish two other transactions to get your reward."
+            ]
+        },
+        "referral_program": {
+            "title": "Referral Program",
+            "description": "For users (who receive the referral link), you will instantly get back 45 HKD as soon as you buy or sell over 3,000 USD on CoinBowl.",
+            "user": {
+                "description": "For users (who receive the referral link), you will instantly get back 45 HKD as soon as you buy or sell over 3,000 USD on CoinBowl.",
+                "numTermAndConditions": "2",
+                "termAndConditions": [
+                    "Visiting CoinBowl via referral link.",
+                    "Total amount of trading (both buy and sell are counted) is equal or more than 3,000 HKD."
+                ]
+            },
+            "referrer": {
+                "description": "For Referrer (who send the referral link), you will get 25 HKD instantly when your referred person trades over 3,000 HKD.",
+                "numDescriptions": "2",
+                "descriptions": [
+                    "In the first month, you will get 0.2% commission on every transaction from referred person.",
+                    "From the second month, you will still get 0.12% commission on every transactions from referred person."
+                ],
+                "numTermAndConditions": "3",
+                "termAndConditions": [
+                    "Only users visiting CoinBowl via your referral link are counted.",
+                    "You can only get 25 HKD for your first three referred people.",
+                    "Afterwards, you can only get the commission on their transactions."
+                ]
+            }
         }
     }
 }

@@ -776,14 +776,13 @@
         "sell": {
             "prepareOrderFailed": "%%%.coin.sell.prepareOrderFailed%%%",
             "addPaymentInfoFailed": "%%%.coin.sell.addPaymentInfoFailed%%%",
-            "orderSuccessful": "%%%.coin.sell.orderSuccessful%%%",
-            "orderFailed": "%%%.coin.sell.orderFailed%%%",
             "bankName": "%%%.coin.sell.bankName%%%",
             "accountNumber": "%%%.coin.sell.accountNumber%%%",
             "accountName": "%%%.coin.sell.accountName%%%",
             "phone": "%%%.coin.sell.phone%%%",
             "sellBtn": "%%%.coin.sell.sellBtn%%%",
-            "confirmMsg": "%%%.coin.sell.confirmMsg%%%"
+            "confirmMsg": "%%%.coin.sell.confirmMsg%%%",
+            "payoneerEmail": "%%%.coin.sell.payoneerEmail%%%"
         },
         "components": {
             "bankTransferInfo": {
@@ -811,6 +810,7 @@
                 "wireTransferName": "%%%.coin.components.paymentMethod.wireTransferName%%%",
                 "codName": "%%%.coin.components.paymentMethod.codName%%%",
                 "tngName": "%%%.coin.components.paymentMethod.tngName%%%",
+                "payoneerName": "%%%.coin.components.paymentMethod.payoneerName%%%",
                 "codInfo": "%%%.coin.components.paymentMethod.codInfo%%%"
             },
             "walletSelector": {
@@ -831,7 +831,10 @@
                 },
                 "cardName": "%%%.coin.components.sellOrderInfo.cardName%%%",
                 "priceWillUpdateIn": "%%%.coin.components.sellOrderInfo.priceWillUpdateIn%%%",
-                "orderBtn": "%%%.coin.components.sellOrderInfo.orderBtn%%%"
+                "orderBtn": "%%%.coin.components.sellOrderInfo.orderBtn%%%",
+                "orderSuccessful": "%%%.coin.components.sellOrderInfo.orderSuccessful%%%",
+                "orderFailed": "%%%.coin.components.sellOrderInfo.orderFailed%%%",
+                "cancelOrder": "%%%.coin.components.sellOrderInfo.cancelOrder%%%"
             },
             "pricePanel": {
                 "buy": "%%%.coin.components.pricePanel.buy%%%",
@@ -842,7 +845,8 @@
                 "currency": "%%%.coin.components.exchange.currency%%%",
                 "buy": "%%%.coin.components.exchange.buy%%%",
                 "sell": "%%%.coin.components.exchange.sell%%%",
-                "exchangeFailed": "%%%.coin.components.exchange.exchangeFailed%%%"
+                "exchangeFailed": "%%%.coin.components.exchange.exchangeFailed%%%",
+                "minAmount": "%%%.coin.components.exchange.minAmount%%%"
             },
             "phoneVerify": {
                 "submitPhoneSuccessMsg": "%%%.coin.components.phoneVerify.submitPhoneSuccessMsg%%%",
@@ -889,6 +893,47 @@
             "defaultConfirmText": "%%%.components.confirmBtn.defaultConfirmText%%%",
             "defaultDeclineText": "%%%.components.confirmBtn.defaultDeclineText%%%",
             "defaultLabelText": "%%%.components.confirmBtn.defaultLabelText%%%"
+        }
+    },
+    "promotion_programs": {
+        "termAndConditions": "%%%.promotion_programs.termAndConditions%%%",
+        "early_bird_program": {
+            "title": "%%%.promotion_programs.early_bird_program.title%%%",
+            "description": "%%%.promotion_programs.early_bird_program.description%%%",
+            "numTermAndConditions": "%%%.promotion_programs.early_bird_program.numTermAndConditions%%%",
+            "termAndConditions": [
+                "%%%.promotion_programs.early_bird_program.termAndConditions.0%%%",
+                "%%%.promotion_programs.early_bird_program.termAndConditions.1%%%",
+                "%%%.promotion_programs.early_bird_program.termAndConditions.2%%%",
+                "%%%.promotion_programs.early_bird_program.termAndConditions.3%%%"
+            ]
+        },
+        "referral_program": {
+            "title": "%%%.promotion_programs.referral_program.title%%%",
+            "description": "%%%.promotion_programs.referral_program.description%%%",
+            "user": {
+                "title": "%%%.promotion_programs.referral_program.user.title%%%",
+                "description": "%%%.promotion_programs.referral_program.user.description%%%",
+                "numDescriptions": "%%%.promotion_programs.referral_program.user.numDescriptions%%%",
+                "termAndConditions": [
+                    "%%%.promotion_programs.referral_program.user.termAndConditions.0%%%",
+                    "%%%.promotion_programs.referral_program.user.termAndConditions.1%%%"
+                ]
+            },
+            "referrer": {
+                "title": "%%%.promotion_programs.referral_program.referrer.title%%%",
+                "description": "%%%.promotion_programs.referral_program.referrer.description%%%",
+                "numDescriptions": "%%%.promotion_programs.referral_program.referrer.numDescriptions%%%",
+                "descriptions": [
+                    "%%%.promotion_programs.referral_program.referrer.descriptions.0%%%",
+                    "%%%.promotion_programs.referral_program.referrer.descriptions.1%%%"
+                ],
+                "termAndConditions": [
+                    "%%%.promotion_programs.referral_program.referrer.termAndConditions.0%%%",
+                    "%%%.promotion_programs.referral_program.referrer.termAndConditions.1%%%",
+                    "%%%.promotion_programs.referral_program.referrer.termAndConditions.2%%%"
+                ]
+            }
         }
     }
 }

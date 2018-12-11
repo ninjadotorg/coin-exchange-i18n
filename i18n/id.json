@@ -49,7 +49,7 @@
     "me": {
         "navigation": {
             "accountInfo": "My Profile",
-            "preferecens": "Preferecens",
+            "preferecens": "Preferences",
             "accountLevel": "Account Level",
             "history": "History",
             "bankInfo": "Bank Info",
@@ -77,6 +77,13 @@
             "referral": {
                 "name": "Name",
                 "status": "Status",
+                "date": "Date"
+            },
+            "referralEarningTitle": "Referral Earning",
+            "referralEarning": {
+                "from": "From",
+                "type": "Type",
+                "value": "Value",
                 "date": "Date"
             },
             "alert": {
@@ -173,6 +180,17 @@
                 "overSMSLimit": "You entered wrong verification code 10 times already. Please use the last code sent to your phone to verify.",
                 "invalidCode": "Your code is incorrect, please try again!",
                 "error": "OH! something went wrong! Please try again"
+            },
+            "levelStatus": {
+                "pending": "Pending",
+                "processing": "Processing",
+                "rejected": "Rejected",
+                "approved": "Verified"
+            },
+            "idTypes": {
+                "passport": "Passport",
+                "driver_license": "Driver License",
+                "id_card": "Government ID Card"
             }
         },
         "bankInfo": {
@@ -752,7 +770,8 @@
             "userAddress": "Address",
             "userPhone": "Phone",
             "userNote": "As soon as possible",
-            "buyBtn": "Buy {amount} {currency}"
+            "buyBtn": "Buy {amount} {currency}",
+            "confirmMsg": "Do you want to buy {amount} {currency}?"
         },
         "sell": {
             "prepareOrderFailed": "Failed while preparing to order, please try again",
@@ -763,7 +782,8 @@
             "accountNumber": "Account number",
             "accountName": "Account name",
             "phone": "Phone number",
-            "sellBtn": "Sell {amount} {currency}"
+            "sellBtn": "Sell {amount} {currency}",
+            "confirmMsg": "Do you want to sell {amount} {currency}?"
         },
         "components": {
             "bankTransferInfo": {
@@ -869,6 +889,46 @@
             "defaultConfirmText": "Yes",
             "defaultDeclineText": "No",
             "defaultLabelText": "Confirm"
+        }
+    },
+    "promotion_programs": {
+        "termAndConditions": "Term & Conditions",
+        "early_bird_program": {
+            "title": "Early Bird Program",
+            "description": "You will instantly receive 20 HKD after finishing the first three transactions.",
+            "numTermAndConditions": "4",
+            "termAndConditions": [
+                "You must be one of the first 1,000 users.",
+                "The total value of the first three transactions must be equal or more than 1,000 HKD.",
+                "If the total value of the first two transactions already reached 1,000 HKD or more, you still have to complete the third transaction to receive 20 HKD",
+                "Once you make the first transaction, you have 5 days to finish two other transactions to get your reward."
+            ]
+        },
+        "referral_program": {
+            "title": "Referral Program",
+            "description": "For users (who receive the referral link), you will instantly get back 45 HKD as soon as you buy or sell over 3,000 USD on CoinBowl.",
+            "user": {
+                "description": "For users (who receive the referral link), you will instantly get back 45 HKD as soon as you buy or sell over 3,000 USD on CoinBowl.",
+                "numTermAndConditions": "2",
+                "termAndConditions": [
+                    "Visiting CoinBowl via referral link.",
+                    "Total amount of trading (both buy and sell are counted) is equal or more than 3,000 HKD."
+                ]
+            },
+            "referrer": {
+                "description": "For Referrer (who send the referral link), you will get 25 HKD instantly when your referred person trades over 3,000 HKD.",
+                "numDescriptions": "2",
+                "descriptions": [
+                    "In the first month, you will get 0.2% commission on every transaction from referred person.",
+                    "From the second month, you will still get 0.12% commission on every transactions from referred person."
+                ],
+                "numTermAndConditions": "3",
+                "termAndConditions": [
+                    "Only users visiting CoinBowl via your referral link are counted.",
+                    "You can only get 25 HKD for your first three referred people.",
+                    "Afterwards, you can only get the commission on their transactions."
+                ]
+            }
         }
     }
 }
