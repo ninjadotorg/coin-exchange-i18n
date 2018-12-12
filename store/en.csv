@@ -558,6 +558,7 @@
 %%%.coin.components.bankTransferInfo.getBankInfoFailedMsg%%%,"Get bank info failed, please try again"
 %%%.coin.components.bankTransferInfo.retryGetBankInfo%%%,"No bank info data {retry}"
 %%%.coin.components.bankTransferInfo.retryBtn%%%,"Retry?"
+%%%.coin.components.bankTransferInfo.cancelOrder%%%,"Cancel Order"
 %%%.coin.components.paymentMethod.wireTransferName%%%,"Wire transfer"
 %%%.coin.components.paymentMethod.codName%%%,"Cash on Delivery"
 %%%.coin.components.paymentMethod.tngName%%%,"TNG wallet"

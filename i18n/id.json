@@ -148,9 +148,9 @@
             "step2": "Level 2 : Phone Verification",
             "step3": "Level 3 : ID Card Verification",
             "step4": "Level 4 : Upload Photo Selfie",
-            "wrm1": "Trade with a limit upto 500 USD a day.",
-            "wrm2": "Trade with the top limit of 2000 USD a day.",
-            "wrm3": "Trade with the top limit of 5000 USD a day.",
+            "wrm1": "Trade with a limit upto {limit} {currency} a day.",
+            "wrm2": "Trade with the top limit of {limit} {currency} a day.",
+            "wrm3": "Trade with the top limit of {limit} {currency} a day.",
             "wrm4": "Unlimited Amount.",
             "lv3desc": "To comply with relevant anti-money laundering (AML) and counter-terrorism financing (CTF) laws and regulations.",
             "fullName": "Full Name",
@@ -776,14 +776,13 @@
         "sell": {
             "prepareOrderFailed": "Failed while preparing to order, please try again",
             "addPaymentInfoFailed": "Failed while adding your payment info",
-            "orderSuccessful": "Your order was created successfully",
-            "orderFailed": "Error while making new order, pls try again",
             "bankName": "Bank name",
             "accountNumber": "Account number",
             "accountName": "Account name",
             "phone": "Phone number",
             "sellBtn": "Sell {amount} {currency}",
-            "confirmMsg": "Do you want to sell {amount} {currency}?"
+            "confirmMsg": "Do you want to sell {amount} {currency}?",
+            "payoneerEmail": "Payoneer email"
         },
         "components": {
             "bankTransferInfo": {
@@ -805,12 +804,14 @@
                 "saveReceiptFailedMsg": "Your receipt was not uploaded, please try again",
                 "getBankInfoFailedMsg": "Get bank info failed, please try again",
                 "retryGetBankInfo": "No bank info data {retry}",
-                "retryBtn": "Retry?"
+                "retryBtn": "Retry?",
+                "cancelOrder": "Cancel Order"
             },
             "paymentMethod": {
                 "wireTransferName": "Wire transfer",
                 "codName": "Cash on Delivery",
                 "tngName": "TNG wallet",
+                "payoneerName": "Payoneer",
                 "codInfo": "State your time and place for meeting up and we will exchange in person."
             },
             "walletSelector": {
@@ -831,7 +832,10 @@
                 },
                 "cardName": "ORDER INFO",
                 "priceWillUpdateIn": "Price will be updated after",
-                "orderBtn": "Finish"
+                "orderBtn": "Finish",
+                "orderSuccessful": "Your order was created successfully",
+                "orderFailed": "Error while making new order, pls try again",
+                "cancelOrder": "Cancel Order"
             },
             "pricePanel": {
                 "buy": "Buy",
@@ -842,7 +846,8 @@
                 "currency": "Currency",
                 "buy": "buy",
                 "sell": "sell",
-                "exchangeFailed": "Failed while exchanging, please try again"
+                "exchangeFailed": "Failed while exchanging, please try again",
+                "minAmount": "{currency} amount must be greater than {amount}"
             },
             "phoneVerify": {
                 "submitPhoneSuccessMsg": "We sent a code to your phone successfully",
@@ -900,7 +905,7 @@
             "termAndConditions": [
                 "You must be one of the first 1,000 users.",
                 "The total value of the first three transactions must be equal or more than 1,000 HKD.",
-                "If the total value of the first two transactions already reached 1,000 HKD or more, you still have to complete the third transaction to receive 20 HKD",
+                "If the total value of the first two transactions already reached 1,000 HKD or more, you still have to complete the third transaction to receive 20 HKD.",
                 "Once you make the first transaction, you have 5 days to finish two other transactions to get your reward."
             ]
         },
@@ -908,21 +913,22 @@
             "title": "Referral Program",
             "description": "For users (who receive the referral link), you will instantly get back 45 HKD as soon as you buy or sell over 3,000 USD on CoinBowl.",
             "user": {
-                "description": "For users (who receive the referral link), you will instantly get back 45 HKD as soon as you buy or sell over 3,000 USD on CoinBowl.",
-                "numTermAndConditions": "2",
+                "title": "For users",
+                "description": "(who receive the referral link), you will instantly get back 45 HKD as soon as you buy or sell over 3,000 USD on CoinBowl.",
+                "numDescriptions": "0",
                 "termAndConditions": [
                     "Visiting CoinBowl via referral link.",
                     "Total amount of trading (both buy and sell are counted) is equal or more than 3,000 HKD."
                 ]
             },
             "referrer": {
-                "description": "For Referrer (who send the referral link), you will get 25 HKD instantly when your referred person trades over 3,000 HKD.",
+                "title": "For Referrer",
+                "description": "(who send the referral link), you will get 25 HKD instantly when your referred person trades over 3,000 HKD.",
                 "numDescriptions": "2",
                 "descriptions": [
                     "In the first month, you will get 0.2% commission on every transaction from referred person.",
                     "From the second month, you will still get 0.12% commission on every transactions from referred person."
                 ],
-                "numTermAndConditions": "3",
                 "termAndConditions": [
                     "Only users visiting CoinBowl via your referral link are counted.",
                     "You can only get 25 HKD for your first three referred people.",

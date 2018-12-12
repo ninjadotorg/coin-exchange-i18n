@@ -804,7 +804,8 @@
                 "saveReceiptFailedMsg": "%%%.coin.components.bankTransferInfo.saveReceiptFailedMsg%%%",
                 "getBankInfoFailedMsg": "%%%.coin.components.bankTransferInfo.getBankInfoFailedMsg%%%",
                 "retryGetBankInfo": "%%%.coin.components.bankTransferInfo.retryGetBankInfo%%%",
-                "retryBtn": "%%%.coin.components.bankTransferInfo.retryBtn%%%"
+                "retryBtn": "%%%.coin.components.bankTransferInfo.retryBtn%%%",
+                "cancelOrder": "%%%.coin.components.bankTransferInfo.cancelOrder%%%"
             },
             "paymentMethod": {
                 "wireTransferName": "%%%.coin.components.paymentMethod.wireTransferName%%%",
