@@ -4,3 +4,5 @@ dist
 store/download
 .DS_Store
 yarn-error.log
+coin_exchange_frontend
+
