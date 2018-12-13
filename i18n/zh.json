@@ -148,9 +148,9 @@
             "step2": "第2級: 電話驗證",
             "step3": "第3級: 身份證驗證",
             "step4": "第4級: 上傳照片自拍",
-            "wrm1": "Trade with a limit upto {limit} {currency} a day.",
-            "wrm2": "Trade with the top limit of {limit} {currency} a day.",
-            "wrm3": "Trade with the top limit of {limit} {currency} a day.",
+            "wrm1": "每天交易限額高達{limit} {currency}.",
+            "wrm2": "每天以 {limit} {currency} 的上限進行交易.",
+            "wrm3": "每天以 {limit} {currency} 的上限進行交易.",
             "wrm4": "無限金額。",
             "lv3desc": "遵守相關的反洗錢和反恐融資法律和條例。",
             "fullName": "全名",
@@ -782,7 +782,7 @@
             "phone": "手機號碼",
             "sellBtn": "銷售 {amount} {currency}",
             "confirmMsg": "你想賣嗎 {amount} {currency}？",
-            "payoneerEmail": "Payoneer email"
+            "payoneerEmail": "Payoneer 電子郵件"
         },
         "components": {
             "bankTransferInfo": {
@@ -805,7 +805,7 @@
                 "getBankInfoFailedMsg": "獲取銀行資訊失敗, 請重試",
                 "retryGetBankInfo": "沒有銀行資訊資料 {retry}",
                 "retryBtn": "重試？",
-                "cancelOrder": "Cancel Order"
+                "cancelOrder": "取消訂單"
             },
             "paymentMethod": {
                 "wireTransferName": "電匯",
@@ -833,9 +833,9 @@
                 "cardName": "訂單資訊",
                 "priceWillUpdateIn": "價格將在之後更新",
                 "orderBtn": "完成",
-                "orderSuccessful": "Your order was created successfully",
-                "orderFailed": "Error while making new order, pls try again",
-                "cancelOrder": "Cancel Order"
+                "orderSuccessful": "您的訂單已成功創建",
+                "orderFailed": "新訂單時出錯，請再試一次",
+                "cancelOrder": "取消訂單"
             },
             "pricePanel": {
                 "buy": "購買",
@@ -847,7 +847,7 @@
                 "buy": "買",
                 "sell": "賣",
                 "exchangeFailed": "交換失敗，請再試一次",
-                "minAmount": "{currency} amount must be greater than {amount}"
+                "minAmount": "{currency} 金額必須大於{amount}"
             },
             "phoneVerify": {
                 "submitPhoneSuccessMsg": "我們成功地向您的手機發送了代碼",

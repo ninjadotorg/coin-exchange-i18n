@@ -897,44 +897,27 @@
         }
     },
     "promotion_programs": {
-        "termAndConditions": "%%%.promotion_programs.termAndConditions%%%",
-        "early_bird_program": {
-            "title": "%%%.promotion_programs.early_bird_program.title%%%",
-            "description": "%%%.promotion_programs.early_bird_program.description%%%",
-            "numTermAndConditions": "%%%.promotion_programs.early_bird_program.numTermAndConditions%%%",
-            "termAndConditions": [
-                "%%%.promotion_programs.early_bird_program.termAndConditions.0%%%",
-                "%%%.promotion_programs.early_bird_program.termAndConditions.1%%%",
-                "%%%.promotion_programs.early_bird_program.termAndConditions.2%%%",
-                "%%%.promotion_programs.early_bird_program.termAndConditions.3%%%"
-            ]
-        },
         "referral_program": {
             "title": "%%%.promotion_programs.referral_program.title%%%",
             "description": "%%%.promotion_programs.referral_program.description%%%",
-            "user": {
-                "title": "%%%.promotion_programs.referral_program.user.title%%%",
-                "description": "%%%.promotion_programs.referral_program.user.description%%%",
-                "numDescriptions": "%%%.promotion_programs.referral_program.user.numDescriptions%%%",
-                "termAndConditions": [
-                    "%%%.promotion_programs.referral_program.user.termAndConditions.0%%%",
-                    "%%%.promotion_programs.referral_program.user.termAndConditions.1%%%"
+            "benefits": {
+                "title": "%%%.promotion_programs.referral_program.benefits.title%%%",
+                "content": [
+                    "%%%.promotion_programs.referral_program.benefits.content.0%%%",
+                    "%%%.promotion_programs.referral_program.benefits.content.1%%%"
                 ]
             },
-            "referrer": {
-                "title": "%%%.promotion_programs.referral_program.referrer.title%%%",
-                "description": "%%%.promotion_programs.referral_program.referrer.description%%%",
-                "numDescriptions": "%%%.promotion_programs.referral_program.referrer.numDescriptions%%%",
-                "descriptions": [
-                    "%%%.promotion_programs.referral_program.referrer.descriptions.0%%%",
-                    "%%%.promotion_programs.referral_program.referrer.descriptions.1%%%"
-                ],
-                "termAndConditions": [
-                    "%%%.promotion_programs.referral_program.referrer.termAndConditions.0%%%",
-                    "%%%.promotion_programs.referral_program.referrer.termAndConditions.1%%%",
-                    "%%%.promotion_programs.referral_program.referrer.termAndConditions.2%%%"
+            "howToDo": {
+                "title": "%%%.promotion_programs.referral_program.howToDo.title%%%",
+                "content": [
+                    "%%%.promotion_programs.referral_program.howToDo.content.0%%%"
                 ]
             }
         }
+    },
+    "pageNotFound": {
+        "pageNotFound": "%%%.pageNotFound.pageNotFound%%%",
+        "descText": "%%%.pageNotFound.descText%%%",
+        "backHome": "%%%.pageNotFound.backHome%%%"
     }
 }
