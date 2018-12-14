@@ -29,7 +29,8 @@
         "faq": "%%%.headerBar.faq%%%",
         "wallet": "%%%.headerBar.wallet%%%",
         "signIn": "%%%.headerBar.signIn%%%",
-        "signUp": "%%%.headerBar.signUp%%%"
+        "signUp": "%%%.headerBar.signUp%%%",
+        "howItWorks": "%%%.headerBar.howItWorks%%%"
     },
     "error": {
         "required": "%%%.error.required%%%",
@@ -73,6 +74,8 @@
             "personalDetails": "%%%.me.accountInfo.personalDetails%%%",
             "personalDetailsDesc": "%%%.me.accountInfo.personalDetailsDesc%%%",
             "referralTitle": "%%%.me.accountInfo.referralTitle%%%",
+            "referralEarningPromotionTitle": "%%%.me.accountInfo.referralEarningPromotionTitle%%%",
+            "referralEarningReferralTitle": "%%%.me.accountInfo.referralEarningReferralTitle%%%",
             "referralLink": "%%%.me.accountInfo.referralLink%%%",
             "referral": {
                 "name": "%%%.me.accountInfo.referral.name%%%",
@@ -86,6 +89,9 @@
                 "value": "%%%.me.accountInfo.referralEarning.value%%%",
                 "date": "%%%.me.accountInfo.referralEarning.date%%%"
             },
+            "apiTokenTitle": "%%%.me.accountInfo.apiTokenTitle%%%",
+            "apiTokenDelete": "%%%.me.accountInfo.apiTokenDelete%%%",
+            "apiTokenNew": "%%%.me.accountInfo.apiTokenNew%%%",
             "alert": {
                 "passwordSuccess": "%%%.me.accountInfo.alert.passwordSuccess%%%",
                 "passwordFailed": "%%%.me.accountInfo.alert.passwordFailed%%%",
@@ -694,7 +700,8 @@
                     "no_internal_trans": "%%%.wallet.action.history.label.no_internal_trans%%%",
                     "coming_soon": "%%%.wallet.action.history.label.coming_soon%%%",
                     "send": "%%%.wallet.action.history.label.send%%%",
-                    "receive": "%%%.wallet.action.history.label.receive%%%"
+                    "receive": "%%%.wallet.action.history.label.receive%%%",
+                    "option": "%%%.wallet.action.history.label.option%%%"
                 }
             }
         }
@@ -899,21 +906,14 @@
     "promotion_programs": {
         "referral_program": {
             "title": "%%%.promotion_programs.referral_program.title%%%",
-            "description": "%%%.promotion_programs.referral_program.description%%%",
-            "benefits": {
-                "title": "%%%.promotion_programs.referral_program.benefits.title%%%",
-                "content": [
-                    "%%%.promotion_programs.referral_program.benefits.content.0%%%",
-                    "%%%.promotion_programs.referral_program.benefits.content.1%%%"
-                ]
-            },
-            "howToDo": {
-                "title": "%%%.promotion_programs.referral_program.howToDo.title%%%",
-                "content": [
-                    "%%%.promotion_programs.referral_program.howToDo.content.0%%%"
-                ]
-            }
-        }
+            "description": "%%%.promotion_programs.referral_program.description%%%"
+        },
+        "commission": {
+            "title": "%%%.promotion_programs.commission.title%%%",
+            "description": "%%%.promotion_programs.commission.description%%%"
+        },
+        "textRequireLogin": "%%%.promotion_programs.textRequireLogin%%%",
+        "signInNow": "%%%.promotion_programs.signInNow%%%"
     },
     "pageNotFound": {
         "pageNotFound": "%%%.pageNotFound.pageNotFound%%%",
