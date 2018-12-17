@@ -92,7 +92,10 @@
             "apiTokenTitle": "%%%.me.accountInfo.apiTokenTitle%%%",
             "apiTokenDelete": "%%%.me.accountInfo.apiTokenDelete%%%",
             "apiTokenNew": "%%%.me.accountInfo.apiTokenNew%%%",
+            "apiTokenCopy": "%%%.me.accountInfo.apiTokenCopy%%%",
             "alert": {
+                "apiTokenCopyLinkSuccess": "%%%.me.accountInfo.alert.apiTokenCopyLinkSuccess%%%",
+                "renewSuccess": "%%%.me.accountInfo.alert.renewSuccess%%%",
                 "passwordSuccess": "%%%.me.accountInfo.alert.passwordSuccess%%%",
                 "passwordFailed": "%%%.me.accountInfo.alert.passwordFailed%%%",
                 "success": "%%%.me.accountInfo.alert.success%%%",
@@ -100,6 +103,14 @@
             },
             "validate": {
                 "newPasswordRequired": "%%%.me.accountInfo.validate.newPasswordRequired%%%"
+            },
+            "dialog": {
+                "renew": {
+                    "title": "%%%.me.accountInfo.dialog.renew.title%%%",
+                    "body": "%%%.me.accountInfo.dialog.renew.body%%%",
+                    "confirm": "%%%.me.accountInfo.dialog.renew.confirm%%%",
+                    "cancel": "%%%.me.accountInfo.dialog.renew.cancel%%%"
+                }
             }
         },
         "setting": {
