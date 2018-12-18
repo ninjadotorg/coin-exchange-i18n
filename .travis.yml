@@ -20,7 +20,7 @@ after_success:
   - git config user.name "Travis CI"
   - git add .
   - git commit -m "Travis build and update tranlations $TRAVIS_BUILD_NUMBER [skip ci]"
-  - git remote set-url origin https://${GH_TOKEN}@github.com/ninjadotorg/handshake-i18n.git
+  - git remote set-url origin https://${GH_TOKEN}@github.com/ninjadotorg/coin-exchange-i18n.git
   - git push origin
   # - git clone https://${GH_TOKEN}@github.com/ninjadotorg/handshake-i18n.git import
   # - cd import
