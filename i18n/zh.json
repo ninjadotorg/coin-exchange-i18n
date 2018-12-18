@@ -30,7 +30,7 @@
         "wallet": "钱包",
         "signIn": "登入",
         "signUp": "註冊",
-        "howItWorks": "How it works"
+        "howItWorks": "這個怎麼運作"
     },
     "error": {
         "required": "必填項目",
@@ -54,7 +54,7 @@
             "accountLevel": "帳戶級別",
             "history": "歷史",
             "bankInfo": "銀行資訊",
-            "referral": "Referral"
+            "referral": "轉 介"
         },
         "accountInfo": {
             "email": "電子郵件",
@@ -74,8 +74,8 @@
             "personalDetails": "個人詳細資訊",
             "personalDetailsDesc": "您的個人資訊永遠不會顯示給其他使用者",
             "referralTitle": "轉 介",
-            "referralEarningPromotionTitle": "Promotion",
-            "referralEarningReferralTitle": "Referral",
+            "referralEarningPromotionTitle": "提升",
+            "referralEarningReferralTitle": "轉 介",
             "referralLink": "您的推薦連結在這裡: ",
             "referral": {
                 "name": "名字",
@@ -89,10 +89,13 @@
                 "value": "Value",
                 "date": "Date"
             },
-            "apiTokenTitle": "Api Token",
-            "apiTokenDelete": "Delete",
-            "apiTokenNew": "New",
+            "apiTokenTitle": "Api令牌",
+            "apiTokenDelete": "刪除",
+            "apiTokenNew": "Renew",
+            "apiTokenCopy": "Copy",
             "alert": {
+                "apiTokenCopyLinkSuccess": "ApiToken copied to clipboard.",
+                "renewSuccess": "Renew Token Success",
                 "passwordSuccess": "更新密碼成功",
                 "passwordFailed": "更新密碼失敗",
                 "success": "成功",
@@ -100,6 +103,14 @@
             },
             "validate": {
                 "newPasswordRequired": "需要新密碼"
+            },
+            "dialog": {
+                "renew": {
+                    "title": "Confirm Renew",
+                    "body": "Are you sure to renew api token?",
+                    "confirm": "Yes",
+                    "cancel": "No"
+                }
             }
         },
         "setting": {
@@ -233,7 +244,7 @@
     "COIN_EXCHANGE_LP_FAQ_TITLE": "常見問答集",
     "landing_page.label.footer": "Coinbowl是一家在線交易所，由Shanzhai Limited（一家香港公司）開發，提供具有競爭力的價格的批量加密服務，並提供全面的送貨服務。<br />加入我們: <a href=\"https://t.me/coin_bowl\" class=\"landing-link\">t.me/coin_bowl</a><br />聯繫我們： <a href=\"mailto:support@coin_bowl.com\" class=\"landing-link\" target=\"_top\">support@coin_bowl.com</a>",
     "user": {
-        "setting": "Profile",
+        "setting": "輪廓",
         "logout": "登出",
         "login": {
             "title": "登錄Coinbowl",
@@ -701,7 +712,7 @@
                     "coming_soon": "即將推出。。。",
                     "send": "傳送",
                     "receive": "已接收",
-                    "option": "Options"
+                    "option": "選項"
                 }
             }
         }
@@ -905,15 +916,15 @@
     },
     "promotion_programs": {
         "referral_program": {
-            "title": "Referral Program",
-            "description": "Both referrer and referred person will instantly get 100 HKD as soon as referred person buys or sells crypto worth of at least 1,000 HKD on <strong>https://coinbowl.com.</strong>"
+            "title": "推薦計劃",
+            "description": "一旦推薦人購買或出售至少1,000港元的加密價值，推薦人和推薦人將立即獲得100港元 <strong>https://coinbowl.com.</strong>"
         },
         "commission": {
-            "title": "Commission",
-            "description": "Referrers will forever receive 0.2% commission on every transactions made by referred people."
+            "title": "佣金",
+            "description": "推薦人每次交易時, 推薦人將永遠獲得0.2％的佣金."
         },
-        "textRequireLogin": "\"Get your referral link here and start earning with your friends. Sign In Now to get your referral code\"",
-        "signInNow": "Sign in now"
+        "textRequireLogin": "“在此處獲取您的推介鏈接並開始與您的朋友一起賺錢. 立即登錄以獲取您的推薦代碼”",
+        "signInNow": "立即登錄"
     },
     "pageNotFound": {
         "pageNotFound": "Page not found",

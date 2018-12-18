@@ -4,4 +4,4 @@ dist
 store/download
 .DS_Store
 yarn-error.log
-
+.idea
