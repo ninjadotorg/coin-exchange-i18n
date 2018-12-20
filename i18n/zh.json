@@ -789,7 +789,7 @@
             "userPhone": "電話",
             "userNote": "儘快",
             "buyBtn": "購買{amount} {currency}",
-            "confirmMsg": "Do you want to buy {amount} {currency}?"
+            "confirmMsg": "你要買嗎{amount} {currency}?"
         },
         "sell": {
             "prepareOrderFailed": "在準備訂購時失敗, 請重試",
