@@ -21,6 +21,14 @@
             "fileupload": "嘗試在此處刪除一些文件, 或單擊以選擇要上載的文件."
         }
     },
+    "footer": {
+        "privacy": "隱私",
+        "referralProgram": "推薦計劃",
+        "assetIntro": "資產介紹",
+        "apiDocumentation": "API 文檔",
+        "aboutTitle": "關於CoinBowl",
+        "aboutDesc": "https://coinbowl.com 是一個新的加密交換, 專為生活在亞洲的人們設計, 他們進入加密市場的機會有限. CoinBowl 使用戶能夠以優惠的價格交易大量的加密. 用戶可以以1個價格購買或出售無上限數量的加密."
+    },
     "headerBar": {
         "home": "首頁",
         "promotionPrograms": "推廣計畫",
@@ -241,7 +249,7 @@
             }
         }
     },
-    "COIN_EXCHANGE_LP_FAQ_TITLE": "常見問答集",
+    "COIN_EXCHANGE_LP_FAQ_TITLE": "Frequently Asked Questions",
     "landing_page.label.footer": "Coinbowl是一家在線交易所，由Shanzhai Limited（一家香港公司）開發，提供具有競爭力的價格的批量加密服務，並提供全面的送貨服務。<br />加入我們: <a href=\"https://t.me/coin_bowl\" class=\"landing-link\">t.me/coin_bowl</a><br />聯繫我們： <a href=\"mailto:support@coin_bowl.com\" class=\"landing-link\" target=\"_top\">support@coin_bowl.com</a>",
     "user": {
         "setting": "輪廓",
@@ -314,7 +322,7 @@
     },
     "landingPage": {
         "contactUS": {
-            "title": "聯繫我們",
+            "title": "Contact Us",
             "yourName": "您的姓名",
             "requiredYourName": "姓名（必需輸入）",
             "placeholderYourName": "輸入您的姓名",
@@ -923,12 +931,19 @@
             "title": "佣金",
             "description": "推薦人每次交易時, 推薦人將永遠獲得0.2％的佣金."
         },
-        "textRequireLogin": "在此處獲取您的推介鏈接並開始與您的朋友一起賺錢. 立即登錄以獲取您的推薦代碼",
+        "textRequireLogin": "Get your referral link here and start earning with your friends. Sign In Now to get your referral code",
         "signInNow": "立即登錄"
     },
     "pageNotFound": {
         "pageNotFound": "Page not found",
         "descText": "Sorry we couldn't find what you were looking for.",
         "backHome": "Back to Home"
+    },
+    "pwaInstallRequest": {
+        "msg": "Add Coinbowl app to access quickly from your home screen",
+        "noBtn": "Later",
+        "yesBtn": "Yes, thanks",
+        "addFailed": "Failed while adding app, please try later",
+        "added": "Nice! Next time you can access Coinbowl quickly from the app."
     }
 }
