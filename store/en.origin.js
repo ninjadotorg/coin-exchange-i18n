@@ -21,6 +21,14 @@
             "fileupload": "%%%.app.common.fileupload%%%"
         }
     },
+    "footer": {
+        "privacy": "%%%.footer.privacy%%%",
+        "referralProgram": "%%%.footer.referralProgram%%%",
+        "assetIntro": "%%%.footer.assetIntro%%%",
+        "apiDocumentation": "%%%.footer.apiDocumentation%%%",
+        "aboutTitle": "%%%.footer.aboutTitle%%%",
+        "aboutDesc": "%%%.footer.aboutDesc%%%"
+    },
     "headerBar": {
         "home": "%%%.headerBar.home%%%",
         "promotionPrograms": "%%%.headerBar.promotionPrograms%%%",
@@ -930,5 +938,12 @@
         "pageNotFound": "%%%.pageNotFound.pageNotFound%%%",
         "descText": "%%%.pageNotFound.descText%%%",
         "backHome": "%%%.pageNotFound.backHome%%%"
+    },
+    "pwaInstallRequest": {
+        "msg": "%%%.pwaInstallRequest.msg%%%",
+        "noBtn": "%%%.pwaInstallRequest.noBtn%%%",
+        "yesBtn": "%%%.pwaInstallRequest.yesBtn%%%",
+        "addFailed": "%%%.pwaInstallRequest.addFailed%%%",
+        "added": "%%%.pwaInstallRequest.added%%%"
     }
 }
