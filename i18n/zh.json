@@ -22,9 +22,9 @@
         }
     },
     "footer": {
-        "privacy": "隱私",
-        "referralProgram": "推薦計劃",
-        "assetIntro": "資產介紹",
+        "privacy": "隱私政策和用戶協議",
+        "referralProgram": "推廣計畫",
+        "assetIntro": "數字資產",
         "apiDocumentation": "API 文檔",
         "aboutTitle": "關於CoinBowl",
         "aboutDesc": "https://coinbowl.com 是一個新的加密交換, 專為生活在亞洲的人們設計, 他們進入加密市場的機會有限. CoinBowl 使用戶能夠以優惠的價格交易大量的加密. 用戶可以以1個價格購買或出售無上限數量的加密."
