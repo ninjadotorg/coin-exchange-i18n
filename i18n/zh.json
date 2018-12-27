@@ -912,8 +912,8 @@
         "userVerifyStatus": {
             "level1Pending": "要開始交易, 請花幾分鐘來驗證您的帳戶。{verify}",
             "verifyBtn": "立即驗證",
-            "notLogin": "請登錄以開始交易.{action}",
-            "notLoginBtn": "立即登錄"
+            "notLogin": "Enjoy our promotion at COD trading Now! {action}",
+            "notLoginBtn": "Sign In"
         },
         "confirmBtn": {
             "defaultMsg": "請確認",

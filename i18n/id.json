@@ -25,7 +25,7 @@
         "privacy": "Privacy Policy & User Agreement",
         "referralProgram": "Promotion Programs",
         "assetIntro": "Digital Asset",
-        "apiDocumentation": "Api Documentation",
+        "apiDocumentation": "API Documentation",
         "aboutTitle": "About CoinBowl",
         "aboutDesc": "Coinbowl.com is a new crypto exchange specifically designed for people living in Asia, who have had limited access to crypto markets. CoinBowl enables users to trade large amounts of crypto at great prices. Users can buy or sell an uncapped quantity of crypto with 1 price for 1 order"
     },
@@ -912,8 +912,8 @@
         "userVerifyStatus": {
             "level1Pending": "To start trading, please take a few minutes to verify your account. {verify}",
             "verifyBtn": "Verify now",
-            "notLogin": "Please sign in to start trading.{action}",
-            "notLoginBtn": "Sign In Now"
+            "notLogin": "Enjoy our promotion at COD trading Now! {action}",
+            "notLoginBtn": "Sign In"
         },
         "confirmBtn": {
             "defaultMsg": "Please confirm",
