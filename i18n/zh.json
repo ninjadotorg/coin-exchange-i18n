@@ -25,7 +25,7 @@
         "privacy": "隱私政策和用戶協議",
         "referralProgram": "推廣計畫",
         "assetIntro": "數字資產",
-        "apiDocumentation": "API Documentation",
+        "apiDocumentation": "API 文檔",
         "aboutTitle": "關於CoinBowl",
         "aboutDesc": "https://coinbowl.com 是一個新的加密交換, 專為生活在亞洲的人們設計, 他們進入加密市場的機會有限. CoinBowl 使用戶能夠以優惠的價格交易大量的加密. 用戶可以以1個價格購買或出售無上限數量的加密."
     },
@@ -912,8 +912,8 @@
         "userVerifyStatus": {
             "level1Pending": "要開始交易, 請花幾分鐘來驗證您的帳戶。{verify}",
             "verifyBtn": "立即驗證",
-            "notLogin": "Enjoy our promotion at COD trading Now! {action}",
-            "notLoginBtn": "Sign In"
+            "notLogin": "享受COD交易促銷活動吧! {action}",
+            "notLoginBtn": "登入"
         },
         "confirmBtn": {
             "defaultMsg": "請確認",
@@ -940,10 +940,10 @@
         "backHome": "Back to Home"
     },
     "pwaInstallRequest": {
-        "msg": "Add Coinbowl app to access quickly from your home screen",
-        "noBtn": "Later",
-        "yesBtn": "Yes, thanks",
-        "addFailed": "Failed while adding app, please try later",
-        "added": "Nice! Next time you can access Coinbowl quickly from the app."
+        "msg": "添加Coinbowl應用程序以從主屏幕快速訪問",
+        "noBtn": "後來",
+        "yesBtn": "是, 謝謝",
+        "addFailed": "添加應用時失敗, 請稍後再試",
+        "added": "太好了! 下次您可以從應用程序快速訪問Coinbowl."
     }
 }
