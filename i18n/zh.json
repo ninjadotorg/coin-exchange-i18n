@@ -25,7 +25,7 @@
         "privacy": "隱私政策和用戶協議",
         "referralProgram": "推廣計畫",
         "assetIntro": "數字資產",
-        "apiDocumentation": "API 文檔",
+        "apiDocumentation": "Api Documentation",
         "aboutTitle": "關於CoinBowl",
         "aboutDesc": "https://coinbowl.com 是一個新的加密交換, 專為生活在亞洲的人們設計, 他們進入加密市場的機會有限. CoinBowl 使用戶能夠以優惠的價格交易大量的加密. 用戶可以以1個價格購買或出售無上限數量的加密."
     },
@@ -52,7 +52,8 @@
         "serverCode": {
             "generalCode400": "出了問題, 請再試一次!",
             "coinUserOverLimit": "硬幣限制",
-            "amountIsTooSmall": "金額太小"
+            "amountIsTooSmall": "金額太小",
+            "invalidUserLevel": "Invalid user level to do action"
         }
     },
     "me": {
@@ -61,6 +62,7 @@
             "preferecens": "喜好",
             "accountLevel": "帳戶級別",
             "history": "歷史",
+            "listings": "Listings",
             "bankInfo": "銀行資訊",
             "referral": "轉 介"
         },
@@ -344,70 +346,6 @@
         "top_banner": {
             "message": "Shuriken Airdrop (limited)",
             "button": "點擊這裡"
-        },
-        "refers": {
-            "header": "Shuriken Airdrop Mission",
-            "error": {
-                "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
-                "submit_twitter": "You haven't followed us yet. Please try again.",
-                "confirm_code": "Verification code is wrong. Please try again!",
-                "verify_code": "Can't send verify email",
-                "get_token": "Referral incomplete. Please try again."
-            },
-            "success": {
-                "submit_telegram": "歡迎來到我們的電報組！",
-                "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "您的電子郵件已經過驗證。",
-                "verify_code": "Verification code has been sent to your email.",
-                "get_token": "Success! 60 shurikens have been added to your wallet.",
-                "copy_link": "推薦鏈接已復製到剪貼板。"
-            },
-            "button": {
-                "verified": "驗證",
-                "verify": "驗證",
-                "confirm": "確認",
-                "reset_email": "重置電子郵件",
-                "get_token": "Just give me tokens"
-            },
-            "text": {
-                "title": "60 shiny Shurikens (SHURI).",
-                "telegram": "在電報上問好。",
-                "telegram2": "Leave your best joke for a chance to win more Shuri.",
-                "twitter": "Twitter",
-                "twitter2": "Our social media guy says we need followers on ",
-                "ninja_name": "Receive your randomly generated ninja name.",
-                "referral_link": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
-                "menu_amount": "Shurikens straight into your pocket, when new ninjas bet through your referral link.",
-                "menu_total": "ninja{0} you've brought in.",
-                "profile_link": "Share to get 20 free tokens."
-            },
-            "placeholder": {
-                "telegram_username": "你的電報別名",
-                "twitter_username": "Your twitter username",
-                "email": "驗證碼",
-                "email2": "Your favourite fake email"
-            },
-            "label": {
-                "menu": "Your clan",
-                "menu_description": "在此跟踪您的推薦和獎勵。"
-            },
-            "table": {
-                "header": {
-                    "user": "用戶",
-                    "date": "日期",
-                    "referalValue": "推薦價值"
-                }
-            }
-        },
-        "refers_dashboard": {
-            "header": "Shuriken Airdrop Mission",
-            "title": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
-            "text": {
-                "copy_link": "推薦鏈接已復製到剪貼板。",
-                "note": "請勿更改別名，否則此鏈接將無效",
-                "number_ninjas": "You brought {0} ninjas to the dojo.",
-                "number_total": "Total reward: {0} SHURI"
-            }
         },
         "action": {
             "payment": {
@@ -756,6 +694,12 @@
             "transaction": "您的交易將在大約30秒後顯示在區塊鏈上。"
         }
     },
+    "tokenERC20": {
+        "error": {
+            "insufficient": "You have insufficient coin to make the transfer. Please check again",
+            "insufficient_gas": "You do not have enough ETH for gas fee. Please add more and try again"
+        }
+    },
     "ripple": {
         "error": {
             "invalid_address": "You can only send tokens to Ripple address",
@@ -802,6 +746,7 @@
         "sell": {
             "prepareOrderFailed": "在準備訂購時失敗, 請重試",
             "addPaymentInfoFailed": "添加付款資訊時失敗",
+            "orderFailedMsg": "Create order failed, please try again!",
             "bankName": "銀行名稱",
             "accountNumber": "帳戶號碼",
             "accountName": "帳戶名稱",
@@ -853,6 +798,7 @@
                 "subNote": "(如果您忘記完成此步驟, 事務可能會丟失)",
                 "listNote": {
                     "note1": "請將確切號碼轉到上述位址",
+                    "note1Token": "This action will transfer the exact number to the above address",
                     "note2": "密碼的價格不斷波動; 因此, 我們只保留這個價格5分鐘",
                     "note3": "一旦網路上有1個確認, 我們將把法令轉讓給你。"
                 },
@@ -898,6 +844,32 @@
             "popularBanks": {
                 "invalidBank": "銀行無效",
                 "getBanksFailed": "在獲得受歡迎的銀行時失敗"
+            },
+            "seller": {
+                "title": "Or buy from other",
+                "seller": "Seller",
+                "size": "Size",
+                "price": "Price"
+            },
+            "sellerDetail": {
+                "title": "Seller information",
+                "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
+                "amount": "Amount",
+                "confirmButton": "confirm",
+                "confirmMess": "Do you want to buy {amount} {currency}?"
+            },
+            "buyer": {
+                "title": "Or sell for other",
+                "buyer": "Buyer",
+                "size": "Size",
+                "price": "Price"
+            },
+            "buyerDetail": {
+                "title": "Buyer information",
+                "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
+                "amount": "Amount",
+                "confirmButton": "confirm",
+                "confirmMess": "Do you want to sell {amount} {currency}?"
             }
         }
     },
@@ -912,8 +884,8 @@
         "userVerifyStatus": {
             "level1Pending": "要開始交易, 請花幾分鐘來驗證您的帳戶。{verify}",
             "verifyBtn": "立即驗證",
-            "notLogin": "享受COD交易促銷活動吧! {action}",
-            "notLoginBtn": "登入"
+            "notLogin": "Please sign in to start trading.{action}",
+            "notLoginBtn": "Sign In Now"
         },
         "confirmBtn": {
             "defaultMsg": "請確認",

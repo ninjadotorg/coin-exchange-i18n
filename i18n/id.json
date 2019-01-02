@@ -25,7 +25,7 @@
         "privacy": "Privacy Policy & User Agreement",
         "referralProgram": "Promotion Programs",
         "assetIntro": "Digital Asset",
-        "apiDocumentation": "API Documentation",
+        "apiDocumentation": "Api Documentation",
         "aboutTitle": "About CoinBowl",
         "aboutDesc": "Coinbowl.com is a new crypto exchange specifically designed for people living in Asia, who have had limited access to crypto markets. CoinBowl enables users to trade large amounts of crypto at great prices. Users can buy or sell an uncapped quantity of crypto with 1 price for 1 order"
     },
@@ -52,7 +52,8 @@
         "serverCode": {
             "generalCode400": "Something went wrong, please try again!",
             "coinUserOverLimit": "Over Coin limit",
-            "amountIsTooSmall": "Amount is too small"
+            "amountIsTooSmall": "Amount is too small",
+            "invalidUserLevel": "Invalid user level to do action"
         }
     },
     "me": {
@@ -61,6 +62,7 @@
             "preferecens": "Preferences",
             "accountLevel": "Account Level",
             "history": "History",
+            "listings": "Listings",
             "bankInfo": "Bank Info",
             "referral": "Referral"
         },
@@ -344,70 +346,6 @@
         "top_banner": {
             "message": "Shuriken Airdrop (limited)",
             "button": "Click here"
-        },
-        "refers": {
-            "header": "Shuriken Airdrop Mission",
-            "error": {
-                "submit_telegram": "Couldn't find you on Telegram. Please exit the group and try again.",
-                "submit_twitter": "You haven't followed us yet. Please try again.",
-                "confirm_code": "Verification code is wrong. Please try again!",
-                "verify_code": "Can't send verify email",
-                "get_token": "Referral incomplete. Please try again."
-            },
-            "success": {
-                "submit_telegram": "Welcome to our telegram group!",
-                "submit_twitter": "Thanks for following us on Twitter.",
-                "confirm_code": "Your email has been verified.",
-                "verify_code": "Verification code has been sent to your email.",
-                "get_token": "Success! 60 shurikens have been added to your wallet.",
-                "copy_link": "Referral link copied to clipboard."
-            },
-            "button": {
-                "verified": "Verified",
-                "verify": "Verify",
-                "confirm": "Confirm",
-                "reset_email": "Reset email",
-                "get_token": "Just give me tokens"
-            },
-            "text": {
-                "title": "60 shiny Shurikens (SHURI).",
-                "telegram": "Say hello on telegram.",
-                "telegram2": "Leave your best joke for a chance to win more Shuri.",
-                "twitter": "Twitter",
-                "twitter2": "Our social media guy says we need followers on ",
-                "ninja_name": "Receive your randomly generated ninja name.",
-                "referral_link": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
-                "menu_amount": "Shurikens straight into your pocket, when new ninjas bet through your referral link.",
-                "menu_total": "ninja{0} you've brought in.",
-                "profile_link": "Share to get 20 free tokens."
-            },
-            "placeholder": {
-                "telegram_username": "Your telegram alias",
-                "twitter_username": "Your twitter username",
-                "email": "Verification code",
-                "email2": "Your favourite fake email"
-            },
-            "label": {
-                "menu": "Your clan",
-                "menu_description": "Track your referrals and rewards here."
-            },
-            "table": {
-                "header": {
-                    "user": "User",
-                    "date": "Date",
-                    "referalValue": "Referal Value"
-                }
-            }
-        },
-        "refers_dashboard": {
-            "header": "Shuriken Airdrop Mission",
-            "title": "This is your super sexy referral link. You get 20 shurikens for every new ninja.",
-            "text": {
-                "copy_link": "Referral link copied to clipboard.",
-                "note": "Do not change your alias or this link will be unvalid",
-                "number_ninjas": "You brought {0} ninjas to the dojo.",
-                "number_total": "Total reward: {0} SHURI"
-            }
         },
         "action": {
             "payment": {
@@ -756,6 +694,12 @@
             "transaction": "Your transaction will appear on blockchain in about 30 seconds."
         }
     },
+    "tokenERC20": {
+        "error": {
+            "insufficient": "You have insufficient coin to make the transfer. Please check again",
+            "insufficient_gas": "You do not have enough ETH for gas fee. Please add more and try again"
+        }
+    },
     "ripple": {
         "error": {
             "invalid_address": "You can only send tokens to Ripple address",
@@ -802,6 +746,7 @@
         "sell": {
             "prepareOrderFailed": "Failed while preparing to order, please try again",
             "addPaymentInfoFailed": "Failed while adding your payment info",
+            "orderFailedMsg": "Create order failed, please try again!",
             "bankName": "Bank name",
             "accountNumber": "Account number",
             "accountName": "Account name",
@@ -853,6 +798,7 @@
                 "subNote": "(Transaction may be lost if you forget to complete this step)",
                 "listNote": {
                     "note1": "Please transfer the exact number to the above address",
+                    "note1Token": "This action will transfer the exact number to the above address",
                     "note2": "The price of the crypto fluctuates constantly; therefore, we only keep this price for 5 minutes",
                     "note3": "We will transfer the fiat to you as soon as there is 1 confirmation on the network."
                 },
@@ -898,6 +844,32 @@
             "popularBanks": {
                 "invalidBank": "Invalid bank",
                 "getBanksFailed": "Failed while getting popular banks"
+            },
+            "seller": {
+                "title": "Or buy from other",
+                "seller": "Seller",
+                "size": "Size",
+                "price": "Price"
+            },
+            "sellerDetail": {
+                "title": "Seller information",
+                "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
+                "amount": "Amount",
+                "confirmButton": "confirm",
+                "confirmMess": "Do you want to buy {amount} {currency}?"
+            },
+            "buyer": {
+                "title": "Or sell for other",
+                "buyer": "Buyer",
+                "size": "Size",
+                "price": "Price"
+            },
+            "buyerDetail": {
+                "title": "Buyer information",
+                "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
+                "amount": "Amount",
+                "confirmButton": "confirm",
+                "confirmMess": "Do you want to sell {amount} {currency}?"
             }
         }
     },
@@ -912,8 +884,8 @@
         "userVerifyStatus": {
             "level1Pending": "To start trading, please take a few minutes to verify your account. {verify}",
             "verifyBtn": "Verify now",
-            "notLogin": "Enjoy our promotion at COD trading Now! {action}",
-            "notLoginBtn": "Sign In"
+            "notLogin": "Please sign in to start trading.{action}",
+            "notLoginBtn": "Sign In Now"
         },
         "confirmBtn": {
             "defaultMsg": "Please confirm",
