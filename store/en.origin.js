@@ -52,7 +52,8 @@
         "serverCode": {
             "generalCode400": "%%%.error.serverCode.generalCode400%%%",
             "coinUserOverLimit": "%%%.error.serverCode.coinUserOverLimit%%%",
-            "amountIsTooSmall": "%%%.error.serverCode.amountIsTooSmall%%%"
+            "amountIsTooSmall": "%%%.error.serverCode.amountIsTooSmall%%%",
+            "invalidUserLevel": "%%%.error.serverCode.invalidUserLevel%%%"
         }
     },
     "me": {
@@ -61,6 +62,7 @@
             "preferecens": "%%%.me.navigation.preferecens%%%",
             "accountLevel": "%%%.me.navigation.accountLevel%%%",
             "history": "%%%.me.navigation.history%%%",
+            "listings": "%%%.me.navigation.listings%%%",
             "bankInfo": "%%%.me.navigation.bankInfo%%%",
             "referral": "%%%.me.navigation.referral%%%"
         },
@@ -344,70 +346,6 @@
         "top_banner": {
             "message": "%%%.wallet.top_banner.message%%%",
             "button": "%%%.wallet.top_banner.button%%%"
-        },
-        "refers": {
-            "header": "%%%.wallet.refers.header%%%",
-            "error": {
-                "submit_telegram": "%%%.wallet.refers.error.submit_telegram%%%",
-                "submit_twitter": "%%%.wallet.refers.error.submit_twitter%%%",
-                "confirm_code": "%%%.wallet.refers.error.confirm_code%%%",
-                "verify_code": "%%%.wallet.refers.error.verify_code%%%",
-                "get_token": "%%%.wallet.refers.error.get_token%%%"
-            },
-            "success": {
-                "submit_telegram": "%%%.wallet.refers.success.submit_telegram%%%",
-                "submit_twitter": "%%%.wallet.refers.success.submit_twitter%%%",
-                "confirm_code": "%%%.wallet.refers.success.confirm_code%%%",
-                "verify_code": "%%%.wallet.refers.success.verify_code%%%",
-                "get_token": "%%%.wallet.refers.success.get_token%%%",
-                "copy_link": "%%%.wallet.refers.success.copy_link%%%"
-            },
-            "button": {
-                "verified": "%%%.wallet.refers.button.verified%%%",
-                "verify": "%%%.wallet.refers.button.verify%%%",
-                "confirm": "%%%.wallet.refers.button.confirm%%%",
-                "reset_email": "%%%.wallet.refers.button.reset_email%%%",
-                "get_token": "%%%.wallet.refers.button.get_token%%%"
-            },
-            "text": {
-                "title": "%%%.wallet.refers.text.title%%%",
-                "telegram": "%%%.wallet.refers.text.telegram%%%",
-                "telegram2": "%%%.wallet.refers.text.telegram2%%%",
-                "twitter": "%%%.wallet.refers.text.twitter%%%",
-                "twitter2": "%%%.wallet.refers.text.twitter2%%%",
-                "ninja_name": "%%%.wallet.refers.text.ninja_name%%%",
-                "referral_link": "%%%.wallet.refers.text.referral_link%%%",
-                "menu_amount": "%%%.wallet.refers.text.menu_amount%%%",
-                "menu_total": "%%%.wallet.refers.text.menu_total%%%",
-                "profile_link": "%%%.wallet.refers.text.profile_link%%%"
-            },
-            "placeholder": {
-                "telegram_username": "%%%.wallet.refers.placeholder.telegram_username%%%",
-                "twitter_username": "%%%.wallet.refers.placeholder.twitter_username%%%",
-                "email": "%%%.wallet.refers.placeholder.email%%%",
-                "email2": "%%%.wallet.refers.placeholder.email2%%%"
-            },
-            "label": {
-                "menu": "%%%.wallet.refers.label.menu%%%",
-                "menu_description": "%%%.wallet.refers.label.menu_description%%%"
-            },
-            "table": {
-                "header": {
-                    "user": "%%%.wallet.refers.table.header.user%%%",
-                    "date": "%%%.wallet.refers.table.header.date%%%",
-                    "referalValue": "%%%.wallet.refers.table.header.referalValue%%%"
-                }
-            }
-        },
-        "refers_dashboard": {
-            "header": "%%%.wallet.refers_dashboard.header%%%",
-            "title": "%%%.wallet.refers_dashboard.title%%%",
-            "text": {
-                "copy_link": "%%%.wallet.refers_dashboard.text.copy_link%%%",
-                "note": "%%%.wallet.refers_dashboard.text.note%%%",
-                "number_ninjas": "%%%.wallet.refers_dashboard.text.number_ninjas%%%",
-                "number_total": "%%%.wallet.refers_dashboard.text.number_total%%%"
-            }
         },
         "action": {
             "payment": {
@@ -756,6 +694,12 @@
             "transaction": "%%%.ethereum.success.transaction%%%"
         }
     },
+    "tokenERC20": {
+        "error": {
+            "insufficient": "%%%.tokenERC20.error.insufficient%%%",
+            "insufficient_gas": "%%%.tokenERC20.error.insufficient_gas%%%"
+        }
+    },
     "ripple": {
         "error": {
             "invalid_address": "%%%.ripple.error.invalid_address%%%",
@@ -802,6 +746,7 @@
         "sell": {
             "prepareOrderFailed": "%%%.coin.sell.prepareOrderFailed%%%",
             "addPaymentInfoFailed": "%%%.coin.sell.addPaymentInfoFailed%%%",
+            "orderFailedMsg": "%%%.coin.sell.orderFailedMsg%%%",
             "bankName": "%%%.coin.sell.bankName%%%",
             "accountNumber": "%%%.coin.sell.accountNumber%%%",
             "accountName": "%%%.coin.sell.accountName%%%",
@@ -853,6 +798,7 @@
                 "subNote": "%%%.coin.components.sellOrderInfo.subNote%%%",
                 "listNote": {
                     "note1": "%%%.coin.components.sellOrderInfo.listNote.note1%%%",
+                    "note1Token": "%%%.coin.components.sellOrderInfo.listNote.note1Token%%%",
                     "note2": "%%%.coin.components.sellOrderInfo.listNote.note2%%%",
                     "note3": "%%%.coin.components.sellOrderInfo.listNote.note3%%%"
                 },
@@ -898,6 +844,32 @@
             "popularBanks": {
                 "invalidBank": "%%%.coin.components.popularBanks.invalidBank%%%",
                 "getBanksFailed": "%%%.coin.components.popularBanks.getBanksFailed%%%"
+            },
+            "seller": {
+                "title": "%%%.coin.components.seller.title%%%",
+                "seller": "%%%.coin.components.seller.seller%%%",
+                "size": "%%%.coin.components.seller.size%%%",
+                "price": "%%%.coin.components.seller.price%%%"
+            },
+            "sellerDetail": {
+                "title": "%%%.coin.components.sellerDetail.title%%%",
+                "copy": "%%%.coin.components.sellerDetail.copy%%%",
+                "amount": "%%%.coin.components.sellerDetail.amount%%%",
+                "confirmButton": "%%%.coin.components.sellerDetail.confirmButton%%%",
+                "confirmMess": "%%%.coin.components.sellerDetail.confirmMess%%%"
+            },
+            "buyer": {
+                "title": "%%%.coin.components.buyer.title%%%",
+                "buyer": "%%%.coin.components.buyer.buyer%%%",
+                "size": "%%%.coin.components.buyer.size%%%",
+                "price": "%%%.coin.components.buyer.price%%%"
+            },
+            "buyerDetail": {
+                "title": "%%%.coin.components.buyerDetail.title%%%",
+                "copy": "%%%.coin.components.buyerDetail.copy%%%",
+                "amount": "%%%.coin.components.buyerDetail.amount%%%",
+                "confirmButton": "%%%.coin.components.buyerDetail.confirmButton%%%",
+                "confirmMess": "%%%.coin.components.buyerDetail.confirmMess%%%"
             }
         }
     },
