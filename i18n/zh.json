@@ -53,7 +53,7 @@
             "generalCode400": "出了問題, 請再試一次!",
             "coinUserOverLimit": "硬幣限制",
             "amountIsTooSmall": "金額太小",
-            "invalidUserLevel": "Invalid user level to do action"
+            "invalidUserLevel": "執行操作的用戶級別無效"
         }
     },
     "me": {
@@ -62,7 +62,7 @@
             "preferecens": "喜好",
             "accountLevel": "帳戶級別",
             "history": "歷史",
-            "listings": "Listings",
+            "listings": "房源",
             "bankInfo": "銀行資訊",
             "referral": "轉 介"
         },
@@ -696,8 +696,8 @@
     },
     "tokenERC20": {
         "error": {
-            "insufficient": "You have insufficient coin to make the transfer. Please check again",
-            "insufficient_gas": "You do not have enough ETH for gas fee. Please add more and try again"
+            "insufficient": "您沒有足夠的硬幣來進行轉移. 請再檢查一次",
+            "insufficient_gas": "您沒有足夠的ETH來支付燃氣費. 請添加更多, 然後重試"
         }
     },
     "ripple": {
@@ -746,7 +746,7 @@
         "sell": {
             "prepareOrderFailed": "在準備訂購時失敗, 請重試",
             "addPaymentInfoFailed": "添加付款資訊時失敗",
-            "orderFailedMsg": "Create order failed, please try again!",
+            "orderFailedMsg": "無法創建訂單, 請重試!",
             "bankName": "銀行名稱",
             "accountNumber": "帳戶號碼",
             "accountName": "帳戶名稱",
@@ -798,7 +798,7 @@
                 "subNote": "(如果您忘記完成此步驟, 事務可能會丟失)",
                 "listNote": {
                     "note1": "請將確切號碼轉到上述位址",
-                    "note1Token": "This action will transfer the exact number to the above address",
+                    "note1Token": "此操作會將確切的號碼轉移到上述地址",
                     "note2": "密碼的價格不斷波動; 因此, 我們只保留這個價格5分鐘",
                     "note3": "一旦網路上有1個確認, 我們將把法令轉讓給你。"
                 },
@@ -846,30 +846,30 @@
                 "getBanksFailed": "在獲得受歡迎的銀行時失敗"
             },
             "seller": {
-                "title": "Or buy from other",
-                "seller": "Seller",
-                "size": "Size",
-                "price": "Price"
+                "title": "或者從其他人那裡購買",
+                "seller": "賣家",
+                "size": "尺寸",
+                "price": "價錢"
             },
             "sellerDetail": {
-                "title": "Seller information",
+                "title": "賣家的信息",
                 "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
-                "amount": "Amount",
-                "confirmButton": "confirm",
-                "confirmMess": "Do you want to buy {amount} {currency}?"
+                "amount": "金額",
+                "confirmButton": "確認",
+                "confirmMess": "你要買嗎{amount} {currency}?"
             },
             "buyer": {
-                "title": "Or sell for other",
-                "buyer": "Buyer",
-                "size": "Size",
-                "price": "Price"
+                "title": "或者出售給其他人",
+                "buyer": "買方",
+                "size": "尺寸",
+                "price": "價錢"
             },
             "buyerDetail": {
-                "title": "Buyer information",
+                "title": "買方的信息",
                 "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
-                "amount": "Amount",
-                "confirmButton": "confirm",
-                "confirmMess": "Do you want to sell {amount} {currency}?"
+                "amount": "金額",
+                "confirmButton": "確認",
+                "confirmMess": "你想賣嗎 {amount} {currency}？"
             }
         }
     },
@@ -884,8 +884,8 @@
         "userVerifyStatus": {
             "level1Pending": "要開始交易, 請花幾分鐘來驗證您的帳戶。{verify}",
             "verifyBtn": "立即驗證",
-            "notLogin": "Please sign in to start trading.{action}",
-            "notLoginBtn": "Sign In Now"
+            "notLogin": "請登錄以開始交易. {action}",
+            "notLoginBtn": "立即登錄"
         },
         "confirmBtn": {
             "defaultMsg": "請確認",

@@ -12,6 +12,8 @@
         },
         "common": {
             "error": "%%%.app.common.error%%%",
+            "mixValidate": "%%%.app.common.mixValidate%%%",
+            "maxValidate": "%%%.app.common.maxValidate%%%",
             "required": "%%%.app.common.required%%%",
             "copied": "%%%.app.common.copied%%%",
             "remove": "%%%.app.common.remove%%%",
@@ -53,7 +55,10 @@
             "generalCode400": "%%%.error.serverCode.generalCode400%%%",
             "coinUserOverLimit": "%%%.error.serverCode.coinUserOverLimit%%%",
             "amountIsTooSmall": "%%%.error.serverCode.amountIsTooSmall%%%",
-            "invalidUserLevel": "%%%.error.serverCode.invalidUserLevel%%%"
+            "invalidUserLevel": "%%%.error.serverCode.invalidUserLevel%%%",
+            "listingExisted": "%%%.error.serverCode.listingExisted%%%",
+            "listingHasActiveOrders": "%%%.error.serverCode.listingHasActiveOrders%%%",
+            "listingPriceTooMuchDifferent": "%%%.error.serverCode.listingPriceTooMuchDifferent%%%"
         }
     },
     "me": {
@@ -133,6 +138,7 @@
             "type": "%%%.me.history.type%%%",
             "amount": "%%%.me.history.amount%%%",
             "viewDetail": "%%%.me.history.viewDetail%%%",
+            "refundBnt": "%%%.me.history.refundBnt%%%",
             "status": "%%%.me.history.status%%%",
             "value": "%%%.me.history.value%%%",
             "link": "%%%.me.history.link%%%",
@@ -150,7 +156,9 @@
                 "transfer_failed": "%%%.me.history.orderStatus.transfer_failed%%%",
                 "cancelled": "%%%.me.history.orderStatus.cancelled%%%",
                 "rejected": "%%%.me.history.orderStatus.rejected%%%",
-                "expired": "%%%.me.history.orderStatus.expired%%%"
+                "expired": "%%%.me.history.orderStatus.expired%%%",
+                "active": "%%%.me.history.orderStatus.active%%%",
+                "inactive": "%%%.me.history.orderStatus.inactive%%%"
             },
             "dialog": {
                 "cancel": {
@@ -167,6 +175,61 @@
             "alert": {
                 "cancelSuccess": "%%%.me.history.alert.cancelSuccess%%%",
                 "cancelFailed": "%%%.me.history.alert.cancelFailed%%%"
+            },
+            "refund": {
+                "title": "%%%.me.history.refund.title%%%",
+                "confirm": "%%%.me.history.refund.confirm%%%",
+                "cancel": "%%%.me.history.refund.cancel%%%",
+                "note": "%%%.me.history.refund.note%%%",
+                "refundFailed": "%%%.me.history.refund.refundFailed%%%",
+                "refundSuccess": "%%%.me.history.refund.refundSuccess%%%",
+                "dialog": {
+                    "title": "%%%.me.history.refund.dialog.title%%%",
+                    "body": "%%%.me.history.refund.dialog.body%%%",
+                    "confirm": "%%%.me.history.refund.dialog.confirm%%%",
+                    "cancel": "%%%.me.history.refund.dialog.cancel%%%"
+                }
+            }
+        },
+        "offers": {
+            "title": "%%%.me.offers.title%%%",
+            "updatePrice": "%%%.me.offers.updatePrice%%%",
+            "cancelUpdatePrice": "%%%.me.offers.cancelUpdatePrice%%%",
+            "accept": "%%%.me.offers.accept%%%",
+            "dialog": {
+                "updatePrice": {
+                    "title": "%%%.me.offers.dialog.updatePrice.title%%%",
+                    "confirm": "%%%.me.offers.dialog.updatePrice.confirm%%%",
+                    "cancel": "%%%.me.offers.dialog.updatePrice.cancel%%%"
+                },
+                "uploadReceipt": {
+                    "success": "%%%.me.offers.dialog.uploadReceipt.success%%%",
+                    "failed": "%%%.me.offers.dialog.uploadReceipt.failed%%%"
+                },
+                "inputAddress": {
+                    "title": "%%%.me.offers.dialog.inputAddress.title%%%",
+                    "content": "%%%.me.offers.dialog.inputAddress.content%%%",
+                    "confirm": "%%%.me.offers.dialog.inputAddress.confirm%%%",
+                    "cancel": "%%%.me.offers.dialog.inputAddress.cancel%%%"
+                }
+            },
+            "alert": {
+                "updateSuccess": "%%%.me.offers.alert.updateSuccess%%%",
+                "updateFailed": "%%%.me.offers.alert.updateFailed%%%"
+            },
+            "detail": {
+                "title": "%%%.me.offers.detail.title%%%",
+                "date": "%%%.me.offers.detail.date%%%",
+                "orderId": "%%%.me.offers.detail.orderId%%%",
+                "type": "%%%.me.offers.detail.type%%%",
+                "amount": "%%%.me.offers.detail.amount%%%",
+                "refcode": "%%%.me.offers.detail.refcode%%%",
+                "status": "%%%.me.offers.detail.status%%%",
+                "action": "%%%.me.offers.detail.action%%%",
+                "address": "%%%.me.offers.detail.address%%%",
+                "sell": "%%%.me.offers.detail.sell%%%",
+                "buy": "%%%.me.offers.detail.buy%%%",
+                "process": "%%%.me.offers.detail.process%%%"
             }
         },
         "accountLevel": {
@@ -819,7 +882,9 @@
                 "buy": "%%%.coin.components.exchange.buy%%%",
                 "sell": "%%%.coin.components.exchange.sell%%%",
                 "exchangeFailed": "%%%.coin.components.exchange.exchangeFailed%%%",
-                "minAmount": "%%%.coin.components.exchange.minAmount%%%"
+                "minAmount": "%%%.coin.components.exchange.minAmount%%%",
+                "priceLabel": "%%%.coin.components.exchange.priceLabel%%%",
+                "amountLabelBlank": "%%%.coin.components.exchange.amountLabelBlank%%%"
             },
             "phoneVerify": {
                 "submitPhoneSuccessMsg": "%%%.coin.components.phoneVerify.submitPhoneSuccessMsg%%%",
