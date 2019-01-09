@@ -12,6 +12,8 @@
         },
         "common": {
             "error": "OH! something went wrong!",
+            "mixValidate": "Must be great than {min}",
+            "maxValidate": "Must be less than {max}",
             "required": "Required",
             "copied": "Copied",
             "remove": "Remove",
@@ -53,7 +55,10 @@
             "generalCode400": "Something went wrong, please try again!",
             "coinUserOverLimit": "Over Coin limit",
             "amountIsTooSmall": "Amount is too small",
-            "invalidUserLevel": "Invalid user level to do action"
+            "invalidUserLevel": "Invalid user level to do action",
+            "listingExisted": "Offer already existed",
+            "listingHasActiveOrders": "Offer has active orders",
+            "listingPriceTooMuchDifferent": "Offer price too much different"
         }
     },
     "me": {
@@ -62,7 +67,7 @@
             "preferecens": "Preferences",
             "accountLevel": "Account Level",
             "history": "History",
-            "listings": "Listings",
+            "listings": "Offers",
             "bankInfo": "Bank Info",
             "referral": "Referral"
         },
@@ -133,6 +138,7 @@
             "type": "Type",
             "amount": "Amount",
             "viewDetail": "View Detail",
+            "refundBnt": "Refund",
             "status": "Status",
             "value": "Value",
             "link": "Link",
@@ -150,7 +156,9 @@
                 "transfer_failed": "Transfer Failed",
                 "cancelled": "Cancelled",
                 "rejected": "Rejected",
-                "expired": "Expired"
+                "expired": "Expired",
+                "active": "Active",
+                "inactive": "Inactive"
             },
             "dialog": {
                 "cancel": {
@@ -167,6 +175,61 @@
             "alert": {
                 "cancelSuccess": "Successfully Cancelled",
                 "cancelFailed": "Failed To Cancel"
+            },
+            "refund": {
+                "title": "Refund your order",
+                "confirm": "Confirm",
+                "cancel": "Cancel",
+                "note": "Scan or type your address for refund",
+                "refundFailed": "Failed To refund",
+                "refundSuccess": "Successfully refunded",
+                "dialog": {
+                    "title": "Refund order",
+                    "body": "Are you sure to refund?",
+                    "confirm": "Yes",
+                    "cancel": "No"
+                }
+            }
+        },
+        "offers": {
+            "title": "Offer History",
+            "updatePrice": "Update Price",
+            "cancelUpdatePrice": "Cancel Update Price",
+            "accept": "Accept",
+            "dialog": {
+                "updatePrice": {
+                    "title": "Update Price",
+                    "confirm": "Yes",
+                    "cancel": "No"
+                },
+                "uploadReceipt": {
+                    "success": "Process Success",
+                    "failed": "Process Failed"
+                },
+                "inputAddress": {
+                    "title": "Input address",
+                    "content": "Scan or type your address",
+                    "confirm": "Confirm",
+                    "cancel": "Cancel"
+                }
+            },
+            "alert": {
+                "updateSuccess": "Successfully Update",
+                "updateFailed": "Failed To Update"
+            },
+            "detail": {
+                "title": "Order Detail",
+                "date": "Date",
+                "orderId": "Order Id",
+                "type": "Type",
+                "amount": "Amount",
+                "refcode": "Ref Code",
+                "status": "Status",
+                "action": "Action",
+                "address": "Your Address",
+                "sell": "You Are Selling ",
+                "buy": "You Are Buying",
+                "process": "Process"
             }
         },
         "accountLevel": {
@@ -819,7 +882,9 @@
                 "buy": "buy",
                 "sell": "sell",
                 "exchangeFailed": "Failed while exchanging, please try again",
-                "minAmount": "{currency} amount must be greater than {amount}"
+                "minAmount": "{currency} amount must be greater than {amount}",
+                "priceLabel": "Price to {direction}",
+                "amountLabelBlank": "&nbsp;"
             },
             "phoneVerify": {
                 "submitPhoneSuccessMsg": "We sent a code to your phone successfully",
@@ -846,26 +911,26 @@
                 "getBanksFailed": "Failed while getting popular banks"
             },
             "seller": {
-                "title": "Or buy from other",
+                "title": "Or buy from others",
                 "seller": "Seller",
                 "size": "Size",
                 "price": "Price"
             },
             "sellerDetail": {
-                "title": "Seller information",
+                "title": "Seller’s information",
                 "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
                 "amount": "Amount",
                 "confirmButton": "confirm",
                 "confirmMess": "Do you want to buy {amount} {currency}?"
             },
             "buyer": {
-                "title": "Or sell for other",
+                "title": "Or sell to others",
                 "buyer": "Buyer",
                 "size": "Size",
                 "price": "Price"
             },
             "buyerDetail": {
-                "title": "Buyer information",
+                "title": "Buyer’s information",
                 "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
                 "amount": "Amount",
                 "confirmButton": "confirm",

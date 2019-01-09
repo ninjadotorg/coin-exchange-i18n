@@ -12,6 +12,8 @@
         },
         "common": {
             "error": "哦！有些事情是錯的!",
+            "mixValidate": "Must be great than {min}",
+            "maxValidate": "Must be less than {max}",
             "required": "必填項目",
             "copied": "已複製！",
             "remove": "刪除",
@@ -53,7 +55,10 @@
             "generalCode400": "出了問題, 請再試一次!",
             "coinUserOverLimit": "硬幣限制",
             "amountIsTooSmall": "金額太小",
-            "invalidUserLevel": "執行操作的用戶級別無效"
+            "invalidUserLevel": "執行操作的用戶級別無效",
+            "listingExisted": "Offer already existed",
+            "listingHasActiveOrders": "Offer has active orders",
+            "listingPriceTooMuchDifferent": "Offer price too much different"
         }
     },
     "me": {
@@ -62,7 +67,7 @@
             "preferecens": "喜好",
             "accountLevel": "帳戶級別",
             "history": "歷史",
-            "listings": "房源",
+            "listings": "Offers",
             "bankInfo": "銀行資訊",
             "referral": "轉 介"
         },
@@ -133,6 +138,7 @@
             "type": "類型",
             "amount": "金額",
             "viewDetail": "查看詳情",
+            "refundBnt": "Refund",
             "status": "地位",
             "value": "價值",
             "link": "連結",
@@ -150,7 +156,9 @@
                 "transfer_failed": "轉移失敗",
                 "cancelled": "取消",
                 "rejected": "被拒絕",
-                "expired": "過期"
+                "expired": "過期",
+                "active": "Active",
+                "inactive": "Inactive"
             },
             "dialog": {
                 "cancel": {
@@ -167,6 +175,61 @@
             "alert": {
                 "cancelSuccess": "成功取消",
                 "cancelFailed": "無法取消"
+            },
+            "refund": {
+                "title": "Refund your order",
+                "confirm": "Confirm",
+                "cancel": "Cancel",
+                "note": "Scan or type your address for refund",
+                "refundFailed": "Failed To refund",
+                "refundSuccess": "Successfully refunded",
+                "dialog": {
+                    "title": "Refund order",
+                    "body": "Are you sure to refund?",
+                    "confirm": "Yes",
+                    "cancel": "No"
+                }
+            }
+        },
+        "offers": {
+            "title": "Offer History",
+            "updatePrice": "Update Price",
+            "cancelUpdatePrice": "Cancel Update Price",
+            "accept": "Accept",
+            "dialog": {
+                "updatePrice": {
+                    "title": "Update Price",
+                    "confirm": "Yes",
+                    "cancel": "No"
+                },
+                "uploadReceipt": {
+                    "success": "Process Success",
+                    "failed": "Process Failed"
+                },
+                "inputAddress": {
+                    "title": "Input address",
+                    "content": "Scan or type your address",
+                    "confirm": "Confirm",
+                    "cancel": "Cancel"
+                }
+            },
+            "alert": {
+                "updateSuccess": "Successfully Update",
+                "updateFailed": "Failed To Update"
+            },
+            "detail": {
+                "title": "Order Detail",
+                "date": "Date",
+                "orderId": "Order Id",
+                "type": "Type",
+                "amount": "Amount",
+                "refcode": "Ref Code",
+                "status": "Status",
+                "action": "Action",
+                "address": "Your Address",
+                "sell": "You Are Selling ",
+                "buy": "You Are Buying",
+                "process": "Process"
             }
         },
         "accountLevel": {
@@ -819,7 +882,9 @@
                 "buy": "買",
                 "sell": "賣",
                 "exchangeFailed": "交換失敗，請再試一次",
-                "minAmount": "{currency} 金額必須大於{amount}"
+                "minAmount": "{currency} 金額必須大於{amount}",
+                "priceLabel": "Price to {direction}",
+                "amountLabelBlank": "&nbsp;"
             },
             "phoneVerify": {
                 "submitPhoneSuccessMsg": "我們成功地向您的手機發送了代碼",
@@ -846,26 +911,26 @@
                 "getBanksFailed": "在獲得受歡迎的銀行時失敗"
             },
             "seller": {
-                "title": "或者從其他人那裡購買",
+                "title": "Or buy from others",
                 "seller": "賣家",
                 "size": "尺寸",
                 "price": "價錢"
             },
             "sellerDetail": {
-                "title": "賣家的信息",
+                "title": "Seller’s information",
                 "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
                 "amount": "金額",
                 "confirmButton": "確認",
                 "confirmMess": "你要買嗎{amount} {currency}?"
             },
             "buyer": {
-                "title": "或者出售給其他人",
+                "title": "Or sell to others",
                 "buyer": "買方",
                 "size": "尺寸",
                 "price": "價錢"
             },
             "buyerDetail": {
-                "title": "買方的信息",
+                "title": "Buyer’s information",
                 "copy": "Copy Copy Copy Copy Copy Copy Copy Copy ",
                 "amount": "金額",
                 "confirmButton": "確認",
